@@ -502,6 +502,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
     </section>
 
     <!-- Google Reviews Section -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <section id="reviews" class="py-16 bg-cream relative overflow-hidden">
         <!-- Abstract Background Decorative Blobs -->
         <div class="absolute top-0 left-0 w-64 h-64 bg-accent/5 rounded-full blur-3xl pointer-events-none"></div>
@@ -538,105 +539,216 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </p>
             </div>
 
-            <!-- Reviews Cards Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Review Card 1 -->
-                <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
-                    <div>
-                        <!-- Rating and Google Verification -->
-                        <div class="flex items-center justify-between mb-6">
-                            <div class="flex text-amber-500">
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <!-- Swiper Slider Container -->
+            <div class="swiper reviews-swiper px-4 py-8 relative">
+                <div class="swiper-wrapper">
+                    <!-- Review Card 1 -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
+                            <div>
+                                <div class="flex items-center justify-between mb-6">
+                                    <div class="flex text-amber-500">
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    </div>
+                                    <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                                    </svg>
+                                </div>
+                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                    "The care I received at Tranquil Minds was absolute life-changing. After years of struggling with treatment-resistant depression, their Neurostar TMS therapy gave me my life back. The staff is incredibly supportive and compassionate."
+                                </p>
                             </div>
-                            <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
-                            </svg>
+                            <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
+                                <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
+                                    SM
+                                </div>
+                                <div>
+                                    <h4 class="text-primary font-bold text-sm">Sarah Miller</h4>
+                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                </div>
+                            </div>
                         </div>
-                        <!-- Review Text -->
-                        <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
-                            "The care I received at Tranquil Minds was absolute life-changing. After years of struggling with treatment-resistant depression, their Neurostar TMS therapy gave me my life back. The staff is incredibly supportive and compassionate."
-                        </p>
                     </div>
-                    <!-- Reviewer Details -->
-                    <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
-                        <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
-                            SM
+
+                    <!-- Review Card 2 -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
+                            <div>
+                                <div class="flex items-center justify-between mb-6">
+                                    <div class="flex text-amber-500">
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    </div>
+                                    <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                                    </svg>
+                                </div>
+                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                    "A highly professional and clean environment. Rosana Graves and the entire team are incredibly thorough, taking the time to answer every question. The personalized care and attention is unlike any other clinic."
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
+                                <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
+                                    JD
+                                </div>
+                                <div>
+                                    <h4 class="text-primary font-bold text-sm">James Davis</h4>
+                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <h4 class="text-primary font-bold text-sm">Sarah Miller</h4>
-                            <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                    </div>
+
+                    <!-- Review Card 3 -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
+                            <div>
+                                <div class="flex items-center justify-between mb-6">
+                                    <div class="flex text-amber-500">
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    </div>
+                                    <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                                    </svg>
+                                </div>
+                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                    "I was very skeptical about TMS at first, but after completing the program, my depression and anxiety symptoms have dramatically reduced. Very grateful for this treatment and the wonderful clinic team."
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
+                                <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
+                                    ER
+                                </div>
+                                <div>
+                                    <h4 class="text-primary font-bold text-sm">Emily Rodriguez</h4>
+                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 4 -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
+                            <div>
+                                <div class="flex items-center justify-between mb-6">
+                                    <div class="flex text-amber-500">
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    </div>
+                                    <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                                    </svg>
+                                </div>
+                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                    "From scheduling my first consult to completing my sessions, the process was seamless. The staff handles insurance directly which was a huge relief, and the clinic is incredibly relaxing."
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
+                                <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
+                                    MT
+                                </div>
+                                <div>
+                                    <h4 class="text-primary font-bold text-sm">Michael Thompson</h4>
+                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 5 -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
+                            <div>
+                                <div class="flex items-center justify-between mb-6">
+                                    <div class="flex text-amber-500">
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    </div>
+                                    <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                                    </svg>
+                                </div>
+                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                    "I felt truly heard for the first time in years. Rosana Graves combines clinical expertise with deep compassion. The TMS sessions were simple, painless, and highly effective for me."
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
+                                <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
+                                    JC
+                                </div>
+                                <div>
+                                    <h4 class="text-primary font-bold text-sm">Jessica Carter</h4>
+                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 6 -->
+                    <div class="swiper-slide h-auto">
+                        <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
+                            <div>
+                                <div class="flex items-center justify-between mb-6">
+                                    <div class="flex text-amber-500">
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    </div>
+                                    <svg class="w-4 h-4 fill-current text-gray-300" viewBox="0 0 24 24">
+                                        <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                                    </svg>
+                                </div>
+                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                    "Highly recommended clinic. It is clean, modern, and very welcoming. The treatments are based on strong science and delivered by staff who genuinely care about your mental wellbeing."
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
+                                <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
+                                    DP
+                                </div>
+                                <div>
+                                    <h4 class="text-primary font-bold text-sm">David Patel</h4>
+                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Review Card 2 -->
-                <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
-                    <div>
-                        <!-- Rating and Google Verification -->
-                        <div class="flex items-center justify-between mb-6">
-                            <div class="flex text-amber-500">
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            </div>
-                            <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
-                            </svg>
-                        </div>
-                        <!-- Review Text -->
-                        <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
-                            "A highly professional and clean environment. Rosana Graves and the entire team are incredibly thorough, taking the time to answer every question. The personalized care and attention is unlike any other clinic."
-                        </p>
-                    </div>
-                    <!-- Reviewer Details -->
-                    <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
-                        <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
-                            JD
-                        </div>
-                        <div>
-                            <h4 class="text-primary font-bold text-sm">James Davis</h4>
-                            <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Review Card 3 -->
-                <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
-                    <div>
-                        <!-- Rating and Google Verification -->
-                        <div class="flex items-center justify-between mb-6">
-                            <div class="flex text-amber-500">
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            </div>
-                            <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
-                            </svg>
-                        </div>
-                        <!-- Review Text -->
-                        <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
-                            "I was very skeptical about TMS at first, but after completing the program, my depression and anxiety symptoms have dramatically reduced. Very grateful for this treatment and the wonderful clinic team."
-                        </p>
-                    </div>
-                    <!-- Reviewer Details -->
-                    <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
-                        <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
-                            ER
-                        </div>
-                        <div>
-                            <h4 class="text-primary font-bold text-sm">Emily Rodriguez</h4>
-                            <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
-                        </div>
-                    </div>
+                <!-- Navigation & Pagination -->
+                <div class="flex justify-center items-center gap-6 mt-8">
+                    <button class="reviews-prev w-12 h-12 rounded-full border border-primary/20 hover:border-primary/60 flex items-center justify-center text-primary transition-all hover:bg-primary hover:text-white">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                    </button>
+                    <!-- Pagination dots -->
+                    <div class="reviews-pagination flex gap-2"></div>
+                    <button class="reviews-next w-12 h-12 rounded-full border border-primary/20 hover:border-primary/60 flex items-center justify-center text-primary transition-all hover:bg-primary hover:text-white">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
                 </div>
             </div>
 
@@ -654,123 +766,123 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         </div>
     </section>
 
-    <!-- BrainsWay SWIFT (New CTA Section) -->
-    <section id="swift-offer" class="py-10 relative overflow-hidden bg-[#231238] text-white">
+    <!-- Swiper Initialization -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const swiper = new Swiper('.reviews-swiper', {
+                slidesPerView: 1,
+                spaceBetween: 24,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: '.reviews-next',
+                    prevEl: '.reviews-prev',
+                },
+                pagination: {
+                    el: '.reviews-pagination',
+                    clickable: true,
+                    bulletClass: 'w-2 h-2 rounded-full bg-primary/20 cursor-pointer transition-all duration-300',
+                    bulletActiveClass: 'w-6 bg-accent',
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 2,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                    }
+                }
+            });
+        });
+    </script>
+
+    <!-- Insurance Section -->
+    <section id="insurance-partners" class="py-16 bg-cream relative overflow-hidden border-t border-primary/5">
         <!-- Background Elements -->
-        <div
-            class="absolute top-0 right-0 w-[600px] h-[600px] bg-accent rounded-full blur-[120px] opacity-10 translate-x-1/2 -translate-y-1/2 pointer-events-none">
-        </div>
-        <div
-            class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#8C78BE] rounded-full blur-[100px] opacity-10 -translate-x-1/3 translate-y-1/3 pointer-events-none">
-        </div>
+        <div class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none"></div>
 
         <div class="container mx-auto px-6 relative z-10">
-            <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
-
-                <!-- Left Content: The Pitch -->
-                <div class="lg:w-5/12 fade-in-section">
-                    <div
-                        class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-accent/30 bg-accent/5 text-accent font-medium text-[10px] tracking-[0.2em] uppercase mb-6 backdrop-blur-md">
-                        <span class="w-1 h-1 rounded-full bg-accent animate-pulse"></span>
-                        New Accelerated Protocol
-                    </div>
-
-                    <h2 class="text-4xl md:text-5xl mb-4 leading-tight text-white/95"
-                        style="font-family: 'Bauhaus Soft', cursive;">
-                        Hope <span class="font-light italic text-white/60">in a hurry.</span>
-                    </h2>
-
-                    <p class="text-base text-gray-400 mb-8 leading-relaxed font-light">
-                        The FDA-cleared <strong>SWIFT Protocol</strong> condenses a month of therapy into just 6 days.
-                        Fast-track your path to relief without compromising on care.
-                    </p>
-
-                    <div class="flex items-center gap-6">
-                        <a href="#contact"
-                            class="px-8 py-3 bg-accent text-white rounded-full text-sm font-bold hover:bg-accent-light transition-all shadow-lg shadow-accent/20 flex items-center gap-2 group">
-                            Inquire Now
-                            <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                            </svg>
-                        </a>
-                        <p class="text-[10px] text-white/30 uppercase tracking-wider">*Self-pay eligible</p>
-                    </div>
+            <!-- Section Header -->
+            <div class="text-center max-w-2xl mx-auto mb-12 fade-in-section">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/10 text-primary font-bold text-xs tracking-wider uppercase mb-6">
+                    <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                    Insurance Coverage
                 </div>
+                <h2 class="text-4xl md:text-5xl text-primary mb-4" style="font-family: 'Bauhaus Soft', cursive;">
+                    We Accept Major Insurance Plans
+                </h2>
+                <p class="text-gray-500 text-sm md:text-base leading-relaxed">
+                    We work with most major insurance providers to help you access the mental health care you need. Our team handles the entire pre-authorization process for you.
+                </p>
+            </div>
 
-                <!-- Right Content: The Stats (Horizontal Strip) -->
-                <div class="lg:w-7/12 w-full fade-in-section">
-                    <div
-                        class="bg-white/[0.02] border border-white/5 backdrop-blur-md rounded-3xl p-2 flex flex-col md:flex-row gap-2">
-
-                        <!-- Block 1: Time -->
-                        <div
-                            class="flex-1 bg-white/[0.03] rounded-2xl p-5 hover:bg-white/[0.05] transition-colors border border-transparent hover:border-white/5 group">
-                            <div class="flex items-center justify-between mb-2">
-                                <div
-                                    class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-white/80">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                    </svg>
-                                </div>
-                                <span class="text-[9px] uppercase tracking-widest text-accent font-bold">Duration</span>
-                            </div>
-                            <div class="text-3xl text-white mb-1" style="font-family: 'Bauhaus Soft', cursive;">6 Days
-                            </div>
-                            <p class="text-xs text-gray-500 font-light leading-snug">Complete 30 sessions in less than a
-                                week.</p>
-                        </div>
-
-                        <!-- Block 2: Price -->
-                        <div
-                            class="flex-1 bg-white/[0.03] rounded-2xl p-5 hover:bg-white/[0.05] transition-colors border border-transparent hover:border-white/5 group">
-                            <div class="flex items-center justify-between mb-2">
-                                <div
-                                    class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                            d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <span class="text-[9px] uppercase tracking-widest text-accent font-bold">Total
-                                    Cost</span>
-                            </div>
-                            <div class="text-3xl text-white mb-1" style="font-family: 'Bauhaus Soft', cursive;">$4,900
-                            </div>
-                            <p class="text-xs text-gray-500 font-light leading-snug">Transparent flat rate. No hidden
-                                fees.</p>
-                        </div>
-
-                        <!-- Block 3: Efficacy -->
-                        <div
-                            class="flex-1 bg-gradient-to-br from-white/[0.05] to-transparent rounded-2xl p-5 border border-white/10 group relative overflow-hidden">
-                            <div
-                                class="absolute right-0 top-0 w-24 h-24 bg-accent/10 rounded-full blur-[40px] -mr-8 -mt-8 group-hover:bg-accent/20 transition-all">
-                            </div>
-                            <div class="flex items-center justify-between mb-2 relative z-10">
-                                <div
-                                    class="w-8 h-8 rounded-full bg-green-500/10 flex items-center justify-center text-green-400">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                    </svg>
-                                </div>
-                                <span
-                                    class="text-[9px] uppercase tracking-widest text-green-400 font-bold border border-green-500/20 px-1.5 py-0.5 rounded-full">FDA
-                                    Cleared</span>
-                            </div>
-                            <div class="text-xl text-white mb-1 mt-1 leading-tight font-medium">Clinical<br>Strength
-                            </div>
-                            <p class="text-xs text-gray-500 font-light leading-snug mt-1">Effectiveness comparable to
-                                standard TMS.</p>
-                        </div>
-
-                    </div>
+            <!-- Insurance Logos Grid -->
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16 max-w-6xl mx-auto fade-in-section">
+                <!-- Cigna -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/cigna.webp" alt="Cigna" class="max-h-full max-w-full object-contain">
                 </div>
+                <!-- Aetna -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/aetna-logo.png" alt="Aetna" class="max-h-full max-w-full object-contain">
+                </div>
+                <!-- Anthem -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/anthem.webp" alt="Anthem" class="max-h-full max-w-full object-contain">
+                </div>
+                <!-- Blue Shield of California -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/blue-california.webp" alt="Blue Shield of California" class="max-h-full max-w-full object-contain">
+                </div>
+                <!-- Desert Oasis Healthcare -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/desert-oasis-logo.jpg" alt="Desert Oasis Healthcare" class="max-h-full max-w-full object-contain scale-110">
+                </div>
+                <!-- Health Net -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/health-net.png" alt="Health Net" class="max-h-full max-w-full object-contain">
+                </div>
+                <!-- IEHP -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/iehp-logo.png" alt="IEHP" class="max-h-full max-w-full object-contain">
+                </div>
+                <!-- Medicare -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/medicare.webp" alt="Medicare" class="max-h-full max-w-full object-contain">
+                </div>
+                <!-- TriWest -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/triwest.png" alt="TriWest" class="max-h-full max-w-full object-contain">
+                </div>
+                <!-- UnitedHealthcare -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/unitedhealthcare.png" alt="UnitedHealthcare" class="max-h-full max-w-full object-contain">
+                </div>
+                <!-- Optum -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/optum.webp" alt="Optum" class="max-h-full max-w-full object-contain">
+                </div>
+                <!-- Tricare -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/tricare.webp" alt="Tricare" class="max-h-full max-w-full object-contain">
+                </div>
+            </div>
 
+            <!-- Call to Action -->
+            <div class="text-center mt-12 fade-in-section">
+                <a href="#contact" class="inline-flex items-center gap-2 px-8 py-3 bg-primary hover:bg-opacity-95 text-white rounded-full font-bold text-sm shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all">
+                    Verify Your Insurance
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
             </div>
         </div>
     </section>
