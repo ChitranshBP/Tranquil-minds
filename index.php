@@ -182,108 +182,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         </div>
     </section>
 
-    <!-- Why It Helps (Compact & High Contrast) -->
-    <section id="why-it-helps" class="py-16 bg-primary text-white relative overflow-hidden">
-        <!-- Abstract Background Detail -->
-        <div class="absolute top-0 left-0 w-full h-full opacity-40 pointer-events-none">
-            <svg class="h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <defs>
-                    <linearGradient id="themeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" style="stop-color:#502882;stop-opacity:1" /> <!-- Primary Purple -->
-                        <stop offset="100%" style="stop-color:#8C78BE;stop-opacity:1" /> <!-- Accent Lavender -->
-                    </linearGradient>
-                </defs>
-                <path d="M0 100 C 20 0 50 0 100 100 Z" fill="url(#themeGradient)" />
-            </svg>
-        </div>
-
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-12 fade-in-section gap-6">
-                <div class="max-w-xl">
-                    <h2 class="text-4xl md:text-5xl mb-4 leading-tight text-white"
-                        style="font-family: 'Bauhaus Soft', cursive;">Restoring <span class="text-accent">Balance</span>
-                    </h2>
-                    <p class="text-gray-100 text-lg leading-relaxed">Depression is a biological condition that
-                        physically alters brain function. Neurostar TMS targets these changes directly.</p>
-                </div>
-                <div class="hidden md:block pb-2">
-                    <div class="h-px w-32 bg-accent/50"></div>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Card 1 -->
-                <div class="group fade-in-section">
-                    <div
-                        class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
-                        <!-- Image Placeholder -->
-                        <img src="assets/neurostar-precision.png"
-                            alt="Precision Targeting Visual"
-                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
-                        <div
-                            class="absolute bottom-4 right-4 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center font-bold text-sm bg-black/40 backdrop-blur-md text-white">
-                            1</div>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold mb-2 text-white group-hover:text-accent transition-colors"
-                            style="font-family: 'Bauhaus Soft', cursive;">Precision</h3>
-                        <p
-                            class="text-gray-100 text-sm leading-relaxed border-l-2 border-white/20 pl-4 group-hover:border-accent/50 transition-colors">
-                            Unlike medications that circulate throughout your entire body, Neurostar TMS uses focused
-                            magnetic
-                            fields to target only the specific neural circuits involved in mood regulation.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="group fade-in-section" style="transition-delay: 100ms;">
-                    <div
-                        class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
-                        <!-- Image Placeholder -->
-                        <img src="assets/neurostar-awakening.png"
-                            alt="Neuroplasticity Visual"
-                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
-                        <div
-                            class="absolute bottom-4 right-4 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center font-bold text-sm bg-black/40 backdrop-blur-md text-white">
-                            2</div>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold mb-2 text-white group-hover:text-accent transition-colors"
-                            style="font-family: 'Bauhaus Soft', cursive;">Awakening</h3>
-                        <p
-                            class="text-gray-100 text-sm leading-relaxed border-l-2 border-white/20 pl-4 group-hover:border-accent/50 transition-colors">
-                            Think of it as physical therapy for the brain. The pulses "wake up" underactive neurons,
-                            encouraging them to fire again and rebuild vital connections.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="group fade-in-section" style="transition-delay: 200ms;">
-                    <div
-                        class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
-                        <!-- Image Placeholder -->
-                        <img src="assets/neurostar-longevity.png"
-                            alt="Long-term Relief Visual"
-                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
-                        <div
-                            class="absolute bottom-4 right-4 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center font-bold text-sm bg-black/40 backdrop-blur-md text-white">
-                            3</div>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold mb-2 text-white group-hover:text-accent transition-colors"
-                            style="font-family: 'Bauhaus Soft', cursive;">Longevity</h3>
-                        <p
-                            class="text-gray-100 text-sm leading-relaxed border-l-2 border-white/20 pl-4 group-hover:border-accent/50 transition-colors">
-                            Because it changes how the brain functions physically, the results are often durable. Many
-                            patients experience remission that lasts long after treatment concludes.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  
 
     <!-- Conditions (Compact & Concise) -->
     <section id="conditions" class="py-16 relative overflow-hidden bg-cover bg-center"
@@ -454,8 +353,111 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         </div>
     </section>
 
+      <!-- Why It Helps (Compact & High Contrast) -->
+    <section id="why-it-helps" class="py-16 bg-primary text-white relative overflow-hidden">
+        <!-- Abstract Background Detail -->
+        <div class="absolute top-0 left-0 w-full h-full opacity-40 pointer-events-none">
+            <svg class="h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <defs>
+                    <linearGradient id="themeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#502882;stop-opacity:1" /> <!-- Primary Purple -->
+                        <stop offset="100%" style="stop-color:#8C78BE;stop-opacity:1" /> <!-- Accent Lavender -->
+                    </linearGradient>
+                </defs>
+                <path d="M0 100 C 20 0 50 0 100 100 Z" fill="url(#themeGradient)" />
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 fade-in-section gap-6">
+                <div class="max-w-xl">
+                    <h2 class="text-4xl md:text-5xl mb-4 leading-tight text-white"
+                        style="font-family: 'Bauhaus Soft', cursive;">Restoring <span class="text-accent">Balance</span>
+                    </h2>
+                    <p class="text-gray-100 text-lg leading-relaxed">Depression is a biological condition that
+                        physically alters brain function. Neurostar TMS targets these changes directly.</p>
+                </div>
+                <div class="hidden md:block pb-2">
+                    <div class="h-px w-32 bg-accent/50"></div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="group fade-in-section">
+                    <div
+                        class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
+                        <!-- Image Placeholder -->
+                        <img src="assets/neurostar-precision.png"
+                            alt="Precision Targeting Visual"
+                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                        <div
+                            class="absolute bottom-4 right-4 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center font-bold text-sm bg-black/40 backdrop-blur-md text-white">
+                            1</div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2 text-white group-hover:text-accent transition-colors"
+                            style="font-family: 'Bauhaus Soft', cursive;">Precision</h3>
+                        <p
+                            class="text-gray-100 text-sm leading-relaxed border-l-2 border-white/20 pl-4 group-hover:border-accent/50 transition-colors">
+                            Unlike medications that circulate throughout your entire body, Neurostar TMS uses focused
+                            magnetic
+                            fields to target only the specific neural circuits involved in mood regulation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="group fade-in-section" style="transition-delay: 100ms;">
+                    <div
+                        class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
+                        <!-- Image Placeholder -->
+                        <img src="assets/neurostar-awakening.png"
+                            alt="Neuroplasticity Visual"
+                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                        <div
+                            class="absolute bottom-4 right-4 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center font-bold text-sm bg-black/40 backdrop-blur-md text-white">
+                            2</div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2 text-white group-hover:text-accent transition-colors"
+                            style="font-family: 'Bauhaus Soft', cursive;">Awakening</h3>
+                        <p
+                            class="text-gray-100 text-sm leading-relaxed border-l-2 border-white/20 pl-4 group-hover:border-accent/50 transition-colors">
+                            Think of it as physical therapy for the brain. The pulses "wake up" underactive neurons,
+                            encouraging them to fire again and rebuild vital connections.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="group fade-in-section" style="transition-delay: 200ms;">
+                    <div
+                        class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
+                        <!-- Image Placeholder -->
+                        <img src="assets/neurostar-longevity.png"
+                            alt="Long-term Relief Visual"
+                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                        <div
+                            class="absolute bottom-4 right-4 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center font-bold text-sm bg-black/40 backdrop-blur-md text-white">
+                            3</div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2 text-white group-hover:text-accent transition-colors"
+                            style="font-family: 'Bauhaus Soft', cursive;">Longevity</h3>
+                        <p
+                            class="text-gray-100 text-sm leading-relaxed border-l-2 border-white/20 pl-4 group-hover:border-accent/50 transition-colors">
+                            Because it changes how the brain functions physically, the results are often durable. Many
+                            patients experience remission that lasts long after treatment concludes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Meet Rosana (Light Theme Redesign) -->
-    <section id="founder" class="pb-10 bg-white relative overflow-hidden">
+    <section id="founder" class="py-10 bg-white relative overflow-hidden">
         <!-- Decoration -->
         <div class="absolute top-0 right-0 w-1/3 h-full bg-[#FAFAFF] transform skew-x-12 origin-top-right -z-10"></div>
         <div class="absolute bottom-0 left-10 w-64 h-64 bg-accent/5 rounded-full blur-3xl pointer-events-none"></div>
