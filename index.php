@@ -49,7 +49,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 <!-- CTA Buttons -->
                 <div class="flex flex-col sm:flex-row gap-4">
                     <a href="#welcome"
-                        class="px-8 py-4 bg-accent text-white rounded-full font-bold text-lg shadow-[0_0_20px_rgba(197,94,42,0.5)] hover:bg-accent-light hover:shadow-[0_0_30px_rgba(197,94,42,0.7)] hover:-translate-y-1 transition-all text-center">
+                        class="px-8 py-4 bg-accent text-white rounded-full font-bold text-lg  hover:bg-accent-light hover:shadow-[0_0_30px_rgba(197,94,42,0.7)] hover:-translate-y-1 transition-all text-center">
                         Begin Your Journey
                     </a>
                     <a href="#tms"
@@ -760,7 +760,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                         </svg>
                     </button>
                     <!-- Pagination dots -->
-                    <div class="reviews-pagination flex gap-2"></div>
+                    <div class="reviews-pagination flex justify-center items-center gap-2"></div>
                     <button class="reviews-next w-12 h-12 rounded-full border border-primary/20 hover:border-primary/60 flex items-center justify-center text-primary transition-all hover:bg-primary hover:text-white">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
