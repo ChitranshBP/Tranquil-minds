@@ -209,7 +209,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 <!-- Card 1 -->
                 <div class="group fade-in-section">
                     <div
-                        class="relative overflow-hidden rounded-2xl aspect-video mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
+                        class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
                         <!-- Image Placeholder -->
                         <img src="assets/neurostar-precision.png"
                             alt="Precision Targeting Visual"
@@ -233,7 +233,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 <!-- Card 2 -->
                 <div class="group fade-in-section" style="transition-delay: 100ms;">
                     <div
-                        class="relative overflow-hidden rounded-2xl aspect-video mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
+                        class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
                         <!-- Image Placeholder -->
                         <img src="assets/neurostar-awakening.png"
                             alt="Neuroplasticity Visual"
@@ -256,7 +256,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 <!-- Card 3 -->
                 <div class="group fade-in-section" style="transition-delay: 200ms;">
                     <div
-                        class="relative overflow-hidden rounded-2xl aspect-video mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
+                        class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
                         <!-- Image Placeholder -->
                         <img src="assets/neurostar-longevity.png"
                             alt="Long-term Relief Visual"
@@ -308,129 +308,141 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </div>
             </div>
             <!-- Cards Grid -->
-            <div class="flex flex-wrap gap-3 md:gap-6 justify-center">
+            <div class="flex flex-wrap gap-6 justify-center max-w-6xl mx-auto">
 
                 <!-- Depression -->
-                <div
-                    class="group border-2 border-accent/5 fade-in-section w-[calc(50%-0.5rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-accent/5 backdrop-blur-sm rounded-2xl p-4 md:p-8 hover:bg-white hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
-                    <div
-                        class="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-3 md:mb-6 group-hover:bg-accent group-hover:text-white transition-colors">
-                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
-                            </path>
-                        </svg>
+                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between">
+                    <div>
+                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
+                            <img src="assets/home/depression.png" alt="Depression" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="px-2 pb-2">
+                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
+                                Depression
+                            </h3>
+                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Treatment-Resistant protocols.</p>
+                        </div>
                     </div>
-                    <h3
-                        class="text-sm md:text-xl font-bold text-primary mb-1 md:mb-3 group-hover:text-accent transition-colors">
-                        Depression
-                    </h3>
-                    <p class="text-[10px] md:text-sm text-gray-500 leading-relaxed">Treatment-Resistant protocols.</p>
                 </div>
 
                 <!-- Anxiety -->
-                <div class="group border-2 border-accent/5 fade-in-section w-[calc(50%-0.5rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-accent/5 backdrop-blur-sm rounded-2xl p-4 md:p-8 hover:bg-white hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-                    style="transition-delay: 50ms;">
-                    <div
-                        class="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-3 md:mb-6 group-hover:bg-accent group-hover:text-white transition-colors">
-                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                        </svg>
+                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 50ms;">
+                    <div>
+                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
+                            <img src="assets/home/anxiety.png" alt="Anxiety" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="px-2 pb-2">
+                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
+                                Anxiety
+                            </h3>
+                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Relief from panic & worry.</p>
+                        </div>
                     </div>
-                    <h3
-                        class="text-sm md:text-xl font-bold text-primary mb-1 md:mb-3 group-hover:text-accent transition-colors">
-                        Anxiety
-                    </h3>
-                    <p class="text-[10px] md:text-sm text-gray-500 leading-relaxed">Relief from panic & worry.</p>
                 </div>
 
                 <!-- ADHD / ADD -->
-                <div class="group border-2 border-accent/5 fade-in-section w-[calc(50%-0.5rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-accent/5 backdrop-blur-sm rounded-2xl p-4 md:p-8 hover:bg-white hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-                    style="transition-delay: 100ms;">
-                    <div
-                        class="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-3 md:mb-6 group-hover:bg-accent group-hover:text-white transition-colors">
-                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                        </svg>
+                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 100ms;">
+                    <div>
+                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
+                            <img src="assets/home/adhd.png" alt="ADHD / ADD" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="px-2 pb-2">
+                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
+                                ADHD / ADD
+                            </h3>
+                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Focus & executive function.</p>
+                        </div>
                     </div>
-                    <h3
-                        class="text-sm md:text-xl font-bold text-primary mb-1 md:mb-3 group-hover:text-accent transition-colors">
-                        ADHD / ADD
-                    </h3>
-                    <p class="text-[10px] md:text-sm text-gray-500 leading-relaxed">Focus & executive function.</p>
                 </div>
 
                 <!-- PTSD -->
-                <div class="group border-2 border-accent/5 fade-in-section w-[calc(50%-0.5rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-accent/5 backdrop-blur-sm rounded-2xl p-4 md:p-8 hover:bg-white hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-                    style="transition-delay: 150ms;">
-                    <div
-                        class="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-3 md:mb-6 group-hover:bg-accent group-hover:text-white transition-colors">
-                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
-                            </path>
-                        </svg>
+                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 150ms;">
+                    <div>
+                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
+                            <img src="assets/home/ptsd.png" alt="PTSD" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="px-2 pb-2">
+                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
+                                PTSD
+                            </h3>
+                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Processing trauma safely.</p>
+                        </div>
                     </div>
-                    <h3
-                        class="text-sm md:text-xl font-bold text-primary mb-1 md:mb-3 group-hover:text-accent transition-colors">
-                        PTSD
-                    </h3>
-                    <p class="text-[10px] md:text-sm text-gray-500 leading-relaxed">Processing trauma safely.</p>
                 </div>
 
                 <!-- OCD -->
-                <div class="group border-2 border-accent/5 fade-in-section w-[calc(50%-0.5rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-accent/5 backdrop-blur-sm rounded-2xl p-4 md:p-8 hover:bg-white hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-                    style="transition-delay: 200ms;">
-                    <div
-                        class="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-3 md:mb-6 group-hover:bg-accent group-hover:text-white transition-colors">
-                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
-                            </path>
-                        </svg>
+                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 200ms;">
+                    <div>
+                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
+                            <img src="assets/home/ocd.png" alt="OCD" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="px-2 pb-2">
+                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
+                                OCD
+                            </h3>
+                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Breaking intrusive loops.</p>
+                        </div>
                     </div>
-                    <h3
-                        class="text-sm md:text-xl font-bold text-primary mb-1 md:mb-3 group-hover:text-accent transition-colors">
-                        OCD
-                    </h3>
-                    <p class="text-[10px] md:text-sm text-gray-500 leading-relaxed">Breaking intrusive loops.</p>
                 </div>
 
                 <!-- Bipolar Disorder -->
-                <div class="group border-2 border-accent/5 fade-in-section w-[calc(50%-0.5rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-accent/5 backdrop-blur-sm rounded-2xl p-4 md:p-8 hover:bg-white hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-                    style="transition-delay: 250ms;">
-                    <div
-                        class="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-3 md:mb-6 group-hover:bg-accent group-hover:text-white transition-colors">
-                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
-                        </svg>
+                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 250ms;">
+                    <div>
+                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
+                            <img src="assets/home/bipolar.png" alt="Bipolar Disorder" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="px-2 pb-2">
+                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
+                                Bipolar Disorder
+                            </h3>
+                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Mood stabilization specialized.</p>
+                        </div>
                     </div>
-                    <h3
-                        class="text-sm md:text-xl font-bold text-primary mb-1 md:mb-3 group-hover:text-accent transition-colors">
-                        Bipolar Disorder
-                    </h3>
-                    <p class="text-[10px] md:text-sm text-gray-500 leading-relaxed">Mood stabilization specialized.</p>
                 </div>
 
                 <!-- Suicidal Ideation -->
-                <div class="group border-2 border-accent/5 fade-in-section w-[calc(50%-0.5rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-accent/5 backdrop-blur-sm rounded-2xl p-4 md:p-8 hover:bg-white hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-                    style="transition-delay: 300ms;">
-                    <div
-                        class="w-10 h-10 md:w-12 md:h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-3 md:mb-6 group-hover:bg-accent group-hover:text-white transition-colors">
-                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
-                            </path>
-                        </svg>
+                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 300ms;">
+                    <div>
+                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
+                            <img src="assets/home/suicidal-ideation.png" alt="Suicidal Ideation" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="px-2 pb-2">
+                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
+                                Suicidal Ideation
+                            </h3>
+                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Rapid reduction of acute risks.</p>
+                        </div>
                     </div>
-                    <h3
-                        class="text-sm md:text-xl font-bold text-primary mb-1 md:mb-3 group-hover:text-accent transition-colors">
-                        Suicidal Ideation
-                    </h3>
-                    <p class="text-[10px] md:text-sm text-gray-500 leading-relaxed">Rapid reduction of acute risks.</p>
+                </div>
+
+                <!-- Sleep Disorders -->
+                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 350ms;">
+                    <div>
+                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
+                            <img src="assets/home/sleep-disorders.png" alt="Sleep Disorders" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="px-2 pb-2">
+                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
+                                Sleep Disorders
+                            </h3>
+                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Restoring natural sleep cycles.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chronic Pain -->
+                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 400ms;">
+                    <div>
+                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
+                            <img src="assets/home/chronic-pain.png" alt="Chronic Pain" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="px-2 pb-2">
+                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
+                                Chronic Pain
+                            </h3>
+                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Relieving fibromyalgia & neural discomfort.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -454,11 +466,11 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <!-- Image -->
                     <div
                         class="relative rounded-tl-[4rem] rounded-br-[4rem] overflow-hidden shadow-xl group-hover:shadow-2xl transition-all duration-700">
-                        <img src="assets/rosana.JPG" alt="Rosana Graves, CEO"
+                        <img src="assets/home/rox-image.png" alt="Roxanne DoBrava, APRN-CNP, PMHNP-BC"
                             class="w-full h-auto object-cover transform scale-100 group-hover:scale-105 transition-transform duration-700  max-h-[600px] grayscale-0">
                     </div>
                 </div>
-
+ 
                 <!-- Text Content (Right) -->
                 <div class="w-full lg:w-7/12 text-primary fade-in-section">
                     <div class="mb-4 flex items-center gap-4">
@@ -466,10 +478,9 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                         <span class="text-accent font-bold tracking-[0.2em] uppercase text-xs">Visionary
                             Leadership</span>
                     </div>
-
-                    <h2 class="text-6xl text-primary mb-4" style="font-family: 'Bauhaus Soft', cursive;">Rosana Graves
-                    </h2>
-                    <p class="text-xl text-gray-500 font-light mb-10 italic font-serif">Founder & CEO</p>
+ 
+                    <h2 class="text-5xl md:text-6xl text-primary mb-4" style="font-family: 'Bauhaus Soft', cursive;">Roxanne DoBrava</h2>
+                    <p class="text-xl text-gray-500 font-light mb-10 italic font-serif">APRN-CNP, PMHNP-BC</p>
 
                     <!-- Quote Box -->
                     <div
@@ -488,11 +499,11 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <h4 class="text-primary font-bold text-lg mb-3">Clinical Focus</h4>
                             <ul class="space-y-2 text-gray-500 text-sm">
                                 <li class="flex items-center gap-3"><span
-                                        class="w-1.5 h-1.5 rounded-full bg-accent"></span>Integrative Psychiatry</li>
+                                        class="w-1.5 h-1.5 rounded-full bg-accent"></span>Medication Management</li>
                                 <li class="flex items-center gap-3"><span
-                                        class="w-1.5 h-1.5 rounded-full bg-accent"></span>Neurostar TMS Specialist</li>
+                                        class="w-1.5 h-1.5 rounded-full bg-accent"></span>TMS Therapy</li>
                                 <li class="flex items-center gap-3"><span
-                                        class="w-1.5 h-1.5 rounded-full bg-accent"></span>Patient Advocacy</li>
+                                        class="w-1.5 h-1.5 rounded-full bg-accent"></span>Psychotherapy</li>
                             </ul>
                         </div>
                     </div>
@@ -591,7 +602,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                     </svg>
                                 </div>
                                 <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
-                                    "A highly professional and clean environment. Rosana Graves and the entire team are incredibly thorough, taking the time to answer every question. The personalized care and attention is unlike any other clinic."
+                                    "A highly professional and clean environment. Roxanne DoBrava and the entire team are incredibly thorough, taking the time to answer every question. The personalized care and attention is unlike any other clinic."
                                 </p>
                             </div>
                             <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
@@ -687,7 +698,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                     </svg>
                                 </div>
                                 <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
-                                    "I felt truly heard for the first time in years. Rosana Graves combines clinical expertise with deep compassion. The TMS sessions were simple, painless, and highly effective for me."
+                                    "I felt truly heard for the first time in years. Roxanne DoBrava combines clinical expertise with deep compassion. The TMS sessions were simple, painless, and highly effective for me."
                                 </p>
                             </div>
                             <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">

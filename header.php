@@ -893,10 +893,15 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
             <!-- Footer Info in Menu -->
             <div class="mt-12 pt-8 border-t border-white/10 relative z-10 opacity-0 translate-y-8 mobile-footer"
                 style="transition-delay: 600ms;">
-                <p class="text-white/40 text-sm mb-4">
-                    757 Maleta Lane, Suite 201<br>
-                    Castle Rock, CO 80108
+                <p class="text-white/40 text-sm mb-3">
+                    154 East Broadway Street Suite 2<br>
+                    Monticello, MN 55362
                 </p>
+                <div class="text-white/60 text-sm mb-4 flex flex-col gap-1.5">
+                    <a href="tel:+16124298280" class="hover:text-accent transition-colors">612-429-8280</a>
+                    <span class="text-xs text-white/40">855-239-8566 (Fax)</span>
+                    <a href="mailto:referrals@tranquilmindsmentalhealth.com" class="text-xs text-white/40 hover:text-accent transition-colors break-all">referrals@tranquilmindsmentalhealth.com</a>
+                </div>
                 <div class="flex gap-4">
                     <a href="#"
                         class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white/60 hover:bg-accent hover:text-white transition-all">

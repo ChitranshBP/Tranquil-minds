@@ -425,12 +425,30 @@
                             <h4 class="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">Tranquil Minds Mental Health
                             </h4>
                             <p class="text-sm text-white/80 leading-relaxed">
-                                757 Maleta Lane, Suite 201,<br /> Castle Rock, CO 80108
+                                154 East Broadway Street Suite 2,<br /> Monticello, MN 55362
                             </p>
-                            <a href="tel:+13034097446"
-                                class="mt-4 text-accent font-bold text-lg hover:text-white transition-colors">
-                                303-409-7446
-                            </a>
+                            <div class="mt-4 flex flex-col gap-2">
+                                <a href="tel:+16124298280"
+                                    class="text-accent font-bold text-lg hover:text-white transition-colors flex items-center gap-2">
+                                    <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                    </svg>
+                                    612-429-8280
+                                </a>
+                                <div class="text-sm text-white/60 flex items-center gap-2">
+                                    <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
+                                    </svg>
+                                    <span>855-239-8566 <span class="text-white/40 text-xs">(Fax)</span></span>
+                                </div>
+                                <a href="mailto:referrals@tranquilmindsmentalhealth.com"
+                                    class="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+                                    <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                    <span class="break-all">referrals@tranquilmindsmentalhealth.com</span>
+                                </a>
+                            </div>
                         </div>
 
                         <!-- CTA Button -->
