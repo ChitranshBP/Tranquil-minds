@@ -688,8 +688,14 @@
     <header
         class="relative h-[65vh] min-h-[500px] flex items-center overflow-hidden mx-2 md:mx-6 mb-6 rounded-b-[3rem] mt-0"
         id="home">
-        <!-- Three.js Canvas Container -->
-        <div id="hero-canvas" class="absolute inset-0 z-0 scale-100"></div>
+        <!-- Background Video -->
+        <video autoplay loop muted playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="assets/home/WhatsApp Video 2026-07-10 at 15.54.21.mp4" type="video/mp4">
+        </video>
+        <!-- Dark Overlay for Readability -->
+        <div class="absolute inset-0 bg-primary/45 mix-blend-multiply z-[1]"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-black/20 z-[1]"></div>
+
 
         <!-- Decoration: Noise Overlay (Optional Texture) -->
         <div

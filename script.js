@@ -190,4 +190,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("scroll", updateNavbar);
   updateNavbar(); // Init
+
+  // Seamless looping for background videos
+  const bgVideos = document.querySelectorAll("header video");
+  bgVideos.forEach((video) => {
+    // Explicit ended event listener to loop instantly in browsers that stutter
+    video.addEventListener("ended", () => {
+      video.currentTime = 0;
+      video.play().catch(e => {});
+    });
+  });
 });

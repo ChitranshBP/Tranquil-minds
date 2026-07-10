@@ -8,8 +8,14 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
     <header
         class="relative h-[65vh] min-h-[500px] flex items-center overflow-hidden mx-2 md:mx-6 mb-6 rounded-b-[3rem] mt-0"
         id="home">
-        <!-- Three.js Canvas Container -->
-        <div id="hero-canvas" class="absolute inset-0 z-0 scale-100"></div>
+        <!-- Background Video -->
+        <video autoplay loop muted playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="assets/home/WhatsApp Video 2026-07-10 at 15.54.21.mp4" type="video/mp4">
+        </video>
+        <!-- Dark Overlay for Readability -->
+        <div class="absolute inset-0 bg-primary/45 mix-blend-multiply z-[1]"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-black/20 z-[1]"></div>
+
 
         <!-- Decoration: Noise Overlay (Optional Texture) -->
         <div
@@ -20,11 +26,11 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         <div class="container mx-auto px-6 relative z-10 mt-16">
             <div class="max-w-3xl fade-in-section">
                 <!-- Badge -->
-                <div
+                <!-- <div
                     class="inline-flex items-center mt-4 md:mt-0 gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white/90 text-sm font-medium mb-8 animate-pulse">
                     <span class="w-2 h-2 rounded-full bg-accent"></span>
                     Accepting New Patients for 2026
-                </div>
+                </div> -->
 
                 <!-- Main Heading -->
                 <h1 class="text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-white mb-8"
