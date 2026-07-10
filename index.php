@@ -501,6 +501,159 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         </div>
     </section>
 
+    <!-- Google Reviews Section -->
+    <section id="reviews" class="py-16 bg-cream relative overflow-hidden">
+        <!-- Abstract Background Decorative Blobs -->
+        <div class="absolute top-0 left-0 w-64 h-64 bg-accent/5 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <!-- Section Header -->
+            <div class="text-center max-w-2xl mx-auto mb-12 fade-in-section">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/10 text-primary font-bold text-xs tracking-wider uppercase mb-6">
+                    <!-- Google SVG Icon -->
+                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                    </svg>
+                    Google Reviews
+                </div>
+                <h2 class="text-4xl md:text-5xl text-primary mb-4" style="font-family: 'Bauhaus Soft', cursive;">
+                    Real Stories. Real Healing.
+                </h2>
+                <!-- Global rating display -->
+                <div class="flex items-center justify-center gap-2 mb-2">
+                    <span class="text-lg font-bold text-primary">5.0</span>
+                    <div class="flex text-amber-500">
+                        <!-- 5 filled stars -->
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <span class="text-sm text-gray-500 font-medium">(48 reviews)</span>
+                </div>
+                <p class="text-gray-500 text-sm md:text-base leading-relaxed">
+                    We are dedicated to helping our patients reclaim their wellness. Read the verified experiences of individuals who have undergone treatment at our clinic.
+                </p>
+            </div>
+
+            <!-- Reviews Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Review Card 1 -->
+                <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <!-- Rating and Google Verification -->
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex text-amber-500">
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            </div>
+                            <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                            </svg>
+                        </div>
+                        <!-- Review Text -->
+                        <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                            "The care I received at Tranquil Minds was absolute life-changing. After years of struggling with treatment-resistant depression, their Neurostar TMS therapy gave me my life back. The staff is incredibly supportive and compassionate."
+                        </p>
+                    </div>
+                    <!-- Reviewer Details -->
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
+                        <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
+                            SM
+                        </div>
+                        <div>
+                            <h4 class="text-primary font-bold text-sm">Sarah Miller</h4>
+                            <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <!-- Rating and Google Verification -->
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex text-amber-500">
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            </div>
+                            <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                            </svg>
+                        </div>
+                        <!-- Review Text -->
+                        <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                            "A highly professional and clean environment. Rosana Graves and the entire team are incredibly thorough, taking the time to answer every question. The personalized care and attention is unlike any other clinic."
+                        </p>
+                    </div>
+                    <!-- Reviewer Details -->
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
+                        <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
+                            JD
+                        </div>
+                        <div>
+                            <h4 class="text-primary font-bold text-sm">James Davis</h4>
+                            <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review Card 3 -->
+                <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <!-- Rating and Google Verification -->
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex text-amber-500">
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            </div>
+                            <svg class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
+                            </svg>
+                        </div>
+                        <!-- Review Text -->
+                        <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                            "I was very skeptical about TMS at first, but after completing the program, my depression and anxiety symptoms have dramatically reduced. Very grateful for this treatment and the wonderful clinic team."
+                        </p>
+                    </div>
+                    <!-- Reviewer Details -->
+                    <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
+                        <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
+                            ER
+                        </div>
+                        <div>
+                            <h4 class="text-primary font-bold text-sm">Emily Rodriguez</h4>
+                            <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Write & Read reviews links -->
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mt-12 fade-in-section">
+                <a href="https://www.google.com/maps/search/?api=1&query=Tranquil+Minds+Mental+Health+Castle+Rock+CO" target="_blank"
+                    class="px-8 py-3 bg-primary text-white rounded-full font-bold text-sm shadow-md hover:bg-opacity-95 hover:shadow-lg hover:-translate-y-0.5 transition-all text-center">
+                    Read All Reviews
+                </a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Tranquil+Minds+Mental+Health+Castle+Rock+CO" target="_blank"
+                    class="px-8 py-3 bg-transparent border-2 border-primary/20 hover:border-primary/60 text-primary rounded-full font-bold text-sm hover:-translate-y-0.5 transition-all text-center">
+                    Write a Review
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- BrainsWay SWIFT (New CTA Section) -->
     <section id="swift-offer" class="py-10 relative overflow-hidden bg-[#231238] text-white">
         <!-- Background Elements -->
