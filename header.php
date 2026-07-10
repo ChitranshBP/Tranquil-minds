@@ -445,10 +445,11 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
         </div>
 
         <!-- Pill 1: Logo -->
-        <div class="bg-white/90 backdrop-blur-md shadow-lg rounded-full px-2 py-2 flex items-center gap-3 cursor-pointer transition-transform hover:scale-105 relative z-50"
+        <div class="bg-white/90 backdrop-blur-md shadow-lg rounded-full pl-2 pr-5 py-2 flex items-center gap-3 cursor-pointer transition-transform hover:scale-105 relative z-50"
             onclick="window.scrollTo(0,0)">
             <img src="assets/logo/Tranquil-logo.png"
                 alt="Tranquil Minds Mental Health Logo" class="h-10">
+            <span class="font-bold text-primary text-lg tracking-wide hidden sm:block" style="font-family: 'Bauhaus Soft', sans-serif;">Tranquil Minds</span>
         </div>
 
         <!-- Pill 2: Mega Menu & Actions -->

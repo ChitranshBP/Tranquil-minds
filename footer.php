@@ -332,7 +332,7 @@
                         class="md:col-span-12 lg:col-span-5 flex flex-col justify-between bg-white/[0.03] border border-white/5 p-8 rounded-3xl backdrop-blur-sm group hover:border-white/10 transition-colors">
                         <div class="mb-10">
                             <img src="assets/logo/Tranquil-logo.png"
-                                alt="Tranquil Minds Mental Health Logo" class="w-36 opacity-90 mb-6">
+                                alt="Tranquil Minds Mental Health Logo" class="w-36 opacity-90 mb-6" style="filter: brightness(0) invert(1);">
                             <h3 class="text-2xl font-light text-start leading-snug text-white/80 max-w-sm">
                                 Realigning the <span class="text-accent italic">rhythms</span> of the mind.
                             </h3>

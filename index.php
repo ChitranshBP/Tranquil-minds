@@ -96,8 +96,8 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
 
                 <!-- Image Content -->
                 <div class="fade-in-section order-1 md:order-2 flex justify-center md:justify-end">
-                    <div class="image-wrapper organic-shape w-full max-w-sm">
-                        <img src="assets/clinic.png" alt="Peaceful Clinic Interior" class="block w-full h-auto">
+                    <div class="image-wrapper w-full max-w-md rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500 group">
+                        <img src="assets/home/tranquil-main-image-home.webp" alt="Peaceful Clinic Interior" class="block w-full h-auto transition-transform duration-500 group-hover:scale-105">
                     </div>
                 </div>
             </div>
@@ -825,53 +825,53 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
 
             <!-- Insurance Logos Grid -->
             <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16 max-w-6xl mx-auto fade-in-section">
-                <!-- Cigna -->
-                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/cigna.webp" alt="Cigna" class="max-h-full max-w-full object-contain">
-                </div>
                 <!-- Aetna -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/aetna-logo.png" alt="Aetna" class="max-h-full max-w-full object-contain">
+                    <img src="assets/insurances/aetna-logo.png" alt="Aetna" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
                 <!-- Anthem -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/anthem.webp" alt="Anthem" class="max-h-full max-w-full object-contain">
+                    <img src="assets/insurances/anthem.webp" alt="Anthem" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- Blue Shield of California -->
+                <!-- Carelon -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/blue-california.webp" alt="Blue Shield of California" class="max-h-full max-w-full object-contain">
+                    <img src="assets/insurances/carelon-logo.png" alt="Carelon" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- Desert Oasis Healthcare -->
+                <!-- Blue Cross Blue Shield -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/desert-oasis-logo.jpg" alt="Desert Oasis Healthcare" class="max-h-full max-w-full object-contain scale-110">
+                    <img src="assets/insurances/blue-cross-logo.png" alt="Blue Cross Blue Shield" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- Health Net -->
+                <!-- Cigna -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/health-net.png" alt="Health Net" class="max-h-full max-w-full object-contain">
+                    <img src="assets/insurances/cigna.webp" alt="Cigna" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- IEHP -->
+                <!-- Humana -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/iehp-logo.png" alt="IEHP" class="max-h-full max-w-full object-contain">
+                    <img src="assets/insurances/humana-logo.png" alt="Humana" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                </div>
+                <!-- Kaiser Permanente -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/Kaiser-Permanente-Logo.png" alt="Kaiser Permanente" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                </div>
+                <!-- Medicaid -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/medicaid-gov-logo.png" alt="Medicaid" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
                 <!-- Medicare -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/medicare.webp" alt="Medicare" class="max-h-full max-w-full object-contain">
+                    <img src="assets/insurances/medicare.webp" alt="Medicare" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- TriWest -->
+                <!-- Meritain Health -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/triwest.png" alt="TriWest" class="max-h-full max-w-full object-contain">
+                    <img src="assets/insurances/meritain-health-logo.jpeg" alt="Meritain Health" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                </div>
+                <!-- TRICARE -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/tricare.webp" alt="TRICARE" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
                 <!-- UnitedHealthcare -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/unitedhealthcare.png" alt="UnitedHealthcare" class="max-h-full max-w-full object-contain">
-                </div>
-                <!-- Optum -->
-                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/optum.webp" alt="Optum" class="max-h-full max-w-full object-contain">
-                </div>
-                <!-- Tricare -->
-                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/tricare.webp" alt="Tricare" class="max-h-full max-w-full object-contain">
+                    <img src="assets/insurances/united-healthcare-logo.jpeg" alt="UnitedHealthcare" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
             </div>
 
