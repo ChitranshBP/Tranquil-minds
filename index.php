@@ -84,16 +84,60 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <span class="text-accent font-bold tracking-widest uppercase text-xs mb-2 block">A Sanctuary for
                         Healing</span>
                     <h2 class="text-5xl md:text-6xl text-primary mb-6" style="font-family: 'Bauhaus Soft', cursive;">
-                        Welcome to Tranquil Minds</h2>
+                        About Tranquil Minds</h2>
 
-                    <p class="text-lg text-primary/80 font-medium mb-4 leading-snug">
-                        Where science meets serenity. We believe mental wellness is a journey best taken with
-                        compassionate guides.
+                    <p class="text-lg text-primary leading-relaxed font-medium mb-8">
+                        Tranquil Minds Mental Health is a visionary clinic in Monticello, MN, dedicated to expanding access to advanced, compassionate care—including TMS therapy—for underserved communities. Rooted in personal investment and equity-driven innovation, it provides a healing space where science and empathy converge to transform lives.
                     </p>
-                    <p class="text-gray-600 text-sm leading-relaxed mb-8">
-                        At Tranquil Minds Mental Health, our clinic provides a serene environment where advanced technology meets
-                        compassionate care. We are dedicated to restoring balance to your life.
-                    </p>
+
+                    <!-- Features list -->
+                    <div class="mt-8 space-y-6 mb-8">
+                        <!-- FDA-Cleared -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent flex-shrink-0">
+                                <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-primary font-bold text-lg mb-1">FDA-Cleared</h4>
+                                <p class="text-gray-600 text-sm leading-relaxed font-normal">
+                                    TMS has been cleared by the FDA for treating clients 15 years and older. Both adolescents and adults can benefit from TMS.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Non-Medication -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent flex-shrink-0">
+                                <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-primary font-bold text-lg mb-1">Non-Medication</h4>
+                                <p class="text-gray-600 text-sm leading-relaxed font-normal">
+                                    No medication is required for TMS. Magnetic Pulses stimulate the pre-frontal cortex waking up the neural pathways in the brain. It is recommended that all current medications stay the same throughout treatment as prescribed by your provider.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Non-Invasive -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent flex-shrink-0">
+                                <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-primary font-bold text-lg mb-1">Non-Invasive</h4>
+                                <p class="text-gray-600 text-sm leading-relaxed font-normal">
+                                    TMS treatment is done without surgery or invasive procedures. Clients are able to drive themselves to and from treatment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <a href="#contact"
                         class="inline-block px-8 py-4 bg-accent text-white rounded-full font-bold shadow-lg hover:bg-accent-light transition-all hover:-translate-y-1 text-lg">
                         Our Philosophy
@@ -122,7 +166,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <div class="fade-in-section">
                         <div class="flex items-center gap-3 mb-4">
                             <span
-                                class="px-3 py-1 bg-accent/10 text-accent text-xs font-bold tracking-widest uppercase rounded-full">FDA
+                                class="px-3 py-1 bg-primary/10 text-primary text-xs font-bold tracking-widest uppercase rounded-full">FDA
                                 Cleared</span>
                             <span
                                 class="px-3 py-1 bg-primary/10 text-primary text-xs font-bold tracking-widest uppercase rounded-full">Non-Invasive</span>
@@ -144,7 +188,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                 </div>
                             </div>
                             <div class="bg-white/80 p-4 rounded-2xl border border-white shadow-sm">
-                                <div class="text-3xl font-bold text-accent mb-1"
+                                <div class="text-3xl font-bold text-primary mb-1"
                                     style="font-family: 'Bauhaus Soft', cursive;">50%</div>
                                 <div class="text-xs text-gray-600 uppercase tracking-wide font-semibold">Full Remission
                                 </div>
@@ -372,7 +416,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
             <div class="flex flex-col md:flex-row justify-between items-end mb-12 fade-in-section gap-6">
                 <div class="max-w-xl">
                     <h2 class="text-4xl md:text-5xl mb-4 leading-tight text-white"
-                        style="font-family: 'Bauhaus Soft', cursive;">Restoring <span class="text-accent">Balance</span>
+                        style="font-family: 'Bauhaus Soft', cursive;">Restoring <span class="text-white">Balance</span>
                     </h2>
                     <p class="text-gray-100 text-lg leading-relaxed">Depression is a biological condition that
                         physically alters brain function. Neurostar TMS targets these changes directly.</p>
@@ -414,7 +458,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                         <!-- Image Placeholder -->
                         <img src="assets/neurostar-awakening.png"
                             alt="Neuroplasticity Visual"
-                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 scale-105 group-hover:scale-110 transition-all duration-700">
                         <div
                             class="absolute bottom-4 right-4 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center font-bold text-sm bg-black/40 backdrop-blur-md text-white">
                             2</div>
@@ -493,7 +537,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <!-- Quote Box -->
                     <div
                         class="relative bg-[#FAFAFF] border-l-4 border-accent p-8 mb-10 rounded-r-2xl hover:bg-[#F3EFFF] transition-colors duration-300">
-                        <p class="text-lg md:text-xl text-primary/80 leading-relaxed font-light">
+                        <p class="text-lg md:text-xl text-primary leading-relaxed font-medium">
                             "I founded Tranquil Minds Mental Health with a simple belief: that every patient deserves to feel truly
                             heard. Combining clinical expertise with deep compassion, we've created a space where
                             healing is not just a medical procedure, but a human experience."
@@ -577,7 +621,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
                                     "The care I received at Tranquil Minds was absolute life-changing. After years of struggling with treatment-resistant depression, their Neurostar TMS therapy gave me my life back. The staff is incredibly supportive and compassionate."
                                 </p>
                             </div>
@@ -587,7 +631,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                 </div>
                                 <div>
                                     <h4 class="text-primary font-bold text-sm">Sarah Miller</h4>
-                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                    <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
                         </div>
@@ -609,7 +653,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
                                     "A highly professional and clean environment. Roxanne DoBrava and the entire team are incredibly thorough, taking the time to answer every question. The personalized care and attention is unlike any other clinic."
                                 </p>
                             </div>
@@ -619,7 +663,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                 </div>
                                 <div>
                                     <h4 class="text-primary font-bold text-sm">James Davis</h4>
-                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                    <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
                         </div>
@@ -641,7 +685,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
                                     "I was very skeptical about TMS at first, but after completing the program, my depression and anxiety symptoms have dramatically reduced. Very grateful for this treatment and the wonderful clinic team."
                                 </p>
                             </div>
@@ -651,7 +695,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                 </div>
                                 <div>
                                     <h4 class="text-primary font-bold text-sm">Emily Rodriguez</h4>
-                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                    <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
                         </div>
@@ -673,7 +717,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
                                     "From scheduling my first consult to completing my sessions, the process was seamless. The staff handles insurance directly which was a huge relief, and the clinic is incredibly relaxing."
                                 </p>
                             </div>
@@ -683,7 +727,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                 </div>
                                 <div>
                                     <h4 class="text-primary font-bold text-sm">Michael Thompson</h4>
-                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                    <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
                         </div>
@@ -705,7 +749,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
                                     "I felt truly heard for the first time in years. Roxanne DoBrava combines clinical expertise with deep compassion. The TMS sessions were simple, painless, and highly effective for me."
                                 </p>
                             </div>
@@ -715,7 +759,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                 </div>
                                 <div>
                                     <h4 class="text-primary font-bold text-sm">Jessica Carter</h4>
-                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                    <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
                         </div>
@@ -737,7 +781,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary/70 text-sm leading-relaxed mb-6 font-light">
+                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
                                     "Highly recommended clinic. It is clean, modern, and very welcoming. The treatments are based on strong science and delivered by staff who genuinely care about your mental wellbeing."
                                 </p>
                             </div>
@@ -747,7 +791,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                 </div>
                                 <div>
                                     <h4 class="text-primary font-bold text-sm">David Patel</h4>
-                                    <p class="text-[10px] text-gray-400">Verified Google Reviewer</p>
+                                    <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
                         </div>
@@ -773,11 +817,11 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
 
             <!-- Write & Read reviews links -->
             <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mt-12 fade-in-section">
-                <a href="https://www.google.com/maps/search/?api=1&query=Tranquil+Minds+Mental+Health+Castle+Rock+CO" target="_blank"
+                <a href="https://www.google.com/maps/search/?api=1&query=Tranquil+Minds+Mental+Health+Monticello+MN" target="_blank"
                     class="px-8 py-3 bg-primary text-white rounded-full font-bold text-sm shadow-md hover:bg-opacity-95 hover:shadow-lg hover:-translate-y-0.5 transition-all text-center">
                     Read All Reviews
                 </a>
-                <a href="https://www.google.com/maps/search/?api=1&query=Tranquil+Minds+Mental+Health+Castle+Rock+CO" target="_blank"
+                <a href="https://www.google.com/maps/search/?api=1&query=Tranquil+Minds+Mental+Health+Monticello+MN" target="_blank"
                     class="px-8 py-3 bg-transparent border-2 border-primary/20 hover:border-primary/60 text-primary rounded-full font-bold text-sm hover:-translate-y-0.5 transition-all text-center">
                     Write a Review
                 </a>
@@ -820,7 +864,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
     </script>
 
     <!-- Insurance Section -->
-    <section id="insurance-partners" class="py-16 bg-cream relative overflow-hidden border-t border-primary/5">
+    <section id="insurance-partners" class="py-16 bg-white relative overflow-hidden border-t border-primary/5">
         <!-- Background Elements -->
         <div class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
         <div class="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none"></div>
@@ -848,50 +892,58 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
                     <img src="assets/insurances/aetna-logo.png" alt="Aetna" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- Anthem -->
-                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/anthem.webp" alt="Anthem" class="max-h-full max-w-full object-contain mix-blend-multiply">
-                </div>
-                <!-- Carelon -->
-                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/carelon-logo.png" alt="Carelon" class="max-h-full max-w-full object-contain mix-blend-multiply">
-                </div>
-                <!-- Blue Cross Blue Shield -->
-                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/blue-cross-logo.png" alt="Blue Cross Blue Shield" class="max-h-full max-w-full object-contain mix-blend-multiply">
-                </div>
                 <!-- Cigna -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
                     <img src="assets/insurances/cigna.webp" alt="Cigna" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- Humana -->
+                <!-- MN BCBS -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/humana-logo.png" alt="Humana" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    <img src="assets/insurances/blue-cross-logo.png" alt="MN BCBS" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- Kaiser Permanente -->
+                <!-- Optum -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/Kaiser-Permanente-Logo.png" alt="Kaiser Permanente" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    <img src="assets/insurances/optum-logo.png" alt="Optum" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- Medicaid -->
+                <!-- United Healthcare -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/medicaid-gov-logo.png" alt="Medicaid" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    <img src="assets/insurances/united-new.png" alt="United Healthcare" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                </div>
+                <!-- Medica -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <svg viewBox="0 0 120 40" class="max-h-full max-w-full object-contain">
+                        <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="'Quicksand', 'sans-serif'" font-weight="800" font-size="28" fill="#113e94" letter-spacing="-0.5">medica</text>
+                    </svg>
                 </div>
                 <!-- Medicare -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
                     <img src="assets/insurances/medicare.webp" alt="Medicare" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- Meritain Health -->
+                <!-- Medicaid - MN and WY -->
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/medicaid-gov-logo.png" alt="Medicaid - MN and WY" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                </div>
+
+                <!-- Hidden for now (commented out) -->
+                <!-- 
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/anthem.webp" alt="Anthem" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                </div>
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/carelon-logo.png" alt="Carelon" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                </div>
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/humana-logo.png" alt="Humana" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                </div>
+                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
+                    <img src="assets/insurances/Kaiser-Permanente-Logo.png" alt="Kaiser Permanente" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                </div>
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
                     <img src="assets/insurances/meritain-health-logo.jpeg" alt="Meritain Health" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- TRICARE -->
                 <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
                     <img src="assets/insurances/tricare.webp" alt="TRICARE" class="max-h-full max-w-full object-contain mix-blend-multiply">
                 </div>
-                <!-- UnitedHealthcare -->
-                <div class="h-12 w-32 md:w-40 flex items-center justify-center filter grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-105">
-                    <img src="assets/insurances/united-healthcare-logo.jpeg" alt="UnitedHealthcare" class="max-h-full max-w-full object-contain mix-blend-multiply">
-                </div>
+                -->
             </div>
 
             <!-- Call to Action -->

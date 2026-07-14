@@ -157,7 +157,7 @@
                     <h2 class="text-4xl md:text-5xl text-primary mb-8 leading-none"
                         style="font-family: 'Bauhaus Soft', cursive;">Your Path Forward <br>Starts Here</h2>
                     <p class="text-lg text-gray-600 mb-10 leading-relaxed font-light">
-                        Schedule a Complimentary Discovery Call. During this no-obligation consultation, we'll:
+                        Schedule your free 15-minute consultation to learn more about your treatment options. During this no-obligation consultation, we'll:
                     </p>
 
                     <ul class="space-y-6">
@@ -265,7 +265,7 @@
                         <!-- Submit Button -->
                         <button type="button"
                             class="w-full py-4 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg shadow-primary/20 transform active:scale-[0.99] transition-all text-lg tracking-wide mt-2">
-                            Schedule a Complimentary Discovery Call
+                           Schedule Your Free 15-Minute Consultation
                         </button>
 
                         <!-- Links -->
@@ -455,12 +455,12 @@
                         <a href="#contact"
                             class="flex-1 bg-accent hover:bg-accent-light p-6 rounded-3xl flex items-center justify-between group transition-all shadow-lg shadow-accent/20">
                             <div>
-                                <div
+                                <!-- <div
                                     class="text-[10px] font-bold text-start text-white/60 uppercase tracking-widest mb-1">
                                     Start
-                                    Now</div>
+                                    Now</div> -->
                                 <div class="text-lg font-bold text-white leading-tight"
-                                    style="font-family: 'Bauhaus Soft', cursive;">Book a Consultation</div>
+                                    style="font-family: 'Bauhaus Soft', cursive;">Book Your Free 15-Minute Consultation</div>
                             </div>
                             <div
                                 class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-white transform group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform">
