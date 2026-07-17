@@ -16,6 +16,7 @@ $pages = [
     'privacy-policy.php' => 'privacy-policy.html',
     'thankyou.php' => 'thankyou.html',
     'landing/index.php' => 'landing/index.html',
+    'landing/thankyou.php' => 'landing/thankyou.html',
 ];
 
 // Ensure dist folder exists

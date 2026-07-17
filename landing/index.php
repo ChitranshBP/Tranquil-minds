@@ -174,7 +174,7 @@ $page_description = "Schedule a free consultation for Neurostar TMS therapy at T
                             <h3 class="text-xl sm:text-2xl font-heading text-primary mb-1.5 text-start">Request Consultation</h3>
                             <p class="text-[11px] sm:text-xs text-primary/90 font-semibold mb-5 leading-normal">Fill out the secure form below to check if you qualify for TMS therapy. Our clinical coordinator will reach out shortly.</p>
                             
-                            <form id="lead-form" class="space-y-3.5">
+                            <form id="lead-form" class="space-y-3.5" accept-charset="UTF-8" action="https://app.formester.com/forms/Qau9z2FwN/submissions" method="POST">
                                 <!-- Name -->
                                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                     <div class="space-y-1.5">
@@ -665,86 +665,9 @@ $page_description = "Schedule a free consultation for Neurostar TMS therapy at T
         </div>
     </footer>
 
-    <!-- Interactive Success Modal -->
-    <div id="success-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm opacity-0 pointer-events-none transition-all duration-300">
-        <div class="bg-white rounded-3xl p-8 max-w-md w-full border border-primary/5 text-center shadow-2xl transform scale-95 transition-all duration-300">
-            <!-- Icon -->
-            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-green-500 mx-auto mb-5">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
-                </svg>
-            </div>
-            <!-- Header -->
-            <h3 class="text-2xl font-heading text-primary mb-2">Request Received!</h3>
-            <p class="text-sm text-primary/75 leading-relaxed mb-6">
-                Thank you for reaching out to Tranquil Minds. A clinical coordinator will review your information and call you at the phone number provided within 24 hours to schedule your free consultation.
-            </p>
-            <!-- Close Button -->
-            <button id="close-modal-btn" type="button" class="w-full py-3 bg-primary hover:bg-primary/95 text-white font-bold rounded-xl shadow-md transition-colors text-sm">
-                Return to Site
-            </button>
-        </div>
-    </div>
-
-    <!-- Client-Side Form Submission & Modal Trigger JS -->
+    <!-- Client-Side Form Scripts -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const form = document.getElementById("lead-form");
-            const modal = document.getElementById("success-modal");
-            const modalContent = modal.querySelector("div");
-            const closeModalBtn = document.getElementById("close-modal-btn");
-
-            // Open Modal Function
-            const openModal = () => {
-                modal.classList.remove("opacity-0", "pointer-events-none");
-                modalContent.classList.remove("scale-95");
-                modalContent.classList.add("scale-100");
-                document.body.style.overflow = "hidden"; // Disable scroll
-            };
-
-            // Close Modal Function
-            const closeModal = () => {
-                modal.classList.add("opacity-0", "pointer-events-none");
-                modalContent.classList.remove("scale-100");
-                modalContent.classList.add("scale-95");
-                document.body.style.overflow = ""; // Enable scroll
-                form.reset(); // Reset form fields
-            };
-
-            // Handle Submit
-            form.addEventListener("submit", (e) => {
-                e.preventDefault(); // Prevent standard page redirect
-
-                // Double check form validity
-                if (form.checkValidity()) {
-                    // Collect Form Data
-                    const formData = {
-                        firstName: document.getElementById("first-name").value,
-                        lastName: document.getElementById("last-name").value,
-                        email: document.getElementById("email").value,
-                        phone: document.getElementById("phone").value,
-                        condition: document.getElementById("condition").value,
-                        comments: document.getElementById("comments").value,
-                        consent: document.getElementById("consent").checked
-                    };
-
-                    console.log("Lead captured:", formData);
-
-                    // Show success modal to user
-                    openModal();
-                }
-            });
-
-            // Close button listener
-            closeModalBtn.addEventListener("click", closeModal);
-
-            // Close modal when clicking outside content area
-            modal.addEventListener("click", (e) => {
-                if (e.target === modal) {
-                    closeModal();
-                }
-            });
-
             // Accordion Logic
             const accordions = document.querySelectorAll(".accordion-header");
             accordions.forEach((header) => {
