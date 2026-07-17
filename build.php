@@ -15,6 +15,7 @@ $pages = [
     'terms-of-service.php' => 'terms-of-service.html',
     'privacy-policy.php' => 'privacy-policy.html',
     'thankyou.php' => 'thankyou.html',
+    'landing/index.php' => 'landing/index.html',
 ];
 
 // Ensure dist folder exists
@@ -30,6 +31,12 @@ foreach ($pages as $srcFile => $outFile) {
     }
 
     $destPath = 'dist/' . $outFile;
+    $destDir = dirname($destPath);
+
+    // Ensure destination subdirectory exists
+    if (!is_dir($destDir)) {
+        mkdir($destDir, 0755, true);
+    }
 
     // Clean any previous build
     if (file_exists($destPath)) {
@@ -71,6 +78,7 @@ function copyDir($src, $dst) {
 
 // Copy assets to root and dist
 copyDir('assets', 'dist/assets');
+copyDir('landing/assets', 'dist/landing/assets');
 
 // Copy specific root files (CSS, JS, etc.) to dist
 $rootFiles = ['style.css', 'script.js', 'hero-bg.js', 'hero.html', 'favicon.ico'];
