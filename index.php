@@ -6,7 +6,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
 
     <!-- Hero Section (Epic & Innovative Redesign) -->
     <header
-        class="relative h-[65vh] min-h-[500px] flex items-center overflow-hidden mx-2 md:mx-6 mb-6 rounded-b-[3rem] mt-0"
+        class="relative min-h-[88vh] py-24 md:py-0 md:min-h-[500px] md:h-[65vh] flex items-center overflow-hidden mx-2 md:mx-6 mb-6 rounded-b-[2rem] md:rounded-b-[3rem] mt-0"
         id="home">
         <!-- Background Video -->
         <video autoplay loop muted playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover z-0">
@@ -23,7 +23,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         </div>
 
         <!-- Hero Content -->
-        <div class="container mx-auto px-6 relative z-10 mt-16">
+        <div class="container mx-auto px-6 relative z-10 mt-10 md:mt-16">
             <div class="max-w-3xl fade-in-section">
                 <!-- Badge -->
                 <!-- <div
@@ -33,14 +33,14 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </div> -->
 
                 <!-- Main Heading -->
-                <h1 class="text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-white mb-8"
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.15] md:leading-[1.1] text-white mb-5 md:mb-8"
                     style="font-family: 'Bauhaus Soft', cursive;">
                     Rewiring Hope. <br>
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">One Pulse at a Time.</span>
                 </h1>
 
                 <!-- Subtitle with Glass Card Effect -->
-                <p class="text-xl md:text-2xl text-gray-200 font-light mb-10 max-w-2xl leading-relaxed">
+                <p class="text-base sm:text-lg md:text-2xl text-gray-200 font-light mb-8 md:mb-10 max-w-2xl leading-relaxed">
                     Advanced mental wellness & Neurostar® TMS therapy. Restoring balance through the perfect synthesis of
                     science
                     and compassion.
@@ -49,11 +49,11 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 <!-- CTA Buttons -->
                 <div class="flex flex-col sm:flex-row gap-4">
                     <a href="#welcome"
-                        class="px-8 py-4 bg-accent text-white rounded-full font-bold text-lg  hover:bg-accent-light hover:shadow-[0_0_30px_rgba(197,94,42,0.7)] hover:-translate-y-1 transition-all text-center">
+                        class="px-6 md:px-8 py-3.5 md:py-4 bg-accent text-white rounded-full font-bold text-base md:text-lg hover:bg-accent-light hover:shadow-[0_0_30px_rgba(197,94,42,0.7)] hover:-translate-y-1 transition-all text-center">
                         Begin Your Journey
                     </a>
                     <a href="#tms"
-                        class="px-8 py-4 bg-white/5 backdrop-blur-sm border border-white/20 text-white rounded-full font-bold text-lg hover:bg-white/20 hover:border-white/40 transition-all text-center flex items-center justify-center gap-2 group">
+                        class="px-6 md:px-8 py-3.5 md:py-4 bg-white/5 backdrop-blur-sm border border-white/20 text-white rounded-full font-bold text-base md:text-lg hover:bg-white/20 hover:border-white/40 transition-all text-center flex items-center justify-center gap-2 group">
                         <span>Explore Treatment</span>
                         <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
@@ -64,7 +64,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </div>
 
                 <!-- Trust Signals Row -->
-                <div class="mt-12 pt-8 border-t border-white/10 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl">
+                <div class="mt-8 md:mt-12 pt-6 md:pt-8 border-t border-white/10 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-2xl">
                     <!-- Signal 1: Neurostar Certified -->
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-accent flex-shrink-0">
