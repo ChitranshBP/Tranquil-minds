@@ -200,4 +200,40 @@ document.addEventListener("DOMContentLoaded", () => {
       video.play().catch(e => {});
     });
   });
+
+  // Condition Cards Logic: Pre-populate contact form condition
+  const conditionCards = document.querySelectorAll(".condition-card");
+  const formConditionInput = document.getElementById("form-condition");
+
+  if (conditionCards.length > 0 && formConditionInput) {
+    conditionCards.forEach((card) => {
+      card.addEventListener("click", () => {
+        const condition = card.getAttribute("data-condition");
+        if (condition) {
+          formConditionInput.value = condition;
+          
+          // Add a subtle highlight animation to the input field
+          formConditionInput.classList.add("ring-2", "ring-accent", "border-accent");
+          
+          // Temporarily scroll to and focus the field after smooth scroll completes
+          setTimeout(() => {
+            formConditionInput.focus();
+          }, 800);
+
+          // Remove the highlight ring when user starts typing or after 3.5 seconds
+          const removeHighlight = () => {
+            formConditionInput.classList.remove("ring-2", "ring-accent", "border-accent");
+            formConditionInput.removeEventListener("input", removeHighlight);
+            formConditionInput.removeEventListener("blur", removeHighlight);
+          };
+          
+          formConditionInput.addEventListener("input", removeHighlight);
+          formConditionInput.addEventListener("blur", removeHighlight);
+          
+          // Clear highlight after 3.5 seconds if no user interaction
+          setTimeout(removeHighlight, 3500);
+        }
+      });
+    });
+  }
 });

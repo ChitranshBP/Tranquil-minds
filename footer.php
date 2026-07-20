@@ -36,7 +36,7 @@
                         <button
                             class="accordion-header w-full py-4 text-left flex justify-between items-center bg-transparent hover:text-accent transition-colors">
                              <span class="text-lg font-bold text-primary group-hover:text-accent transition-colors">Is
-                                 Neurostar TMS therapy painful?</span>
+                                 Neurostar® TMS therapy painful?</span>
                             <div
                                 class="relative w-6 h-6 flex items-center justify-center transform transition-transform duration-300 group-[.active]:rotate-90">
                                 <svg class="w-5 h-5 text-primary group-hover:text-accent transition-colors" fill="none"
@@ -60,7 +60,7 @@
                         <button
                             class="accordion-header w-full py-4 text-left flex justify-between items-center bg-transparent hover:text-accent transition-colors">
                              <span class="text-lg font-bold text-primary group-hover:text-accent transition-colors">Does
-                                 insurance cover Neurostar TMS?</span>
+                                 insurance cover Neurostar® TMS?</span>
                             <div
                                 class="relative w-6 h-6 flex items-center justify-center transform transition-transform duration-300 group-[.active]:rotate-90">
                                 <svg class="w-5 h-5 text-primary group-hover:text-accent transition-colors" fill="none"
@@ -121,7 +121,7 @@
                         </button>
                         <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                             <div class="pb-6 text-gray-600 leading-relaxed text-base max-w-3xl">
-                                 Neurostar TMS is extremely well-tolerated. The most common side effect is mild scalp
+                                 Neurostar® TMS is extremely well-tolerated. The most common side effect is mild scalp
                                 discomfort
                                 during the first few sessions, which typically resolves quickly. Unlike medications,
                                 there are no systemic side effects like weight gain, drowsiness, or sexual dysfunction.
@@ -175,7 +175,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 13l4 4L19 7"></path>
                             </svg>
-                             <span class="text-primary/80 text-lg">Explain how Neurostar TMS might help your specific
+                             <span class="text-primary/80 text-lg">Explain how Neurostar® TMS might help your specific
                                  condition</span>
                         </li>
                         <li class="flex items-start gap-4">
@@ -232,9 +232,9 @@
 
                         <!-- Condition -->
                         <div class="space-y-2">
-                            <label class="text-sm font-bold text-primary block tracking-wide">Condition We Are
+                            <label for="form-condition" class="text-sm font-bold text-primary block tracking-wide">Condition We Are
                                 Treating</label>
-                            <input type="text" placeholder="Condition We Are Treating"
+                            <input type="text" id="form-condition" name="condition" placeholder="Condition We Are Treating"
                                 class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent outline-none transition-all placeholder-gray-300 text-primary">
                         </div>
 
@@ -386,7 +386,7 @@
                                 <h4 class="text-[10px] font-bold text-accent uppercase tracking-widest mb-3 opacity-80">
                                     Clinical</h4>
                                  <a href="#"
-                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Neurostar
+                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Neurostar®
                                      TMS</a>
                                 <a href="#"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Ketamine</a>

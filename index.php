@@ -1,6 +1,6 @@
 <?php
 $page_title = "Tranquil Minds Mental Health - Mental Wellness Clinic";
-$page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellness offering Neurostar TMS, medication management, and personalized care.";
+$page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellness offering Neurostar® TMS, medication management, and personalized care.";
 ?>
 <?php include 'header.php'; ?>
 
@@ -10,7 +10,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         id="home">
         <!-- Background Video -->
         <video autoplay loop muted playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover z-0">
-            <source src="assets/home/WhatsApp Video 2026-07-10 at 15.54.21.mp4" type="video/mp4">
+            <source src="assets/home/Web-Video-Hero-Section.mp4" type="video/mp4">
         </video>
         <!-- Dark Overlay for Readability -->
         <div class="absolute inset-0 bg-primary/45 mix-blend-multiply z-[1]"></div>
@@ -41,7 +41,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
 
                 <!-- Subtitle with Glass Card Effect -->
                 <p class="text-xl md:text-2xl text-gray-200 font-light mb-10 max-w-2xl leading-relaxed">
-                    Advanced mental wellness & Neurostar TMS therapy. Restoring balance through the perfect synthesis of
+                    Advanced mental wellness & Neurostar® TMS therapy. Restoring balance through the perfect synthesis of
                     science
                     and compassion.
                 </p>
@@ -61,6 +61,65 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                 d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
                     </a>
+                </div>
+
+                <!-- Trust Signals Row -->
+                <div class="mt-12 pt-8 border-t border-white/10 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl">
+                    <!-- Signal 1: Neurostar Certified -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-accent flex-shrink-0">
+                            <!-- Star Shield Icon -->
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold text-xs uppercase tracking-wider">NeuroStar®</p>
+                            <p class="text-white/60 text-[10px] uppercase tracking-wider font-semibold">Certified Partner</p>
+                        </div>
+                    </div>
+
+                    <!-- Signal 2: FDA Cleared -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-accent flex-shrink-0">
+                            <!-- Shield Check Icon -->
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold text-xs uppercase tracking-wider">FDA-Cleared</p>
+                            <p class="text-white/60 text-[10px] uppercase tracking-wider font-semibold">Non-Invasive Care</p>
+                        </div>
+                    </div>
+
+                    <!-- Signal 3: Insurance Accepted -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-accent flex-shrink-0">
+                            <!-- Credit Card / Check Icon -->
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M3 12l2-2m4 8l4-4m6 4v-8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold text-xs uppercase tracking-wider">Insurance</p>
+                            <p class="text-white/60 text-[10px] uppercase tracking-wider font-semibold">Accepted & Verified</p>
+                        </div>
+                    </div>
+
+                    <!-- Signal 4: Google Rating -->
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-accent flex-shrink-0">
+                            <!-- Google Logo Icon (Represented as G) or Star Icon -->
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold text-xs uppercase tracking-wider">5.0 Google Rating</p>
+                            <p class="text-white/60 text-[10px] uppercase tracking-wider font-semibold">Clinic Reviews</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,6 +213,111 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         </div>
     </section>
 
+    <!-- Why Choose Tranquil Minds Section (Aesthetic, Modern Split Layout) -->
+    <section class="py-16 bg-white relative overflow-hidden border-b border-primary/5">
+        <!-- Background decorative blobs -->
+        <div class="absolute -top-40 -right-40 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-45 -left-40 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+                <!-- Left Side: Content & Differentiators (Col Span 7) -->
+                <div class="lg:col-span-7 fade-in-section">
+                    <span class="text-accent font-bold tracking-widest uppercase text-xs mb-2 block">Our Differentiators</span>
+                    <h2 class="text-4xl md:text-5xl text-primary mb-6" style="font-family: 'Bauhaus Soft', cursive;">
+                        Why Choose Tranquil Minds?
+                    </h2>
+                    <p class="text-gray-600 md:text-lg mb-10 leading-relaxed max-w-2xl font-medium">
+                        We combine state-of-the-art neurotechnology with deeply personalized clinical protocols to provide a supportive sanctuary for your mental wellness.
+                    </p>
+
+                    <!-- Differentiators Grid (2x2 Grid) -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <!-- Card 1: Personalized Care -->
+                        <div class="bg-gradient-to-b from-[#FAFAFF] to-white p-6 rounded-[2rem] border border-primary/5 hover:border-accent/30 hover:-translate-y-1 hover:shadow-lg transition-all duration-300 group flex flex-col justify-between">
+                            <div>
+                                <div class="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-accent mb-4 group-hover:scale-110 transition-transform duration-300">
+                                    <!-- Heart Icon -->
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-primary mb-2" style="font-family: 'Bauhaus Soft', cursive;">Personalized Care</h3>
+                                <p class="text-gray-600 text-xs leading-relaxed font-normal">
+                                    Every mind is unique. We tailor our clinical protocols to your history, symptoms, and lifestyle for optimal recovery.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: NeuroStar® Certified -->
+                        <div class="bg-gradient-to-b from-[#FAFAFF] to-white p-6 rounded-[2rem] border border-primary/5 hover:border-accent/30 hover:-translate-y-1 hover:shadow-lg transition-all duration-300 group flex flex-col justify-between">
+                            <div>
+                                <div class="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-accent mb-4 group-hover:scale-110 transition-transform duration-300">
+                                    <!-- Star Shield Icon -->
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-primary mb-2" style="font-family: 'Bauhaus Soft', cursive;">NeuroStar® Certified</h3>
+                                <p class="text-gray-600 text-xs leading-relaxed font-normal">
+                                    We use industry-leading, FDA-cleared NeuroStar® technology to perform safe, non-invasive brain mapping and treatment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Medication Management -->
+                        <div class="bg-gradient-to-b from-[#FAFAFF] to-white p-6 rounded-[2rem] border border-primary/5 hover:border-accent/30 hover:-translate-y-1 hover:shadow-lg transition-all duration-300 group flex flex-col justify-between">
+                            <div>
+                                <div class="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-accent mb-4 group-hover:scale-110 transition-transform duration-300">
+                                    <!-- Pill Icon -->
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 9.172V5L8 4z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-primary mb-2" style="font-family: 'Bauhaus Soft', cursive;">Medication Mgmt</h3>
+                                <p class="text-gray-600 text-xs leading-relaxed font-normal">
+                                    We integrate medication management to supervise and optimize psychiatric treatments alongside your therapy.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Insurance Accepted -->
+                        <div class="bg-gradient-to-b from-[#FAFAFF] to-white p-6 rounded-[2rem] border border-primary/5 hover:border-accent/30 hover:-translate-y-1 hover:shadow-lg transition-all duration-300 group flex flex-col justify-between">
+                            <div>
+                                <div class="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-accent mb-4 group-hover:scale-110 transition-transform duration-300">
+                                    <!-- Clipboard Icon -->
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-primary mb-2" style="font-family: 'Bauhaus Soft', cursive;">Insurance Accepted</h3>
+                                <p class="text-gray-600 text-xs leading-relaxed font-normal">
+                                    We partner with major insurers and Medicare, handling pre-authorizations to minimize your out-of-pocket costs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Image Display (Col Span 5) -->
+                <div class="lg:col-span-5 fade-in-section flex justify-center lg:justify-end relative">
+                    <!-- Overlapping decorative outline box -->
+                    <div class="absolute -inset-4 border border-accent/20 rounded-[2.5rem] pointer-events-none transform translate-x-2 translate-y-2 z-0 hidden lg:block"></div>
+                    
+                    <div class="image-wrapper w-full max-w-md rounded-[2.5rem] overflow-hidden shadow-2xl border border-primary/5 relative z-10 group bg-cream">
+                        <img src="assets/neurostar/neurostar-equipment.webp" alt="Tranquil Minds Clinic Environment" class="block w-full h-auto transition-transform duration-700 group-hover:scale-105">
+                        
+                        <!-- Floating Badge -->
+                        <div class="absolute bottom-6 left-6 bg-primary/95 backdrop-blur-md text-white py-3 px-6 rounded-2xl shadow-xl border border-white/10 flex items-center gap-3">
+                            <span class="w-2.5 h-2.5 rounded-full bg-accent animate-pulse"></span>
+                            <span class="text-xs font-bold uppercase tracking-wider">Accepting Patients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- What is TMS (Compact & Innovative Redesign) -->
     <section id="tms" class="py-10 relative bg-cover bg-center bg-fixed"
         style="background-image: url('assets/bg-homepage-tranquil.webp');">
@@ -174,7 +338,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                         <h2 class="text-4xl md:text-5xl text-primary mb-6"
                             style="font-family: 'Bauhaus Soft', cursive;">Healing at the Source</h2>
                         <p class="text-lg text-gray-700 leading-relaxed mb-8">
-                            Neurostar TMS uses gentle magnetic pulses to <span
+                            Neurostar® TMS uses gentle magnetic pulses to <span
                                 class="text-accent font-bold">reactivate</span>
                             dormant neural pathways. It's not just treating symptoms—it's physically waking up your
                             brain's ability to regulate mood.
@@ -260,7 +424,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
             <div class="flex flex-wrap gap-6 justify-center max-w-6xl mx-auto">
 
                 <!-- Depression -->
-                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between">
+                <a href="#contact" data-condition="Depression" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/depression.png" alt="Depression" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -272,10 +436,19 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Treatment-Resistant protocols.</p>
                         </div>
                     </div>
-                </div>
+                    <!-- CTA -->
+                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
+                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
+                            Know More
+                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
 
                 <!-- Anxiety -->
-                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 50ms;">
+                <a href="#contact" data-condition="Anxiety" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 50ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/anxiety.png" alt="Anxiety" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -287,10 +460,19 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Relief from panic & worry.</p>
                         </div>
                     </div>
-                </div>
+                    <!-- CTA -->
+                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
+                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
+                            Know More
+                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
 
                 <!-- ADHD / ADD -->
-                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 100ms;">
+                <a href="#contact" data-condition="ADHD / ADD" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 100ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/adhd.png" alt="ADHD / ADD" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -302,10 +484,19 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Focus & executive function.</p>
                         </div>
                     </div>
-                </div>
+                    <!-- CTA -->
+                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
+                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
+                            Know More
+                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
 
                 <!-- PTSD -->
-                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 150ms;">
+                <a href="#contact" data-condition="PTSD" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 150ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/ptsd.png" alt="PTSD" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -317,10 +508,19 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Processing trauma safely.</p>
                         </div>
                     </div>
-                </div>
+                    <!-- CTA -->
+                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
+                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
+                            Know More
+                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
 
                 <!-- OCD -->
-                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 200ms;">
+                <a href="#contact" data-condition="OCD" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 200ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/ocd.png" alt="OCD" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -332,10 +532,19 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Breaking intrusive loops.</p>
                         </div>
                     </div>
-                </div>
+                    <!-- CTA -->
+                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
+                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
+                            Know More
+                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
 
                 <!-- Bipolar Disorder -->
-                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 250ms;">
+                <a href="#contact" data-condition="Bipolar Disorder" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 250ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/bipolar.png" alt="Bipolar Disorder" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -347,10 +556,19 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Mood stabilization specialized.</p>
                         </div>
                     </div>
-                </div>
+                    <!-- CTA -->
+                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
+                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
+                            Know More
+                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
 
                 <!-- Suicidal Ideation -->
-                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 300ms;">
+                <a href="#contact" data-condition="Suicidal Ideation" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 300ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/suicidal-ideation.png" alt="Suicidal Ideation" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -362,10 +580,19 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Rapid reduction of acute risks.</p>
                         </div>
                     </div>
-                </div>
+                    <!-- CTA -->
+                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
+                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
+                            Know More
+                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
 
                 <!-- Sleep Disorders -->
-                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 350ms;">
+                <a href="#contact" data-condition="Sleep Disorders" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 350ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/sleep-disorders.png" alt="Sleep Disorders" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -377,10 +604,19 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Restoring natural sleep cycles.</p>
                         </div>
                     </div>
-                </div>
+                    <!-- CTA -->
+                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
+                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
+                            Know More
+                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
 
                 <!-- Chronic Pain -->
-                <div class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 flex flex-col justify-between" style="transition-delay: 400ms;">
+                <a href="#contact" data-condition="Chronic Pain" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 400ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/chronic-pain.png" alt="Chronic Pain" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -392,7 +628,26 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Relieving fibromyalgia & neural discomfort.</p>
                         </div>
                     </div>
-                </div>
+                    <!-- CTA -->
+                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
+                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
+                            Know More
+                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- View All Treatments CTA -->
+            <div class="w-full flex justify-center mt-12 fade-in-section">
+                <a href="#tms" class="px-8 py-4 bg-primary text-white rounded-full font-bold text-lg hover:bg-primary/90 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2 group">
+                    <span>View All Treatments</span>
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                </a>
             </div>
         </div>
     </section>
@@ -419,7 +674,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                         style="font-family: 'Bauhaus Soft', cursive;">Restoring <span class="text-white">Balance</span>
                     </h2>
                     <p class="text-gray-100 text-lg leading-relaxed">Depression is a biological condition that
-                        physically alters brain function. Neurostar TMS targets these changes directly.</p>
+                        physically alters brain function. Neurostar® TMS targets these changes directly.</p>
                 </div>
                 <div class="hidden md:block pb-2">
                     <div class="h-px w-32 bg-accent/50"></div>
@@ -432,7 +687,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <div
                         class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
                         <!-- Image Placeholder -->
-                        <img src="assets/neurostar-precision.png"
+                        <img src="assets/neurostar/neurostar-2.webp"
                             alt="Precision Targeting Visual"
                             class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                         <div
@@ -444,7 +699,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             style="font-family: 'Bauhaus Soft', cursive;">Precision</h3>
                         <p
                             class="text-gray-100 text-sm leading-relaxed border-l-2 border-white/20 pl-4 group-hover:border-accent/50 transition-colors">
-                            Unlike medications that circulate throughout your entire body, Neurostar TMS uses focused
+                            Unlike medications that circulate throughout your entire body, Neurostar® TMS uses focused
                             magnetic
                             fields to target only the specific neural circuits involved in mood regulation.
                         </p>
@@ -479,7 +734,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <div
                         class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
                         <!-- Image Placeholder -->
-                        <img src="assets/neurostar-longevity.png"
+                        <img src="assets/neurostar/neurostar-1.webp"
                             alt="Long-term Relief Visual"
                             class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                         <div
@@ -564,6 +819,35 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         </div>
     </section>
 
+    <!-- Mid-Page Consultation CTA Strip (Compact & Concise) -->
+    <section class="py-8 bg-gradient-to-r from-accent via-accent-light to-accent text-white relative overflow-hidden shadow-2xl">
+        <!-- Subtle Glow Background Shape -->
+        <div class="absolute right-0 top-0 w-96 h-full bg-white/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-6">
+                <!-- Text Block -->
+                <div class="text-center lg:text-left">
+                    <h2 class="text-2xl md:text-3xl font-bold leading-tight mb-1" style="font-family: 'Bauhaus Soft', cursive;">
+                        Ready to Explore Neurostar® TMS?
+                    </h2>
+                    <p class="text-white/80 text-sm md:text-base font-medium">
+                        Schedule a free 15-minute clinical consultation to see if TMS is right for you.
+                    </p>
+                </div>
+                <!-- Action Buttons -->
+                <div class="flex flex-wrap gap-4 justify-center items-center">
+                    <a href="#contact" class="px-6 py-3 bg-white text-accent rounded-full font-bold text-base hover:bg-white/90 hover:shadow-lg transition-all duration-300">
+                        Schedule Free Consultation
+                    </a>
+                    <a href="#contact" class="px-6 py-3 bg-white/10 border border-white/40 text-white rounded-full font-bold text-base hover:bg-white/20 transition-all duration-300">
+                        Verify Insurance
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Google Reviews Section -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <section id="reviews" class="py-16 bg-cream relative overflow-hidden">
@@ -622,7 +906,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                     </svg>
                                 </div>
                                 <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
-                                    "The care I received at Tranquil Minds was absolute life-changing. After years of struggling with treatment-resistant depression, their Neurostar TMS therapy gave me my life back. The staff is incredibly supportive and compassionate."
+                                    "The care I received at Tranquil Minds was absolute life-changing. After years of struggling with treatment-resistant depression, their Neurostar® TMS therapy gave me my life back. The staff is incredibly supportive and compassionate."
                                 </p>
                             </div>
                             <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">

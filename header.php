@@ -1,7 +1,7 @@
 <?php
 // Set page-specific variables before including to allow dynamic title/metadata
 $page_title = $page_title ?? "Tranquil Minds Mental Health - Mental Wellness Clinic";
-$page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctuary for mental wellness offering Neurostar TMS, medication management, and personalized care.";
+$page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctuary for mental wellness offering Neurostar® TMS, medication management, and personalized care.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -407,7 +407,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
             -webkit-mask: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 12.5%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 37.5%);
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -538,7 +538,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
 
                                 <a href="#"
                                     class="group/item flex items-center justify-between p-4 rounded-3xl bg-primary/5 hover:bg-primary text-primary hover:text-white transition-all duration-300">
-                                    <span class="font-semibold text-base">Neurostar TMS</span>
+                                    <span class="font-semibold text-base">Neurostar® TMS</span>
                                     <svg class="w-5 h-5 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all"
                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -588,7 +588,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                     </p>
                                     <a href="#"
                                         class="inline-flex items-center gap-3 px-8 py-4 bg-white text-primary rounded-full font-bold hover:gap-5 transition-all duration-300">
-                                        Explore Neurostar TMS
+                                        Explore Neurostar® TMS
                                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
