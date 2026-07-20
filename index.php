@@ -689,7 +689,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                         <!-- Image Placeholder -->
                         <img src="assets/neurostar/neurostar-2.webp"
                             alt="Precision Targeting Visual"
-                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 scale-105 transition-all duration-700">
                         <div
                             class="absolute bottom-4 right-4 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center font-bold text-sm bg-black/40 backdrop-blur-md text-white">
                             1</div>
