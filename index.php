@@ -6,7 +6,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
 
     <!-- Hero Section (Epic & Innovative Redesign) -->
     <header
-        class="relative min-h-[88vh] py-24 md:py-0 md:min-h-[500px] md:h-[65vh] flex items-center overflow-hidden mx-2 md:mx-6 mb-6 rounded-b-[2rem] md:rounded-b-[3rem] mt-0"
+        class="relative min-h-[88vh] md:min-h-[85vh] flex items-center overflow-hidden mx-2 md:mx-6 mb-6 rounded-b-[2rem] md:rounded-b-[3rem] mt-0 pt-28 pb-14 md:pt-36 md:pb-20"
         id="home">
         <!-- Background Video -->
         <video autoplay loop muted playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover z-0">
@@ -23,7 +23,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
         </div>
 
         <!-- Hero Content -->
-        <div class="container mx-auto px-6 relative z-10 mt-10 md:mt-16">
+        <div class="container mx-auto px-6 relative z-10">
             <div class="max-w-3xl fade-in-section">
                 <!-- Badge -->
                 <!-- <div
