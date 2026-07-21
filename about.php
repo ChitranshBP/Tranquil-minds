@@ -1,8 +1,8 @@
 <?php
 $page_title = "About Us | Tranquil Minds Mental Health";
 $page_description = "Learn about Tranquil Minds Mental Health — our mission, our compassionate team, and our commitment to advanced, science-backed mental wellness care in Monticello, MN.";
-$hero_title = 'Where Science Meets <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Compassion.</span>';
-$hero_subtitle = 'We believe healing is possible. Our team combines cutting-edge neuroscience with deep human care to help every patient reclaim their life.';
+$hero_title = 'Healing Minds,<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Restoring Lives.</span>';
+$hero_subtitle = 'At Tranquil Minds, we unite advanced neuroscience with genuine compassion — so every patient walks away not just treated, but truly transformed.';
 $hero_badge = 'Our Story & Team';
 $hero_cta1_text = 'Meet Our Providers';
 $hero_cta1_link = '#team';
@@ -19,19 +19,19 @@ $hero_cta2_link = '#mission';
         <div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-primary/8 rounded-full blur-[120px] translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
 
         <div class="container mx-auto px-6 relative z-10">
-            <!-- Section label -->
-            <div class="flex items-center gap-3 mb-6 fade-in-section">
-                <span class="h-px w-12 bg-primary/40"></span>
-                <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Our Purpose</span>
-            </div>
+            <div class="grid lg:grid-cols-2 gap-14 items-stretch">
 
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <!-- Left: Text -->
-                <div class="fade-in-section">
-                    <h2 class="text-5xl md:text-6xl text-primary mb-8 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
+                <!-- LEFT: Text + Pillars + Compact Stats -->
+                <div class="fade-in-section flex flex-col justify-center">
+                    <!-- Section label -->
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="h-px w-12 bg-primary/40"></span>
+                        <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Our Purpose</span>
+                    </div>
+                    <h2 class="text-5xl md:text-6xl text-primary mb-6 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
                         A Sanctuary for<br>Mental Wellness
                     </h2>
-                    <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                    <p class="text-gray-600 text-lg leading-relaxed mb-4">
                         Tranquil Minds Mental Health was founded on a single, unwavering belief: that every person deserves access to compassionate, evidence-based care tailored to their unique neurobiology.
                     </p>
                     <p class="text-gray-600 text-lg leading-relaxed mb-8">
@@ -39,7 +39,7 @@ $hero_cta2_link = '#mission';
                     </p>
 
                     <!-- Mission pillars -->
-                    <div class="space-y-4">
+                    <div class="space-y-2 mb-8">
                         <?php
                         $pillars = [
                             ['icon' => 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z', 'label' => 'Science-First', 'desc' => 'Every treatment is rooted in peer-reviewed evidence.'],
@@ -60,36 +60,56 @@ $hero_cta2_link = '#mission';
                         </div>
                         <?php endforeach; ?>
                     </div>
+
+                    <!-- Compact stats strip -->
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-primary/10">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-primary mb-0.5" style="font-family: 'Bauhaus Soft', cursive;" data-counter="15" data-suffix="+">15+</div>
+                            <div class="text-gray-400 text-xs uppercase tracking-widest">Years</div>
+                        </div>
+                        <div class="text-center border-x border-primary/10">
+                            <div class="text-2xl font-bold text-primary mb-0.5" style="font-family: 'Bauhaus Soft', cursive;" data-counter="2000" data-suffix="+">2,000+</div>
+                            <div class="text-gray-400 text-xs uppercase tracking-widest">Patients</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent mb-0.5" style="font-family: 'Bauhaus Soft', cursive;" data-counter="98" data-suffix="%">98%</div>
+                            <div class="text-gray-400 text-xs uppercase tracking-widest">Satisfaction</div>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Right: Stats mosaic -->
-                <div class="fade-in-section grid grid-cols-2 gap-4">
-                    <!-- Big stat card -->
-                    <div class="col-span-2 bg-primary rounded-[2rem] p-8 relative overflow-hidden group">
-                        <div class="absolute top-0 right-0 w-[300px] h-[300px] bg-accent rounded-full blur-[100px] opacity-20 translate-x-1/2 -translate-y-1/2 group-hover:opacity-30 transition-opacity"></div>
-                        <div class="relative z-10">
-                            <div class="text-6xl md:text-7xl font-bold text-white mb-2" style="font-family: 'Bauhaus Soft', cursive;" data-counter="15" data-suffix="+">15+</div>
-                            <div class="text-accent font-semibold text-lg mb-1">Years of Experience</div>
-                            <div class="text-white/60 text-sm leading-relaxed">Serving the Monticello community with advanced psychiatric and neurological care.</div>
+                <!-- RIGHT: Clinic image -->
+                <div class="fade-in-section relative rounded-[2rem] overflow-hidden shadow-[0_30px_80px_-20px_rgba(42,22,63,0.25)] min-h-[500px]">
+                    <img
+                        src="assets/neuro-center.webp"
+                        alt="Tranquil Minds Mental Health clinic interior — a calming, welcoming space for healing"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+                    <!-- Gradient overlay -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/20 to-transparent pointer-events-none"></div>
+                    <!-- Placeholder notice -->
+                    <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
+                        <div class="flex items-center gap-2 px-4 py-2 bg-black/40 backdrop-blur-sm border border-white/20 rounded-full">
+                            <svg class="w-4 h-4 text-white/70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                            <span class="text-white/70 text-xs font-semibold tracking-wide">This image is placeholder only</span>
                         </div>
                     </div>
-                    <!-- Small stat 1 -->
-                    <div class="bg-accent/10 border border-accent/20 rounded-[1.5rem] p-6 flex flex-col justify-between hover:bg-accent/15 transition-colors">
-                        <div class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-accent mb-4">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <!-- Bottom badge -->
+                    <div class="absolute bottom-6 left-6 right-6 z-10">
+                        <div class="bg-white/15 backdrop-blur-md border border-white/25 rounded-2xl px-5 py-4 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-accent flex items-center justify-center flex-shrink-0">
+                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="text-white font-bold text-sm">Compassionate Environment</div>
+                                <div class="text-white/60 text-xs">Designed to feel like a sanctuary from the moment you arrive</div>
+                            </div>
                         </div>
-                        <div class="text-4xl font-bold text-primary mb-1" style="font-family: 'Bauhaus Soft', cursive;" data-counter="2000" data-suffix="+">2,000+</div>
-                        <div class="text-gray-500 text-sm">Patients Helped</div>
-                    </div>
-                    <!-- Small stat 2 -->
-                    <div class="bg-[#2A163F] rounded-[1.5rem] p-6 flex flex-col justify-between">
-                        <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-white/70 mb-4">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
-                        </div>
-                        <div class="text-4xl font-bold text-white mb-1" style="font-family: 'Bauhaus Soft', cursive;" data-counter="98" data-suffix="%">98%</div>
-                        <div class="text-white/50 text-sm">Patient Satisfaction</div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
