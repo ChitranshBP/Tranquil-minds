@@ -481,7 +481,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                         <div class="absolute -top-10 left-0 w-full h-10 bg-transparent"></div>
 
                         <div class="grid grid-cols-1">
-                            <a href="#welcome"
+                            <a href="about.php"
                                 class="flex items-center gap-4 p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
                                 <div
                                     class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover/item:bg-accent group-hover/item:text-white transition-colors">
@@ -492,11 +492,11 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                     </svg>
                                 </div>
                                 <div>
-                                    <span class="block text-base font-bold text-primary">Our Mission</span>
-                                    <span class="text-xs text-gray-400">Restoring balance & wellness</span>
+                                    <span class="block text-base font-bold text-primary">About Us</span>
+                                    <span class="text-xs text-gray-400">Our story & mission</span>
                                 </div>
                             </a>
-                            <a href="#"
+                            <a href="about.php#team"
                                 class="flex items-center gap-4 p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
                                 <div
                                     class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover/item:bg-accent group-hover/item:text-white transition-colors">
