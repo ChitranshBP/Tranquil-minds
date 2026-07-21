@@ -16,7 +16,7 @@ $page_description = "Tranquil Minds Mental Health: Experience the flow of biolog
     </script>
 
     <script type="module">
-        import * as THREE from 'three';
+        import * as THREE from 'three' ;
 
         // --- Configuration ---
         const CONFIG = {
