@@ -271,7 +271,7 @@ $hero_cta2_link = '#mission';
 
                 <?php
                 $timeline = [
-                    ['year' => '2009', 'title' => 'Founded with a Vision', 'desc' => 'Dr. Rosana Chen opened Tranquil Minds with a commitment to individualized, evidence-based psychiatric care in the heart of Monticello.', 'side' => 'left'],
+                    ['year' => '2009', 'title' => 'Founded with a Vision', 'desc' => 'Roxanne DoBrava opened Tranquil Minds with a commitment to individualized, evidence-based psychiatric care in the heart of Monticello.', 'side' => 'left'],
                     ['year' => '2015', 'title' => 'Pioneering TMS Therapy', 'desc' => 'We became one of the first clinics in the region to offer Neurostar® TMS therapy, giving hope to patients who had exhausted other options.', 'side' => 'right'],
                     ['year' => '2020', 'title' => 'Expanding Our Reach', 'desc' => 'Launched telehealth services and expanded our team, ensuring access to care for patients across Minnesota during unprecedented times.', 'side' => 'left'],
                     ['year' => '2023', 'title' => 'Ketamine & Spravato', 'desc' => 'Introduced cutting-edge esketamine (Spravato) and IV ketamine protocols for treatment-resistant depression, anxiety, and PTSD.', 'side' => 'right'],
@@ -324,8 +324,8 @@ $hero_cta2_link = '#mission';
                     <!-- Photo -->
                     <div class="lg:w-2/5 relative overflow-hidden min-h-[400px]">
                         <img
-                            src="assets/rosana.png"
-                            alt="Dr. Rosana Chen, Founder & Lead Psychiatrist"
+                            src="assets/home/rox-image.png"
+                            alt="Roxanne DoBrava, Founder & Psychiatric Nurse Practitioner"
                             class="absolute inset-0 w-full h-full object-cover object-top"
                         />
                         <!-- Overlay gradient -->
@@ -344,18 +344,18 @@ $hero_cta2_link = '#mission';
                             <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
                             Accepting New Patients
                         </div>
-                        <h3 class="text-3xl md:text-4xl font-bold text-primary mb-1" style="font-family: 'Bauhaus Soft', cursive;">Dr. Rosana Chen</h3>
-                        <p class="text-accent font-semibold text-lg mb-6">Founder & Lead Psychiatrist, MD, FAPA</p>
+                        <h3 class="text-3xl md:text-4xl font-bold text-primary mb-1" style="font-family: 'Bauhaus Soft', cursive;">Roxanne DoBrava</h3>
+                        <p class="text-accent font-semibold text-lg mb-6">Founder & Psychiatric Nurse Practitioner · APRN-CNP, PMHNP-BC</p>
                         <p class="text-gray-600 leading-relaxed mb-6">
-                            Dr. Chen is a board-certified psychiatrist with over 15 years of experience specializing in treatment-resistant depression, TMS therapy, and precision psychopharmacology. Her patient-first philosophy has transformed the lives of thousands across Minnesota.
+                            Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. Her clinical practice centers on medication management, TMS therapy, and psychotherapy for patients across the Monticello, MN community.
                         </p>
-                        <p class="text-gray-600 leading-relaxed mb-8">
-                            A graduate of the University of Minnesota School of Medicine, she completed her residency at Mayo Clinic and holds a Fellowship in Transcranial Magnetic Stimulation (TMS) from Harvard Medical School.
+                        <p class="text-gray-600 leading-relaxed mb-8 italic">
+                            &ldquo;I founded Tranquil Minds Mental Health with a simple belief: that every patient deserves to feel truly heard. Combining clinical expertise with deep compassion, we&rsquo;ve created a space where healing is not just a medical procedure, but a human experience.&rdquo;
                         </p>
                         <!-- Credentials -->
                         <div class="flex flex-wrap gap-3">
                             <?php
-                            $credentials = ['Board-Certified Psychiatrist', 'TMS Fellowship — Harvard', 'FAPA Member', 'APA Member'];
+                            $credentials = ['APRN-CNP', 'PMHNP-BC', 'Medication Management', 'TMS Therapy', 'Psychotherapy'];
                             foreach ($credentials as $cred): ?>
                             <span class="px-3 py-1.5 bg-primary/5 text-primary text-xs font-semibold rounded-full border border-primary/10"><?php echo $cred; ?></span>
                             <?php endforeach; ?>
@@ -365,12 +365,11 @@ $hero_cta2_link = '#mission';
             </div>
 
             <!-- Other team members -->
-            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto fade-in-section">
+            <div class="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto fade-in-section">
                 <?php
                 $team = [
-                    ['name' => 'Sarah Mitchell', 'role' => 'Licensed Clinical Social Worker', 'initials' => 'SM', 'color' => 'from-violet-400 to-purple-600', 'specialties' => ['Trauma-Focused CBT', 'Grief Counseling', 'EMDR']],
-                    ['name' => 'James Harlow', 'role' => 'Psychiatric Mental Health NP', 'initials' => 'JH', 'color' => 'from-indigo-400 to-blue-600', 'specialties' => ['Medication Management', 'Anxiety Disorders', 'ADHD']],
-                    ['name' => 'Priya Nair', 'role' => 'TMS Coordinator & RN', 'initials' => 'PN', 'color' => 'from-fuchsia-400 to-pink-600', 'specialties' => ['Neurostar® TMS', 'Patient Education', 'Ketamine Protocol']],
+                    ['name' => 'Tiana DoBrava', 'role' => 'TMS Technician & Office Personnel', 'initials' => 'TD', 'color' => 'from-violet-400 to-purple-600', 'specialties' => ['Neurostar® TMS', 'Office Administration']],
+                    ['name' => 'David DoBrava', 'role' => 'TMS Technician (as needed)', 'initials' => 'DD', 'color' => 'from-indigo-400 to-blue-600', 'specialties' => ['Neurostar® TMS']],
                 ];
                 foreach ($team as $member): ?>
                 <div class="bg-white rounded-[1.5rem] p-6 shadow-sm border border-primary/5 hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col">
@@ -541,14 +540,14 @@ $hero_cta2_link = '#mission';
                         'highlight' => true,
                     ],
                     [
-                        'quote' => 'Dr. Chen truly listens. She takes the time to understand you as a whole person, not just your symptoms. The entire staff is warm and professional.',
+                        'quote' => 'Roxanne truly listens. She takes the time to understand you as a whole person, not just your symptoms. The entire staff is warm and professional.',
                         'name' => 'Marcus T.',
                         'detail' => 'Psychiatric Care Patient',
                         'stars' => 5,
                         'highlight' => false,
                     ],
                     [
-                        'quote' => 'The Spravato treatment combined with Dr. Chen\'s guidance was transformative. I went from barely functioning to thriving at work and with my family.',
+                        'quote' => 'The Spravato treatment combined with Roxanne\'s guidance was transformative. I went from barely functioning to thriving at work and with my family.',
                         'name' => 'Rachel K.',
                         'detail' => 'Spravato Patient, 18 months',
                         'stars' => 5,
@@ -594,13 +593,13 @@ $hero_cta2_link = '#mission';
                 <div class="w-px h-4 bg-gray-200 hidden sm:block"></div>
                 <div class="flex items-center gap-2 text-gray-400 text-sm">
                     <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                    <span class="font-semibold text-primary">4.9 / 5</span>
+                    <span class="font-semibold text-primary">4.2 / 5</span>
                     <span>Average Rating</span>
                 </div>
                 <div class="w-px h-4 bg-gray-200 hidden sm:block"></div>
                 <div class="flex items-center gap-2 text-gray-400 text-sm">
                     <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                    <span>200+ Reviews</span>
+                    <span>6 Google Reviews</span>
                 </div>
             </div>
         </div>

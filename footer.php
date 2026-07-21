@@ -234,8 +234,19 @@
                         <div class="space-y-2">
                             <label for="form-condition" class="text-sm font-bold text-primary block tracking-wide">Condition We Are
                                 Treating</label>
-                            <input type="text" id="form-condition" name="condition" placeholder="Condition We Are Treating"
-                                class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent outline-none transition-all placeholder-gray-300 text-primary">
+                            <select id="form-condition" name="condition"
+                                class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent outline-none transition-all text-primary appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20stroke%3D%22%23502882%22%3E%3Cpath%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M19%209l-7%207-7-7%22/%3E%3C/svg%3E')] bg-[length:1.25rem] bg-[right_1rem_center] bg-no-repeat pr-12 cursor-pointer">
+                                <option value="" selected>Select a condition</option>
+                                <option value="Depression">Depression</option>
+                                <option value="Anxiety">Anxiety</option>
+                                <option value="ADHD / ADD">ADHD / ADD</option>
+                                <option value="PTSD">PTSD</option>
+                                <option value="OCD">OCD</option>
+                                <option value="Bipolar Disorder">Bipolar Disorder</option>
+                                <option value="Sleep Disorders">Sleep Disorders</option>
+                                <option value="Chronic Pain">Chronic Pain</option>
+                                <option value="Other">Other / Not sure yet</option>
+                            </select>
                         </div>
 
                         <!-- Comments -->

@@ -116,7 +116,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                             </svg>
                         </div>
                         <div>
-                            <p class="text-white font-bold text-xs uppercase tracking-wider">5.0 Google Rating</p>
+                            <p class="text-white font-bold text-xs uppercase tracking-wider">4.2 Google Rating</p>
                             <p class="text-white/60 text-[10px] uppercase tracking-wider font-semibold">Clinic Reviews</p>
                         </div>
                     </div>
@@ -567,32 +567,8 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     </div>
                 </a>
 
-                <!-- Suicidal Ideation -->
-                <a href="#contact" data-condition="Suicidal Ideation" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 300ms;">
-                    <div>
-                        <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
-                            <img src="assets/home/suicidal-ideation.png" alt="Suicidal Ideation" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                        </div>
-                        <div class="px-2 pb-2">
-                            <h3 class="text-base md:text-xl font-bold text-primary mb-1 md:mb-2 group-hover:text-accent transition-colors">
-                                Suicidal Ideation
-                            </h3>
-                            <p class="text-xs md:text-sm text-gray-500 leading-relaxed">Rapid reduction of acute risks.</p>
-                        </div>
-                    </div>
-                    <!-- CTA -->
-                    <div class="px-2 pt-4 pb-2 border-t border-primary/5 flex items-center justify-between mt-4">
-                        <span class="text-xs md:text-sm font-bold text-accent group-hover:text-primary transition-all duration-300 flex items-center gap-1.5 group-hover:translate-x-1">
-                            Know More
-                            <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                            </svg>
-                        </span>
-                    </div>
-                </a>
-
                 <!-- Sleep Disorders -->
-                <a href="#contact" data-condition="Sleep Disorders" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 350ms;">
+                <a href="#contact" data-condition="Sleep Disorders" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 300ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/sleep-disorders.png" alt="Sleep Disorders" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -616,7 +592,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </a>
 
                 <!-- Chronic Pain -->
-                <a href="#contact" data-condition="Chronic Pain" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 400ms;">
+                <a href="#contact" data-condition="Chronic Pain" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 350ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/chronic-pain.png" alt="Chronic Pain" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -711,9 +687,9 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <div
                         class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5 bg-white/10 border border-white/20 group-hover:border-accent/50 transition-colors">
                         <!-- Image Placeholder -->
-                        <img src="assets/neurostar-awakening.png"
+                        <img src="assets\neuro-center.webp"
                             alt="Neuroplasticity Visual"
-                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 scale-105 group-hover:scale-110 transition-all duration-700">
+                            class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 scale-100 group-hover:scale-110 transition-all duration-700">
                         <div
                             class="absolute bottom-4 right-4 w-8 h-8 rounded-full border border-white/30 flex items-center justify-center font-bold text-sm bg-black/40 backdrop-blur-md text-white">
                             2</div>
@@ -870,16 +846,24 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </h2>
                 <!-- Global rating display -->
                 <div class="flex items-center justify-center gap-2 mb-2">
-                    <span class="text-lg font-bold text-primary">5.0</span>
+                    <span class="text-lg font-bold text-primary">4.2</span>
                     <div class="flex text-amber-500">
-                        <!-- 5 filled stars -->
+                        <!-- 4 filled stars + 1 partially filled (20%) for a 4.2 average -->
                         <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
                         <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
                         <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
                         <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5" viewBox="0 0 20 20">
+                            <defs>
+                                <linearGradient id="starPartial42">
+                                    <stop offset="20%" stop-color="currentColor"/>
+                                    <stop offset="20%" stop-color="#D1D5DB"/>
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#starPartial42)" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
                     </div>
-                    <span class="text-sm text-gray-500 font-medium">(48 reviews)</span>
+                    <span class="text-sm text-gray-500 font-medium">(6 reviews)</span>
                 </div>
                 <p class="text-gray-500 text-sm md:text-base leading-relaxed">
                     We are dedicated to helping our patients reclaim their wellness. Read the verified experiences of individuals who have undergone treatment at our clinic.
