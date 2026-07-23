@@ -310,7 +310,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                         <!-- Floating Badge -->
                         <div class="absolute bottom-6 left-6 bg-primary/95 backdrop-blur-md text-white py-3 px-6 rounded-2xl shadow-xl border border-white/10 flex items-center gap-3">
                             <span class="w-2.5 h-2.5 rounded-full bg-accent animate-pulse"></span>
-                            <span class="text-xs font-bold uppercase tracking-wider">Accepting Patients</span>
+                            <span  class="text-xs font-bold uppercase tracking-wider">Accepting Patients</span>
                         </div>
                     </div>
                 </div>
