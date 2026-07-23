@@ -2,7 +2,7 @@
 $page_title = "About Us | Tranquil Minds Mental Health";
 $page_description = "Learn about Tranquil Minds Mental Health — our mission, our compassionate team, and our commitment to advanced, science-backed mental wellness care in Monticello, MN.";
 $hero_title = 'Healing Minds,<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Restoring Lives.</span>';
-$hero_subtitle = 'At Tranquil Minds, we unite advanced neuroscience with genuine compassion — so every patient walks away not just treated, but truly transformed.';
+$hero_subtitle = 'At Tranquil Minds, we unite cutting-edge neuroscience with genuine compassion — so every patient walks away not just treated, but truly transformed.';
 $hero_badge = 'Our Story & Team';
 $hero_cta1_text = 'Meet Our Providers';
 $hero_cta1_link = '#team';
@@ -201,7 +201,7 @@ $hero_cta2_link = '#mission';
                     </div>
 
                     <!-- Floating equipment card -->
-                    <div class="absolute -bottom-8 -right-4 md:-right-8 w-40 md:w-52 bg-white rounded-[1.5rem] shadow-2xl overflow-hidden border border-primary/10 rotate-3 hover:rotate-0 transition-transform duration-500">
+                    <div class="absolute -bottom-8 -right-4 md:-right-8 w-40 md:w-52 bg-white rounded-[1.5rem] shadow-2xl overflow-hidden border border-primary/10 rotate-3">
                         <img src="assets/neurostar/neurostar-equipment.webp" alt="Neurostar® TMS Equipment" class="w-full h-auto block" />
                         <div class="px-4 py-3 bg-white">
                             <div class="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Equipment</div>
@@ -210,7 +210,7 @@ $hero_cta2_link = '#mission';
                     </div>
 
                     <!-- Certification badge -->
-                    <div class="absolute -top-4 -left-4 md:-left-8 bg-accent rounded-2xl px-4 py-3 shadow-xl rotate-[-3deg] hover:rotate-0 transition-transform duration-500">
+                    <div class="absolute -top-4 -left-4 md:-left-8 bg-accent rounded-2xl px-4 py-3 shadow-xl rotate-[-3deg]">
                         <div class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                             <div>
@@ -240,7 +240,7 @@ $hero_cta2_link = '#mission';
                     foreach ($steps as $i => $step): ?>
                     <div class="relative bg-white/[0.04] border border-white/10 rounded-[1.5rem] p-6 hover:bg-white/[0.07] hover:border-accent/30 transition-all duration-300 group">
                         <!-- Step number watermark -->
-                        <div class="absolute top-4 right-5 text-5xl font-bold text-white/[0.06] group-hover:text-white/10 transition-colors select-none" style="font-family: 'Bauhaus Soft', cursive;"><?php echo $step['num']; ?></div>
+                        <div class="absolute top-4 right-5 text-5xl font-bold text-white/25 group-hover:text-white/40 transition-colors select-none" style="font-family: 'Bauhaus Soft', cursive;"><?php echo $step['num']; ?></div>
                         <!-- Icon -->
                         <div class="w-11 h-11 rounded-xl bg-accent/10 flex items-center justify-center text-accent mb-5 group-hover:bg-accent group-hover:text-white transition-all duration-300 relative z-10">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -442,7 +442,7 @@ $hero_cta2_link = '#mission';
                 foreach ($values as $v): ?>
                 <div class="relative bg-white/[0.04] border border-white/10 rounded-[1.5rem] p-8 hover:bg-white/[0.08] hover:border-white/20 transition-all duration-300 group overflow-hidden">
                     <!-- Number watermark -->
-                    <div class="absolute top-4 right-6 text-6xl font-bold text-white/5 group-hover:text-white/10 transition-colors" style="font-family: 'Bauhaus Soft', cursive;"><?php echo $v['number']; ?></div>
+                    <div class="absolute top-4 right-6 text-6xl font-bold text-white/25 group-hover:text-white/40 transition-colors" style="font-family: 'Bauhaus Soft', cursive;"><?php echo $v['number']; ?></div>
                     <!-- Icon -->
                     <div class="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center text-accent mb-6 group-hover:bg-accent group-hover:text-white transition-all duration-300 relative z-10">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -557,7 +557,7 @@ $hero_cta2_link = '#mission';
                         'name' => 'Jennifer M.',
                         'detail' => 'TMS Patient, 2 years',
                         'stars' => 5,
-                        'highlight' => true,
+                        'highlight' => false,
                     ],
                     [
                         'quote' => 'Roxanne truly listens. She takes the time to understand you as a whole person, not just your symptoms. The entire staff is warm and professional.',
@@ -579,7 +579,7 @@ $hero_cta2_link = '#mission';
                     <!-- Stars -->
                     <div class="flex gap-1">
                         <?php for ($s = 0; $s < $t['stars']; $s++): ?>
-                        <svg class="w-4 h-4 <?php echo $t['highlight'] ? 'text-accent' : 'text-accent'; ?>" fill="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                         </svg>
                         <?php endfor; ?>
@@ -621,41 +621,6 @@ $hero_cta2_link = '#mission';
                     <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                     <span>6 Google Reviews</span>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== ACCREDITATIONS MARQUEE ===== -->
-    <section class="py-10 bg-[#F5F3FF] border-y border-primary/8 overflow-hidden">
-        <div class="flex items-center gap-3 mb-4 justify-center">
-            <span class="h-px w-8 bg-primary/30"></span>
-            <span class="text-primary/50 font-bold tracking-widest uppercase text-[10px]">Accreditations &amp; Affiliations</span>
-            <span class="h-px w-8 bg-primary/30"></span>
-        </div>
-        <!-- Marquee wrapper -->
-        <div class="relative w-full overflow-hidden">
-            <div class="marquee-track flex gap-12 items-center whitespace-nowrap animate-marquee">
-                <?php
-                $accreds = [
-                    ['label' => 'American Psychiatric Association', 'abbr' => 'APA Member'],
-                    ['label' => 'Neurostar® Certified Provider', 'abbr' => 'TMS Certified'],
-                    ['label' => 'Joint Commission Accredited', 'abbr' => 'JCAHO'],
-                    ['label' => 'SAMHSA Recognized Facility', 'abbr' => 'SAMHSA'],
-                    ['label' => 'Minnesota Medical Association', 'abbr' => 'MMA Member'],
-                    ['label' => 'Harvard TMS Fellowship Program', 'abbr' => 'Harvard Trained'],
-                    ['label' => 'Mayo Clinic Residency Alumni', 'abbr' => 'Mayo Alumni'],
-                    ['label' => 'NAMI Partner Organization', 'abbr' => 'NAMI Partner'],
-                ];
-                // Duplicate for seamless scroll
-                $all = array_merge($accreds, $accreds);
-                foreach ($all as $a): ?>
-                <div class="flex-shrink-0 flex items-center gap-3 px-6 py-3 bg-white rounded-full border border-primary/10 shadow-sm">
-                    <div class="w-6 h-6 rounded-full bg-accent/15 flex items-center justify-center flex-shrink-0">
-                        <svg class="w-3 h-3 text-accent" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                    </div>
-                    <span class="text-sm font-semibold text-primary"><?php echo $a['label']; ?></span>
-                </div>
-                <?php endforeach; ?>
             </div>
         </div>
     </section>

@@ -347,13 +347,13 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                         <div class="grid grid-cols-2 gap-4 mb-8">
                             <div class="bg-white/80 p-4 rounded-2xl border border-white shadow-sm">
                                 <div class="text-3xl font-bold text-primary mb-1"
-                                    style="font-family: 'Bauhaus Soft', cursive;">80%</div>
+                                    style="font-family: 'Bauhaus Soft', cursive;">83%</div>
                                 <div class="text-xs text-gray-600 uppercase tracking-wide font-semibold">Response Rate
                                 </div>
                             </div>
                             <div class="bg-white/80 p-4 rounded-2xl border border-white shadow-sm">
                                 <div class="text-3xl font-bold text-primary mb-1"
-                                    style="font-family: 'Bauhaus Soft', cursive;">50%</div>
+                                    style="font-family: 'Bauhaus Soft', cursive;">62%</div>
                                 <div class="text-xs text-gray-600 uppercase tracking-wide font-semibold">Full Remission
                                 </div>
                             </div>
