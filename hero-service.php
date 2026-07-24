@@ -13,7 +13,7 @@ $hero_cta2_link = $hero_cta2_link ?? '#tms';
 ?>
     <!-- Hero Section (Epic & Innovative Redesign - Preserved Three.js Variant) -->
     <header
-        class="relative h-[65vh] min-h-[500px] flex items-center overflow-hidden mx-2 md:mx-6 mb-6 rounded-b-[3rem] mt-0"
+        class="relative min-h-[80vh] md:min-h-[520px] flex items-center overflow-hidden mx-2 md:mx-6 mb-6 rounded-b-[2rem] md:rounded-b-[3rem] mt-0 pt-28 pb-14 md:pt-36 md:pb-20"
         id="home">
         <!-- Three.js Canvas Container -->
         <div id="hero-canvas" class="absolute inset-0 z-0 scale-100"></div>
@@ -24,7 +24,7 @@ $hero_cta2_link = $hero_cta2_link ?? '#tms';
         </div>
 
         <!-- Hero Content -->
-        <div class="container mx-auto px-6 relative z-10 mt-16">
+        <div class="container mx-auto px-6 relative z-10">
             <div class="max-w-3xl fade-in-section">
                 <!-- Badge -->
                 <?php if (!empty($hero_badge)): ?>

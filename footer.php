@@ -452,12 +452,12 @@
                                     </svg>
                                     <span>855-239-8566 <span class="text-white/40 text-xs">(Fax)</span></span>
                                 </div>
-                                <a href="mailto:referrals@tranquilmindsmentalhealth.com"
+                                <a href="mailto:roxannedpmhnp@gmail.com"
                                     class="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
                                     <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                                     </svg>
-                                    <span class="break-all">referrals@tranquilmindsmentalhealth.com</span>
+                                    <span class="break-all">roxannedpmhnp@gmail.com</span>
                                 </a>
                             </div>
                         </div>

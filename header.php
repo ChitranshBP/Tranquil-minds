@@ -656,7 +656,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                             Disorders</span>
                                     </div>
                                     <div class="space-y-4">
-                                        <a href="#" class="block group/item">
+                                        <a href="depression.php" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
                                                 Depression</div>
@@ -900,7 +900,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                 <div class="text-white/60 text-sm mb-4 flex flex-col gap-1.5">
                     <a href="tel:+16124298280" class="hover:text-accent transition-colors">612-429-8280</a>
                     <span class="text-xs text-white/40">855-239-8566 (Fax)</span>
-                    <a href="mailto:referrals@tranquilmindsmentalhealth.com" class="text-xs text-white/40 hover:text-accent transition-colors break-all">referrals@tranquilmindsmentalhealth.com</a>
+                    <a href="mailto:roxannedpmhnp@gmail.com" class="text-xs text-white/40 hover:text-accent transition-colors break-all">roxannedpmhnp@gmail.com</a>
                 </div>
                 <div class="flex gap-4">
                     <a href="#"

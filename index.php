@@ -424,7 +424,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
             <div class="flex flex-wrap gap-6 justify-center max-w-6xl mx-auto">
 
                 <!-- Depression -->
-                <a href="#contact" data-condition="Depression" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between">
+                <a href="depression.php" class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/depression.png" alt="Depression" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
