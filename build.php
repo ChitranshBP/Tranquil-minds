@@ -8,6 +8,7 @@
 $pages = [
     'index.php' => 'index.html',
     'about.php' => 'about.html',
+    'depression.php' => 'depression.html',
     'contact.php' => 'contact.html',
     'radiotherapy.php' => 'radiotherapy.html',
     'cancer-types.php' => 'cancer-types.html',
