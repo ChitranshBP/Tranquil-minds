@@ -201,7 +201,7 @@ $hero_cta2_link = '#mission';
                     </div>
 
                     <!-- Floating equipment card -->
-                    <div class="absolute -bottom-8 -right-4 md:-right-8 w-40 md:w-52 bg-white rounded-[1.5rem] shadow-2xl overflow-hidden border border-primary/10 rotate-3">
+                    <div class="absolute -bottom-8 -right-4 md:-right-8 w-40 md:w-52 bg-white rounded-[1.5rem] shadow-2xl overflow-hidden border border-primary/10">
                         <img src="assets/neurostar/neurostar-equipment.webp" alt="Neurostar® TMS Equipment" class="w-full h-auto block" />
                         <div class="px-4 py-3 bg-white">
                             <div class="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Equipment</div>
@@ -210,7 +210,7 @@ $hero_cta2_link = '#mission';
                     </div>
 
                     <!-- Certification badge -->
-                    <div class="absolute -top-4 -left-4 md:-left-8 bg-accent rounded-2xl px-4 py-3 shadow-xl rotate-[-3deg]">
+                    <div class="absolute -top-4 -left-4 md:-left-8 bg-accent rounded-2xl px-4 py-3 shadow-xl">
                         <div class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                             <div>
