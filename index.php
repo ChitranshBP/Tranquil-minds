@@ -448,7 +448,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </a>
 
                 <!-- Anxiety -->
-                <a href="#contact" data-condition="Anxiety" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 50ms;">
+                <a href="anxiety.php" class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 50ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/anxiety.png" alt="Anxiety" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -472,7 +472,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </a>
 
                 <!-- ADHD / ADD -->
-                <a href="#contact" data-condition="ADHD / ADD" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 100ms;">
+                <a href="adhd.php" class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 100ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/adhd.png" alt="ADHD / ADD" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -496,7 +496,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </a>
 
                 <!-- PTSD -->
-                <a href="#contact" data-condition="PTSD" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 150ms;">
+                <a href="ptsd.php" class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 150ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/ptsd.png" alt="PTSD" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -520,7 +520,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </a>
 
                 <!-- OCD -->
-                <a href="#contact" data-condition="OCD" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 200ms;">
+                <a href="ocd.php" class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 200ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/ocd.png" alt="OCD" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -544,7 +544,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </a>
 
                 <!-- Bipolar Disorder -->
-                <a href="#contact" data-condition="Bipolar Disorder" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 250ms;">
+                <a href="bipolar.php" class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 250ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/bipolar.png" alt="Bipolar Disorder" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -568,7 +568,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </a>
 
                 <!-- Sleep Disorders -->
-                <a href="#contact" data-condition="Sleep Disorders" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 300ms;">
+                <a href="sleep-disorders.php" class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 300ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/sleep-disorders.png" alt="Sleep Disorders" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -592,7 +592,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                 </a>
 
                 <!-- Chronic Pain -->
-                <a href="#contact" data-condition="Chronic Pain" class="condition-card group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 350ms;">
+                <a href="chronic-pain.php" class="group border border-primary/5 fade-in-section w-[calc(50%-0.75rem)] md:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] bg-white/70 backdrop-blur-md rounded-[2rem] p-4 hover:bg-white hover:shadow-2xl hover:-translate-y-2 hover:border-accent/30 transition-all duration-500 flex flex-col justify-between" style="transition-delay: 350ms;">
                     <div>
                         <div class="h-40 md:h-48 w-full rounded-2xl overflow-hidden mb-4 relative">
                             <img src="assets/home/chronic-pain.png" alt="Chronic Pain" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">

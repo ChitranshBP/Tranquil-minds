@@ -664,7 +664,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                                 class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
                                                 TRD & Major Depressive Disorder</div>
                                         </a>
-                                        <a href="#" class="block group/item">
+                                        <a href="bipolar.php" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
                                                 Bipolar Disorder</div>
@@ -672,13 +672,13 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                                 class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
                                                 Mood stabilization & support</div>
                                         </a>
-                                        <a href="#" class="block group/item">
+                                        <a href="sleep-disorders.php" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                Suicidal Ideation</div>
+                                                Sleep Disorders</div>
                                             <div
                                                 class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Check availability for crisis care</div>
+                                                Restoring restful sleep</div>
                                         </a>
                                     </div>
                                 </div>
@@ -698,7 +698,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                             & Trauma</span>
                                     </div>
                                     <div class="space-y-4">
-                                        <a href="#" class="block group/item">
+                                        <a href="anxiety.php" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
                                                 Anxiety</div>
@@ -706,7 +706,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                                 class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
                                                 Generalized & Social Anxiety</div>
                                         </a>
-                                        <a href="#" class="block group/item">
+                                        <a href="ptsd.php" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
                                                 PTSD</div>
@@ -714,7 +714,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                                 class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
                                                 Post-Traumatic Stress recovery</div>
                                         </a>
-                                        <a href="#" class="block group/item">
+                                        <a href="ptsd.php" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
                                                 Trauma</div>
@@ -740,7 +740,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                             & Neuro</span>
                                     </div>
                                     <div class="space-y-4">
-                                        <a href="#" class="block group/item">
+                                        <a href="adhd.php" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
                                                 ADHD / ADD</div>
@@ -748,7 +748,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                                 class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
                                                 Focus & cognitive enhancement</div>
                                         </a>
-                                        <a href="#" class="block group/item">
+                                        <a href="ocd.php" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
                                                 OCD</div>
@@ -756,13 +756,13 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                                 class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
                                                 Obsessive-Compulsive Disorder</div>
                                         </a>
-                                        <a href="#" class="block group/item">
+                                        <a href="chronic-pain.php" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                Addiction</div>
+                                                Chronic Pain</div>
                                             <div
                                                 class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Recovery support</div>
+                                                Mind-body support</div>
                                         </a>
                                     </div>
                                 </div>
