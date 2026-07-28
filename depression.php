@@ -1,6 +1,6 @@
 <?php
 $page_title = "Depression Treatment | Tranquil Minds Mental Health";
-$page_description = "Compassionate, evidence-based depression treatment in Monticello, MN. From treatment-resistant depression to Neurostar® TMS, Spravato®, medication management, and therapy — Tranquil Minds helps you feel like yourself again.";
+$page_description = "Compassionate, evidence-based depression treatment in Monticello, MN. From treatment-resistant depression to Neurostar® TMS, medication management, and therapy — Tranquil Minds helps you feel like yourself again.";
 $hero_title = 'Depression Is Treatable.<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">And You Don\'t Have to Face It Alone.</span>';
 $hero_subtitle = 'Depression is a real, biological condition — not a weakness. At Tranquil Minds, we treat it at the source with advanced, science-backed care tailored to you.';
 $hero_badge = 'Conditions We Treat · Depression';
@@ -256,36 +256,30 @@ $hero_cta2_link = '#treatments';
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-6">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <?php
+                // Our three core services — shown on every condition page and interlinked.
                 $treatments = [
                     [
-                        't' => 'Neurostar® TMS Therapy',
+                        't' => 'Neurostar® TMS',
                         'd' => 'A non-invasive, drug-free therapy that uses gentle magnetic pulses to reactivate the brain circuits involved in mood. FDA-cleared and especially effective for treatment-resistant depression.',
                         'tag' => 'Drug-Free · FDA-Cleared',
                         'icon' => 'M13 10V3L4 14h7v7l9-11h-7z',
-                        'link' => '#tms',
-                    ],
-                    [
-                        't' => 'Spravato® &amp; Ketamine',
-                        'd' => 'Rapid-acting options for those who haven\'t found relief elsewhere. Administered in a safe, monitored, and calming clinical setting.',
-                        'tag' => 'Rapid-Acting',
-                        'icon' => 'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z',
-                        'link' => '#contact',
+                        'link' => 'index.php#tms',
                     ],
                     [
                         't' => 'Medication Management',
-                        'd' => 'Thoughtful, precise psychiatric care. We find the right medication and dose for you — and adjust carefully over time, never by guesswork.',
+                        'd' => 'Precise, closely monitored prescribing tailored to your biology, history, and goals — thoughtful care, never guesswork.',
                         'tag' => 'Personalized Psychiatry',
                         'icon' => 'M19 7a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h14zm-9 4h4',
-                        'link' => '#contact',
+                        'link' => 'medication-management.php',
                     ],
                     [
-                        't' => 'Psychotherapy &amp; Support',
-                        'd' => 'Compassionate, evidence-based talk therapy that helps you understand patterns, build coping skills, and heal the whole person — not just the diagnosis.',
+                        't' => 'Psychotherapy',
+                        'd' => 'Compassionate, evidence-based talk therapy in a safe, judgment-free space that helps you heal the whole person — not just the diagnosis.',
                         'tag' => 'Whole-Person Care',
                         'icon' => 'M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z',
-                        'link' => '#contact',
+                        'link' => 'psychotherapy.php',
                     ],
                 ];
                 foreach ($treatments as $tr): ?>
@@ -374,7 +368,7 @@ $hero_cta2_link = '#treatments';
                     <?php
                     $faqs = [
                         ['q' => 'How do I know if it\'s depression or just a rough patch?', 'a' => 'If symptoms like low mood, fatigue, or loss of interest have lasted most days for two weeks or more — and they\'re affecting your work, relationships, or daily life — it\'s worth talking to a professional. A free consultation is a low-pressure first step to find out.'],
-                        ['q' => 'What if antidepressants haven\'t worked for me before?', 'a' => 'You\'re not out of options. Treatment-resistant depression is one of our areas of focus. Therapies like Neurostar® TMS and Spravato® work differently than traditional medication and can help many people who haven\'t found relief elsewhere.'],
+                        ['q' => 'What if antidepressants haven\'t worked for me before?', 'a' => 'You\'re not out of options. Treatment-resistant depression is one of our areas of focus. Therapies like Neurostar® TMS work differently than traditional medication, and a fresh look at your plan can help many people who haven\'t found relief elsewhere.'],
                         ['q' => 'Is TMS therapy painful or does it require sedation?', 'a' => 'No. Neurostar® TMS is non-invasive and requires no sedation. You stay fully awake and alert, sessions last about 20–40 minutes, and most people return to their normal day immediately afterward.'],
                         ['q' => 'Do you accept insurance?', 'a' => 'We accept most major insurance plans, and many depression treatments — including TMS — are covered. During your consultation we\'ll help you verify your specific benefits.'],
                         ['q' => 'How soon will I start to feel better?', 'a' => 'Every person and treatment is different. Some options work gradually over several weeks, while others act more rapidly. We\'ll set clear expectations for your specific plan and track your progress closely.'],

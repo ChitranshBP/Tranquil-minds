@@ -1,4 +1,5 @@
-    <!-- FAQ (Serene & Professional Redesign) -->
+    <?php if (!empty($show_footer_faq)): ?>
+    <!-- FAQ (Serene & Professional Redesign) — homepage only -->
     <section id="faq" class="py-10 relative bg-[#F5F7F4] overflow-hidden">
         <!-- Decor: Theme Orange Gradients -->
         <div
@@ -133,6 +134,7 @@
             </div>
         </div>
     </section>
+    <?php endif; ?>
 
     <!-- Contact (Your Path Forward) -->
     <section id="contact" class="py-10 relative bg-[#F9FAF8] overflow-hidden">
@@ -245,6 +247,10 @@
                                 <option value="Bipolar Disorder">Bipolar Disorder</option>
                                 <option value="Sleep Disorders">Sleep Disorders</option>
                                 <option value="Chronic Pain">Chronic Pain</option>
+                                <option value="Treatment-Resistant Depression">Treatment-Resistant Depression</option>
+                                <option value="Postpartum Depression">Postpartum Depression</option>
+                                <option value="Adolescent Mental Health">Adolescent Mental Health</option>
+                                <option value="Smoking Cessation">Smoking Cessation</option>
                                 <option value="Other">Other / Not sure yet</option>
                             </select>
                         </div>
@@ -399,8 +405,8 @@
                                  <a href="#"
                                      class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Neurostar®
                                      TMS</a>
-                                <a href="#"
-                                    class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Ketamine</a>
+                                <a href="medication-management.php"
+                                    class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Medication Management</a>
                                 <a href="#"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Conditions</a>
                                 <a href="#"

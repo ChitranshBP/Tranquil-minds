@@ -536,7 +536,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                 <h4 class="px-4 text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Clinical
                                     Services</h4>
 
-                                <a href="#"
+                                <a href="index.php#tms"
                                     class="group/item flex items-center justify-between p-4 rounded-3xl bg-primary/5 hover:bg-primary text-primary hover:text-white transition-all duration-300">
                                     <span class="font-semibold text-base">Neurostar® TMS</span>
                                     <svg class="w-5 h-5 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all"
@@ -545,18 +545,18 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                             d="M9 5l7 7-7 7"></path>
                                     </svg>
                                 </a>
-                                <a href="#"
+                                <a href="medication-management.php"
                                     class="group/item flex items-center justify-between p-4 rounded-3xl bg-transparent hover:bg-primary text-gray-600 hover:text-white transition-all duration-300">
-                                    <span class="font-semibold text-base">Ketamine + Spravato</span>
+                                    <span class="font-semibold text-base">Medication Management</span>
                                     <svg class="w-5 h-5 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all"
                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 5l7 7-7 7"></path>
                                     </svg>
                                 </a>
-                                <a href="#"
+                                <a href="psychotherapy.php"
                                     class="group/item flex items-center justify-between p-4 rounded-3xl bg-transparent hover:bg-primary text-gray-600 hover:text-white transition-all duration-300">
-                                    <span class="font-semibold text-base">Psychiatric Care</span>
+                                    <span class="font-semibold text-base">Psychotherapy</span>
                                     <svg class="w-5 h-5 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all"
                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -627,7 +627,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                         Evidence-based treatments tailored to your unique brain and biology.
                                     </p>
                                 </div>
-                                <a href="#" class="group/link flex items-center gap-2 text-accent font-bold text-sm">
+                                <a href="conditions.php" class="group/link flex items-center gap-2 text-accent font-bold text-sm">
                                     <span
                                         class="border-b border-accent/30 group-hover/link:border-accent transition-colors">View
                                         All Conditions</span>
@@ -805,7 +805,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                         d="M9 5l7 7-7 7"></path>
                                 </svg>
                             </a>
-                            <a href="#"
+                            <a href="faq.php"
                                 class="flex items-center justify-between p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
                                 <span class="font-bold text-primary">Global FAQ</span>
                                 <svg class="w-4 h-4 text-gray-300 group-hover/item:text-accent transition-colors"
@@ -882,10 +882,10 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                 <a href="#tms"
                     class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
                     style="transition-delay: 300ms;">Services</a>
-                <a href="#conditions"
+                <a href="conditions.php"
                     class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
                     style="transition-delay: 400ms;">Conditions</a>
-                <a href="#contact"
+                <a href="contact.php"
                     class="mobile-link text-5xl font-heading text-accent hover:text-accent-light hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
                     style="transition-delay: 500ms;">Contact</a>
             </div>

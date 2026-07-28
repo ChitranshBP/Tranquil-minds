@@ -35,7 +35,7 @@ $hero_cta2_link = '#mission';
                         Tranquil Minds Mental Health was founded on a single, unwavering belief: that every person deserves access to compassionate, evidence-based care tailored to their unique neurobiology.
                     </p>
                     <p class="text-gray-600 text-lg leading-relaxed mb-8">
-                        We combine the latest breakthroughs in neuroscience — including Neurostar® TMS, Ketamine, and precision psychiatry — with the kind of human connection that makes healing truly possible.
+                        We combine the latest breakthroughs in neuroscience — including Neurostar® TMS and precision psychiatry — with the kind of human connection that makes healing truly possible.
                     </p>
 
                     <!-- Mission pillars -->
@@ -294,7 +294,7 @@ $hero_cta2_link = '#mission';
                     ['year' => '2009', 'title' => 'Founded with a Vision', 'desc' => 'Roxanne DoBrava opened Tranquil Minds with a commitment to individualized, evidence-based psychiatric care in the heart of Monticello.', 'side' => 'left'],
                     ['year' => '2015', 'title' => 'Pioneering TMS Therapy', 'desc' => 'We became one of the first clinics in the region to offer Neurostar® TMS therapy, giving hope to patients who had exhausted other options.', 'side' => 'right'],
                     ['year' => '2020', 'title' => 'Expanding Our Reach', 'desc' => 'Launched telehealth services and expanded our team, ensuring access to care for patients across Minnesota during unprecedented times.', 'side' => 'left'],
-                    ['year' => '2023', 'title' => 'Ketamine & Spravato', 'desc' => 'Introduced cutting-edge esketamine (Spravato) and IV ketamine protocols for treatment-resistant depression, anxiety, and PTSD.', 'side' => 'right'],
+                    ['year' => '2023', 'title' => 'Expanded Whole-Person Care', 'desc' => 'Broadened our services with comprehensive medication management and ADHD testing via Creyos, supporting a wider range of conditions.', 'side' => 'right'],
                     ['year' => '2026', 'title' => 'The Future of Healing', 'desc' => 'Continuing to push the frontier of mental health care with precision psychiatry, advanced neuroimaging, and personalized treatment programs.', 'side' => 'left'],
                 ];
                 foreach ($timeline as $i => $item): ?>
@@ -567,9 +567,9 @@ $hero_cta2_link = '#mission';
                         'highlight' => false,
                     ],
                     [
-                        'quote' => 'The Spravato treatment combined with Roxanne\'s guidance was transformative. I went from barely functioning to thriving at work and with my family.',
+                        'quote' => 'Roxanne\'s careful approach to my medication management was transformative. I went from barely functioning to thriving at work and with my family.',
                         'name' => 'Rachel K.',
-                        'detail' => 'Spravato Patient, 18 months',
+                        'detail' => 'Medication Management Patient, 18 months',
                         'stars' => 5,
                         'highlight' => false,
                     ],
