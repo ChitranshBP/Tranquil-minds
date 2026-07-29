@@ -1,6 +1,10 @@
 <?php
 $cond = [
     'form_condition'   => 'PTSD',
+    'creyos'           => [
+        'text'  => 'Trauma can affect focus and memory. Creyos provides an objective measure of your cognition to help inform trauma-focused care.',
+        'strip' => 'landing/assets/creyos/Banner%201%20-%20v1.png',
+    ],
     'page_title'       => 'PTSD & Trauma Treatment | Tranquil Minds Mental Health',
     'page_description' => 'Compassionate, trauma-informed PTSD treatment in Monticello, MN. Evidence-based psychotherapy and medication management to help you process trauma safely and reclaim a sense of safety.',
     'hero_title'       => 'Healing After Trauma.<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">At Your Own Pace.</span>',

@@ -536,7 +536,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                 <h4 class="px-4 text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Clinical
                                     Services</h4>
 
-                                <a href="index.php#tms"
+                                <a href="neurostar-tms.php"
                                     class="group/item flex items-center justify-between p-4 rounded-3xl bg-primary/5 hover:bg-primary text-primary hover:text-white transition-all duration-300">
                                     <span class="font-semibold text-base">Neurostar® TMS</span>
                                     <svg class="w-5 h-5 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all"
@@ -814,9 +814,9 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                         d="M9 5l7 7-7 7"></path>
                                 </svg>
                             </a>
-                            <a href="#"
+                            <a href="creyos.php"
                                 class="flex items-center justify-between p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
-                                <span class="font-bold text-primary">Pricing</span>
+                                <span class="font-bold text-primary">Cognitive Testing</span>
                                 <svg class="w-4 h-4 text-gray-300 group-hover/item:text-accent transition-colors"
                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

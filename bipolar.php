@@ -1,6 +1,10 @@
 <?php
 $cond = [
     'form_condition'   => 'Bipolar Disorder',
+    'creyos'           => [
+        'text'  => 'Creyos lets us objectively track cognition across mood states — supporting an accurate diagnosis and steady, informed care.',
+        'strip' => 'landing/assets/creyos/Banner%203%20-%20v1.png',
+    ],
     'page_title'       => 'Bipolar Disorder Treatment | Tranquil Minds Mental Health',
     'page_description' => 'Careful, consistent bipolar disorder treatment in Monticello, MN. Expert medication management, psychotherapy, and ongoing monitoring to smooth the highs and lows and build lasting stability.',
     'hero_title'       => 'Finding Balance<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">& Lasting Stability.</span>',

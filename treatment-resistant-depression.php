@@ -1,6 +1,10 @@
 <?php
 $cond = [
     'form_condition'   => 'Treatment-Resistant Depression',
+    'creyos'           => [
+        'text'  => 'When treatment is hard to get right, Creyos lets us objectively monitor your cognition over time — helping us see what’s truly working.',
+        'strip' => 'landing/assets/creyos/Banner%203%20-%20v1.png',
+    ],
     'page_title'       => 'Treatment-Resistant Depression (TRD) | Tranquil Minds Mental Health',
     'page_description' => 'Advanced treatment for treatment-resistant depression (TRD) in Monticello, MN. When antidepressants haven’t worked, Neurostar® TMS and precision medication management offer new hope.',
     'hero_title'       => 'Treatment-Resistant<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Depression.</span>',

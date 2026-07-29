@@ -1,6 +1,10 @@
 <?php
 $cond = [
     'form_condition'   => 'Anxiety',
+    'creyos'           => [
+        'text'  => 'Anxiety can scatter focus and memory. Creyos objectively measures your cognition, adding real clarity to your evaluation and care.',
+        'strip' => 'landing/assets/creyos/Banner%202%20-%20v1.png',
+    ],
     'page_title'       => 'Anxiety Treatment | Tranquil Minds Mental Health',
     'page_description' => 'Compassionate, evidence-based anxiety treatment in Monticello, MN. Therapy, medication management, and mind-body care for generalized anxiety, panic, and social anxiety — so you can feel calm and in control again.',
     'hero_title'       => 'You Can Feel Calm Again.<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">One Steady Breath at a Time.</span>',

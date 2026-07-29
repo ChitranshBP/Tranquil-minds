@@ -1,6 +1,10 @@
 <?php
 $cond = [
     'form_condition'   => 'Adolescent Mental Health',
+    'creyos'           => [
+        'text'  => 'For teens, Creyos objectively measures attention and thinking skills — bringing clarity to evaluations, including for ADHD.',
+        'strip' => 'landing/assets/creyos/Banner%204%20-%20v1.png',
+    ],
     'page_title'       => 'Adolescent Mental Health | Tranquil Minds Mental Health',
     'page_description' => 'Compassionate adolescent and teen mental-health care in Monticello, MN. Therapy, careful medication management, ADHD evaluation, and family support for young people who are struggling.',
     'hero_title'       => 'Supporting Teens<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Through It All.</span>',

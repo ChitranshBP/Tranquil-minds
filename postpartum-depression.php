@@ -1,6 +1,10 @@
 <?php
 $cond = [
     'form_condition'   => 'Postpartum Depression',
+    'creyos'           => [
+        'text'  => 'Creyos offers a gentle, objective way to measure how you’re really doing cognitively — supporting complete, compassionate postpartum care.',
+        'strip' => 'landing/assets/creyos/Banner%202%20-%20v1.png',
+    ],
     'page_title'       => 'Postpartum Depression Treatment | Tranquil Minds Mental Health',
     'page_description' => 'Compassionate postpartum depression treatment in Monticello, MN. Sensitive, judgment-free care — therapy and thoughtful medication management — for new and expecting parents.',
     'hero_title'       => 'Postpartum<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Depression.</span>',

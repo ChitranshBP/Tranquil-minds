@@ -219,7 +219,7 @@ $FORM = $cond['form_condition'];
                 <?php
                 // Our three core services — shown on every condition page and interlinked.
                 $core_services = [
-                    ['t' => 'Neurostar® TMS', 'd' => 'A non-invasive, drug-free therapy that uses gentle magnetic pulses to reactivate the brain circuits involved in mood. FDA-cleared and highly effective.', 'tag' => 'Drug-Free · FDA-Cleared', 'icon' => 'M13 10V3L4 14h7v7l9-11h-7z', 'link' => 'index.php#tms'],
+                    ['t' => 'Neurostar® TMS', 'd' => 'A non-invasive, drug-free therapy that uses gentle magnetic pulses to reactivate the brain circuits involved in mood. FDA-cleared and highly effective.', 'tag' => 'Drug-Free · FDA-Cleared', 'icon' => 'M13 10V3L4 14h7v7l9-11h-7z', 'link' => 'neurostar-tms.php'],
                     ['t' => 'Medication Management', 'd' => 'Precise, closely monitored prescribing tailored to your biology, history, and goals — thoughtful care, never guesswork.', 'tag' => 'Personalized Psychiatry', 'icon' => 'M19 7a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h14zm-9 4h4', 'link' => 'medication-management.php'],
                     ['t' => 'Psychotherapy', 'd' => 'Compassionate, evidence-based talk therapy in a safe, judgment-free space that helps you heal the whole person.', 'tag' => 'Whole-Person Care', 'icon' => 'M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z', 'link' => 'psychotherapy.php'],
                 ];
@@ -244,6 +244,49 @@ $FORM = $cond['form_condition'];
             </div>
         </div>
     </section>
+
+    <?php if (!empty($cond['creyos'])): ?>
+    <!-- ===== CREYOS TESTING ===== -->
+    <section id="creyos-testing" class="py-16 bg-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/6 rounded-full blur-[140px] translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <!-- LEFT: Text -->
+                <div class="fade-in-section">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="h-px w-12 bg-primary/40"></span>
+                        <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Objective Testing</span>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl text-primary mb-5 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">Cognitive Testing with Creyos</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-4"><?php echo $cond['creyos']['text']; ?></p>
+                    <p class="text-gray-600 text-base leading-relaxed mb-6">Creyos (formerly Cambridge Brain Sciences) is a scientifically validated platform built on 30+ years of neuroscience — giving us real data, not guesswork, to guide your care.</p>
+                    <div class="space-y-3 mb-8">
+                        <?php foreach ([
+                            'Objective, data-driven results',
+                            'Measures attention, memory &amp; reasoning',
+                            'Quick, engaging, self-administered tasks',
+                        ] as $ci): ?>
+                        <div class="flex items-start gap-3">
+                            <div class="w-6 h-6 rounded-full bg-accent/15 flex items-center justify-center text-accent flex-shrink-0 mt-0.5">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-gray-700 text-base leading-relaxed"><?php echo $ci; ?></span>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
+                    <a href="creyos.php" class="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-full font-bold hover:bg-primary/90 hover:-translate-y-0.5 hover:shadow-xl transition-all duration-300">
+                        Learn About Creyos Testing
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+                <!-- RIGHT: Image -->
+                <a href="creyos.php" class="fade-in-section block rounded-[2rem] overflow-hidden shadow-[0_30px_70px_-24px_rgba(42,22,63,0.35)] border border-primary/8 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group">
+                    <img src="<?php echo $cond['creyos']['strip']; ?>" alt="Creyos cognitive assessment platform" class="w-full h-auto block group-hover:scale-[1.02] transition-transform duration-500">
+                </a>
+            </div>
+        </div>
+    </section>
+    <?php endif; ?>
 
     <!-- ===== OUR APPROACH ===== -->
     <section id="approach" class="py-16 bg-white relative overflow-hidden">

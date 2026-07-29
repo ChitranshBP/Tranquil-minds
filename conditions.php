@@ -103,7 +103,7 @@ $hero_cta2_link   = '#treatments';
                 <?php
                 // Our three core services — interlinked.
                 $treatments = [
-                    ['t' => 'Neurostar® TMS', 'd' => 'Non-invasive, drug-free magnetic therapy — FDA-cleared for depression and OCD.', 'icon' => 'M13 10V3L4 14h7v7l9-11h-7z', 'link' => 'index.php#tms'],
+                    ['t' => 'Neurostar® TMS', 'd' => 'Non-invasive, drug-free magnetic therapy — FDA-cleared for depression and OCD.', 'icon' => 'M13 10V3L4 14h7v7l9-11h-7z', 'link' => 'neurostar-tms.php'],
                     ['t' => 'Medication Management', 'd' => 'Precise, closely monitored prescribing tailored to your biology and goals.', 'icon' => 'M19 7a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h14zm-9 4h4', 'link' => 'medication-management.php'],
                     ['t' => 'Psychotherapy', 'd' => 'Compassionate, evidence-based talk therapy that heals the whole person.', 'icon' => 'M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z', 'link' => 'psychotherapy.php'],
                 ];

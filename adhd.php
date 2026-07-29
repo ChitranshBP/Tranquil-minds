@@ -1,6 +1,10 @@
 <?php
 $cond = [
     'form_condition'   => 'ADHD / ADD',
+    'creyos'           => [
+        'text'  => 'For ADHD, we use Creyos to objectively measure attention, memory, and executive function — so your diagnosis rests on real data, not guesswork.',
+        'strip' => 'landing/assets/creyos/Banner%201%20-%20v1.png',
+    ],
     'page_title'       => 'ADHD Testing & Treatment | Tranquil Minds Mental Health',
     'page_description' => 'ADHD evaluation and treatment in Monticello, MN — including objective ADHD testing and cognitive screening through Creyos. Accurate diagnosis, medication management, and support for children, teens, and adults.',
     'hero_title'       => 'Focus, Clarity<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">& Follow-Through.</span>',
@@ -73,7 +77,7 @@ $cond = [
 
     'faqs' => [
         ['q' => 'How is ADHD diagnosed?', 'a' => 'Diagnosis combines a detailed clinical evaluation with objective testing. We use Creyos, a validated cognitive-screening platform, to measure attention, memory, and executive function — so your diagnosis is based on real data, not guesswork.'],
-        ['q' => 'What is Creyos?', 'a' => 'Creyos is a science-based digital platform for cognitive assessment. It uses short, engaging tasks to objectively measure areas like attention and executive function, helping us screen for ADHD and track cognitive health over time.'],
+        ['q' => 'What is Creyos?', 'a' => 'Creyos is a science-based digital platform for cognitive assessment. It uses short, engaging tasks to objectively measure areas like attention and executive function, helping us screen for ADHD and track cognitive health over time. <a href="creyos.php" class="text-accent font-bold underline">Learn more about Creyos testing</a>.'],
         ['q' => 'Can adults be tested for ADHD?', 'a' => 'Absolutely. ADHD often goes undiagnosed into adulthood. Our evaluation and Creyos testing are well suited for adults who suspect ADHD may explain lifelong challenges with focus and organization.'],
         ['q' => 'Do I have to take medication?', 'a' => 'No. Medication is one effective option, but not the only one. We’ll discuss every approach — including strategies and support — and build a plan around your preferences.'],
         ['q' => 'Do you accept insurance?', 'a' => 'We accept most major insurance plans. During your consultation, we’ll help you verify your specific benefits for evaluation and treatment.'],
