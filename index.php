@@ -1132,6 +1132,41 @@ $show_footer_faq = true; // Show the footer FAQ section on the homepage only
         });
     </script>
 
+    <!-- Depression Self-Assessment QR Strip -->
+    <section class="py-10 bg-gradient-to-r from-primary via-[#6A3FA3] to-primary text-white relative overflow-hidden">
+        <div class="absolute right-0 top-0 w-96 h-full bg-accent/25 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute left-0 bottom-0 w-72 h-72 bg-accent-light/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+                <!-- Text Block -->
+                <div class="text-center lg:text-left max-w-2xl">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/80 text-[11px] font-bold uppercase tracking-widest mb-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
+                        Free &amp; Confidential
+                    </div>
+                    <h2 class="text-2xl md:text-4xl font-bold leading-tight mb-2 text-white" style="font-family: 'Bauhaus Soft', cursive;">
+                        Not Sure How You're Feeling?
+                    </h2>
+                    <p class="text-white/80 text-sm md:text-base font-medium">
+                        Take our free, 2-minute PHQ-9 depression self-assessment. Scan the code or tap the button to begin — no sign-up, no pressure.
+                    </p>
+                    <a href="depression-assessment.php" class="inline-flex items-center gap-2 mt-6 px-7 py-3.5 bg-accent text-white rounded-full font-bold text-base hover:bg-accent-light hover:-translate-y-0.5 hover:shadow-[0_0_30px_rgba(140,120,190,0.5)] transition-all duration-300">
+                        Take the Assessment
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+                <!-- QR Block -->
+                <a href="depression-assessment.php" class="flex-shrink-0 flex flex-col items-center group">
+                    <div class="bg-white rounded-2xl p-4 shadow-2xl group-hover:-translate-y-1 transition-transform duration-300">
+                        <img src="assets/QR/phq-form.png" alt="QR code for the free PHQ-9 depression self-assessment" class="w-32 h-32 md:w-36 md:h-36 block" width="256" height="256">
+                    </div>
+                    <span class="text-white/70 text-xs font-semibold mt-3 uppercase tracking-widest">Scan to Start</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Insurance Section -->
     <section id="insurance-partners" class="py-16 bg-white relative overflow-hidden border-t border-primary/5">
         <!-- Background Elements -->

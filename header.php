@@ -600,6 +600,56 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                     </div>
                 </li>
 
+                <!-- TMS Therapy -->
+                <li class="group relative">
+                    <button
+                        class="px-4 py-2 rounded-full hover:bg-primary/5 hover:text-accent transition-all duration-300 flex items-center gap-1 group-hover:bg-primary/5 group-hover:text-accent relative z-50">
+                        TMS Therapy <svg class="w-3 h-3 transition-transform group-hover:rotate-180 opacity-50" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+
+                    <!-- Dropdown -->
+                    <div
+                        class="absolute right-0 top-full mt-6 w-72 bg-white/90 backdrop-blur-[40px] rounded-3xl shadow-[0_50px_100px_-20px_rgba(42,54,30,0.15)] border border-white/40 p-2 opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out origin-top-right z-40 overflow-hidden">
+                        <div class="absolute -top-10 left-0 w-full h-10 bg-transparent"></div>
+
+                        <div class="grid grid-cols-1">
+                            <a href="what-is-tms-therapy.php"
+                                class="flex items-center gap-4 p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
+                                <div class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover/item:bg-accent group-hover/item:text-white transition-colors">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                </div>
+                                <div>
+                                    <span class="block text-base font-bold text-primary">What Is TMS Therapy?</span>
+                                    <span class="text-xs text-gray-400">The science &amp; how it works</span>
+                                </div>
+                            </a>
+                            <a href="tms-adolescents.php"
+                                class="flex items-center gap-4 p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
+                                <div class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover/item:bg-accent group-hover/item:text-white transition-colors">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z M12 14l6.16-3.42a12 12 0 01.84 4.42c0 1.657-3.134 3-7 3s-7-1.343-7-3a12 12 0 01.84-4.42L12 14z"></path></svg>
+                                </div>
+                                <div>
+                                    <span class="block text-base font-bold text-primary">TMS for Adolescents</span>
+                                    <span class="text-xs text-gray-400">Ages 15+</span>
+                                </div>
+                            </a>
+                            <a href="tms-adults.php"
+                                class="flex items-center gap-4 p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
+                                <div class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover/item:bg-accent group-hover/item:text-white transition-colors">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                                </div>
+                                <div>
+                                    <span class="block text-base font-bold text-primary">TMS for Adults</span>
+                                    <span class="text-xs text-gray-400">Depression, anxiety &amp; OCD</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
                 <!-- Conditions (Ultra Wide) -->
                 <li class="group relative">
                     <button
@@ -796,9 +846,27 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                         d="M9 5l7 7-7 7"></path>
                                 </svg>
                             </a>
-                            <a href="#"
+                            <a href="testimonials.php"
+                                class="flex items-center justify-between p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
+                                <span class="font-bold text-primary">Testimonials</span>
+                                <svg class="w-4 h-4 text-gray-300 group-hover/item:text-accent transition-colors"
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <a href="blog.php"
                                 class="flex items-center justify-between p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
                                 <span class="font-bold text-primary">Our Blog</span>
+                                <svg class="w-4 h-4 text-gray-300 group-hover/item:text-accent transition-colors"
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <a href="depression-assessment.php"
+                                class="flex items-center justify-between p-4 rounded-2xl hover:bg-white/60 transition-colors group/item">
+                                <span class="font-bold text-primary">Depression Self-Test</span>
                                 <svg class="w-4 h-4 text-gray-300 group-hover/item:text-accent transition-colors"
                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -882,9 +950,12 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                 <a href="#tms"
                     class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
                     style="transition-delay: 300ms;">Services</a>
+                <a href="what-is-tms-therapy.php"
+                    class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
+                    style="transition-delay: 400ms;">TMS Therapy</a>
                 <a href="conditions.php"
                     class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
-                    style="transition-delay: 400ms;">Conditions</a>
+                    style="transition-delay: 450ms;">Conditions</a>
                 <a href="contact.php"
                     class="mobile-link text-5xl font-heading text-accent hover:text-accent-light hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
                     style="transition-delay: 500ms;">Contact</a>

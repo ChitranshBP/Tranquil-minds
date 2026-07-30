@@ -287,10 +287,10 @@
 
                         <!-- Links -->
                         <div class="flex justify-center gap-4 text-xs text-gray-400 mt-4">
-                            <a href="#"
+                            <a href="privacy-policy.php"
                                 class="hover:text-accent transition-colors underline decoration-gray-300 hover:decoration-accent">Privacy
                                 Policy</a>
-                            <a href="#"
+                            <a href="terms-of-service.php"
                                 class="hover:text-accent transition-colors underline decoration-gray-300 hover:decoration-accent">Terms
                                 of Service</a>
                         </div>
@@ -396,7 +396,7 @@
                                     Team</a>
                                 <a href="#"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Careers</a>
-                                <a href="#"
+                                <a href="blog.php"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Blog</a>
                             </div>
                             <div class="space-y-3">
@@ -498,9 +498,9 @@
                     class="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/30 font-medium">
                     <div>&copy; 2026 Tranquil Minds Mental Health Inc.</div>
                     <div class="flex gap-6">
-                        <a href="#" class="hover:text-white transition-colors">Privacy</a>
-                        <a href="#" class="hover:text-white transition-colors">Terms</a>
-                        <a href="#" class="hover:text-white transition-colors">Sitemap</a>
+                        <a href="privacy-policy.php" class="hover:text-white transition-colors">Privacy</a>
+                        <a href="terms-of-service.php" class="hover:text-white transition-colors">Terms</a>
+                        <a href="accessibility-statement.php" class="hover:text-white transition-colors">Accessibility</a>
                     </div>
                 </div>
 
