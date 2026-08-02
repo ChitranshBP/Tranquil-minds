@@ -35,12 +35,8 @@ $hero_cta2_link   = '#articles';
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <?php
                 $posts = [
-                    ['t' => 'Understanding Depression: Signs, Types &amp; Treatment', 'cat' => 'Depression', 'read' => '5 min read', 'excerpt' => 'Depression is more than sadness. Learn the common signs, the different forms it takes, and the treatments that truly help.', 'link' => 'depression.php', 'img' => 'assets/home/depression.png'],
-                    ['t' => 'What Is TMS Therapy? A Complete Guide', 'cat' => 'TMS Therapy', 'read' => '7 min read', 'excerpt' => 'How TMS works, its safety and side effects, the clinical evidence, and exactly what to expect from a course of treatment.', 'link' => 'what-is-tms-therapy.php', 'img' => 'assets/neurostar/neurostar-2.webp'],
-                    ['t' => 'TMS vs. Medication for Depression', 'cat' => 'TMS Therapy', 'read' => '4 min read', 'excerpt' => 'How magnetic stimulation and antidepressants differ — and why, for many people, they can work well together.', 'link' => 'what-is-tms-therapy.php#vs', 'img' => 'assets/neurostar/NeuroStar-adult.webp'],
-                    ['t' => 'ADHD &amp; Cognitive Testing with Creyos', 'cat' => 'Testing', 'read' => '5 min read', 'excerpt' => 'How objective, science-based cognitive testing brings clarity to an ADHD diagnosis — no guesswork involved.', 'link' => 'creyos.php', 'img' => 'assets/home/adhd.png'],
-                    ['t' => 'Is It Anxiety? Common Signs to Know', 'cat' => 'Anxiety', 'read' => '4 min read', 'excerpt' => 'When does everyday worry become something more? Learn the signs of anxiety and the evidence-based ways we help.', 'link' => 'anxiety.php', 'img' => 'assets/home/anxiety.png'],
-                    ['t' => 'Check In on Your Mood: The PHQ-9', 'cat' => 'Self-Care', 'read' => '2 min quiz', 'excerpt' => 'Not sure how you\'re really doing? Take our free, confidential 2-minute depression self-assessment.', 'link' => 'depression-assessment.php', 'img' => 'assets/home/sleep-disorders.png'],
+                    ['t' => 'How Much Does TMS Cost With Insurance?', 'cat' => 'TMS Therapy', 'read' => '5 min read', 'excerpt' => 'A Complete Guide to NeuroStar TMS Coverage and out-of-pocket costs.', 'link' => 'tms-cost-insurance.php', 'img' => 'assets/blog/tms-cost.png'],
+                    ['t' => 'How Does TMS Therapy Work for Depression?', 'cat' => 'TMS Therapy', 'read' => '5 min read', 'excerpt' => 'A Complete Guide to NeuroStar TMS and how it stimulates the brain to improve depression.', 'link' => 'how-tms-works.php', 'img' => 'assets/blog/tms-works.png'],
                 ];
                 foreach ($posts as $p): ?>
                 <a href="<?php echo $p['link']; ?>" class="group bg-white border border-primary/8 rounded-[1.5rem] overflow-hidden shadow-sm hover:shadow-xl hover:border-accent/30 hover:-translate-y-1.5 transition-all duration-300 flex flex-col">
