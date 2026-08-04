@@ -1,141 +1,4 @@
-    <?php if (!empty($show_footer_faq)): ?>
-    <!-- FAQ (Serene & Professional Redesign) — homepage only -->
-    <section id="faq" class="py-10 relative bg-[#F5F7F4] overflow-hidden">
-        <!-- Decor: Theme Orange Gradients -->
-        <div
-            class="absolute top-0 right-0 w-[600px] h-[600px] bg-accent/20 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2 pointer-events-none">
-        </div>
-        <div
-            class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent/20 rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2 pointer-events-none">
-        </div>
-
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="grid lg:grid-cols-12 gap-12 lg:gap-20 items-start">
-
-                <!-- Left Column: Heading & Visual -->
-                <div class="lg:col-span-5 flex flex-col gap-10 lg:sticky lg:top-32 fade-in-section  lg:pb-0">
-                    <div>
-                        <div class="flex items-center gap-3 mb-4">
-                            <span class="h-px w-12 bg-primary/40"></span>
-                            <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Clarity &
-                                Comfort</span>
-                        </div>
-                        <h2 class="text-5xl md:text-6xl text-primary mb-6 leading-tight"
-                            style="font-family: 'Bauhaus Soft', cursive;">Common <br>Questions</h2>
-                        <p class="text-gray-600 text-lg leading-relaxed">
-                            Embarking on a new treatment path can raise many questions. We are here to provide
-                            transparent, scientifically-backed answers to help you feel confident in your care.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Right Column: Accordion -->
-                <div class="lg:col-span-7 flex flex-col gap-4 pt-4 fade-in-section">
-
-                    <!-- Item 1 -->
-                    <div class="border-b border-primary/10 overflow-hidden group">
-                        <button
-                            class="accordion-header w-full py-4 text-left flex justify-between items-center bg-transparent hover:text-accent transition-colors">
-                             <span class="text-lg font-bold text-primary group-hover:text-accent transition-colors">Is
-                                 Neurostar® TMS therapy painful?</span>
-                            <div
-                                class="relative w-6 h-6 flex items-center justify-center transform transition-transform duration-300 group-[.active]:rotate-90">
-                                <svg class="w-5 h-5 text-primary group-hover:text-accent transition-colors" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 5l7 7-7 7"></path>
-                                </svg>
-                            </div>
-                        </button>
-                        <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
-                            <div class="pb-6 text-gray-600 leading-relaxed text-base max-w-3xl">
-                                Most patients report a mild tapping sensation on the scalp resembling a woodpecker
-                                tapping. It is generally not painful, requires no anesthesia, and you can drive yourself
-                                home immediately after each session.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 2 -->
-                    <div class="border-b border-primary/10 overflow-hidden group">
-                        <button
-                            class="accordion-header w-full py-4 text-left flex justify-between items-center bg-transparent hover:text-accent transition-colors">
-                             <span class="text-lg font-bold text-primary group-hover:text-accent transition-colors">Does
-                                 insurance cover Neurostar® TMS?</span>
-                            <div
-                                class="relative w-6 h-6 flex items-center justify-center transform transition-transform duration-300 group-[.active]:rotate-90">
-                                <svg class="w-5 h-5 text-primary group-hover:text-accent transition-colors" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 5l7 7-7 7"></path>
-                                </svg>
-                            </div>
-                        </button>
-                        <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
-                            <div class="pb-6 text-gray-600 leading-relaxed text-base max-w-3xl">
-                                 Yes, most major insurance providers (including Medicare, Blue Cross, United, and Aetna)
-                                 cover TMS for Treatment-Resistant Depression. Our care coordinators handle the
-                                 entire
-                                pre-authorization process for you to ensure seamless coverage.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 3 -->
-                    <div class="border-b border-primary/10 overflow-hidden group">
-                        <button
-                            class="accordion-header w-full py-4 text-left flex justify-between items-center bg-transparent hover:text-accent transition-colors">
-                            <span class="text-lg font-bold text-primary group-hover:text-accent transition-colors">How
-                                long does a course take?</span>
-                            <div
-                                class="relative w-6 h-6 flex items-center justify-center transform transition-transform duration-300 group-[.active]:rotate-90">
-                                <svg class="w-5 h-5 text-primary group-hover:text-accent transition-colors" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 5l7 7-7 7"></path>
-                                </svg>
-                            </div>
-                        </button>
-                        <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
-                            <div class="pb-6 text-gray-600 leading-relaxed text-base max-w-3xl">
-                                A standard course typically involves daily sessions (Mon-Fri) for about 6 weeks,
-                                followed by a 3-week tapering phase. Each session lasts between 19 to 37 minutes,
-                                integrating perfectly into your daily routine.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 4 (New) -->
-                    <div class="border-b border-primary/10 overflow-hidden group">
-                        <button
-                            class="accordion-header w-full py-4 text-left flex justify-between items-center bg-transparent hover:text-accent transition-colors">
-                            <span class="text-lg font-bold text-primary group-hover:text-accent transition-colors">Are
-                                there any side effects?</span>
-                            <div
-                                class="relative w-6 h-6 flex items-center justify-center transform transition-transform duration-300 group-[.active]:rotate-90">
-                                <svg class="w-5 h-5 text-primary group-hover:text-accent transition-colors" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 5l7 7-7 7"></path>
-                                </svg>
-                            </div>
-                        </button>
-                        <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
-                            <div class="pb-6 text-gray-600 leading-relaxed text-base max-w-3xl">
-                                 Neurostar® TMS is extremely well-tolerated. The most common side effect is mild scalp
-                                discomfort
-                                during the first few sessions, which typically resolves quickly. Unlike medications,
-                                there are no systemic side effects like weight gain, drowsiness, or sexual dysfunction.
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <?php endif; ?>
-
+﻿
     <?php if (empty($hide_contact)): ?>
     <!-- Contact (Your Path Forward) -->
     <section id="contact" class="py-10 relative bg-[#F9FAF8] overflow-hidden">
@@ -154,8 +17,7 @@
                 <div class="fade-in-section lg:sticky lg:top-32">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="h-px w-12 bg-primary/40"></span>
-                        <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Frequently Asked
-                            Questions</span>
+                        <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Your Next Step</span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary mb-8 leading-none"
                         style="font-family: 'Bauhaus Soft', cursive;">Your Path Forward <br>Starts Here</h2>
@@ -178,7 +40,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 13l4 4L19 7"></path>
                             </svg>
-                             <span class="text-primary/80 text-lg">Explain how Neurostar® TMS might help your specific
+                             <span class="text-primary/80 text-lg">Explain how NeurostarÂ® TMS might help your specific
                                  condition</span>
                         </li>
                         <li class="flex items-start gap-4">
@@ -350,8 +212,11 @@
                     <div
                         class="md:col-span-12 lg:col-span-5 flex flex-col justify-between bg-white/[0.03] border border-white/5 p-8 rounded-3xl backdrop-blur-sm group hover:border-white/10 transition-colors">
                         <div class="mb-10">
-                            <img src="assets/logo/Tranquil-logo.png"
-                                alt="Tranquil Minds Mental Health Logo" class="w-36 opacity-90 mb-6" style="filter: brightness(0) invert(1);">
+                            <div class="flex items-center gap-4 mb-6">
+                                <img src="assets/logo/Tranquil-logo.png"
+                                    alt="Tranquil Minds Mental Health Logo" class="h-16 opacity-90" style="filter: brightness(0) invert(1);">
+                                <span class="font-bold text-white text-2xl tracking-wide" style="font-family: 'Bauhaus Soft', sans-serif;">Tranquil Minds</span>
+                            </div>
                             <h3 class="text-2xl font-light text-start leading-snug text-white/80 max-w-sm">
                                 Realigning the <span class="text-accent italic">rhythms</span> of the mind.
                             </h3>
@@ -396,7 +261,7 @@
                                 <h4 class="text-[10px] font-bold text-accent uppercase tracking-widest mb-3 opacity-80">
                                     Clinical</h4>
                                  <a href="neurostar-tms.php"
-                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Neurostar®
+                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">NeurostarÂ®
                                      TMS</a>
                                 <a href="medication-management.php"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Medication Management</a>

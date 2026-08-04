@@ -1,7 +1,7 @@
-<?php
+﻿<?php
 // Set page-specific variables before including to allow dynamic title/metadata
 $page_title = $page_title ?? "Tranquil Minds Mental Health - Mental Wellness Clinic";
-$page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctuary for mental wellness offering Neurostar® TMS, medication management, and personalized care.";
+$page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctuary for mental wellness offering NeurostarÂ® TMS, medication management, and personalized care.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -516,7 +516,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                 </li>
 
                 <!-- Services (Epic) -->
-                <li class="group relative">
+                <li class="group ">
                     <button
                         class="px-4 py-2 rounded-full hover:bg-primary/5 hover:text-accent transition-all duration-300 flex items-center gap-1 group-hover:bg-primary/5 group-hover:text-accent relative z-50">
                         Services <svg class="w-3 h-3 transition-transform group-hover:rotate-180 opacity-50" fill="none"
@@ -538,7 +538,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
 
                                 <a href="neurostar-tms.php"
                                     class="group/item flex items-center justify-between p-4 rounded-3xl bg-primary/5 hover:bg-primary text-primary hover:text-white transition-all duration-300">
-                                    <span class="font-semibold text-base">Neurostar® TMS</span>
+                                    <span class="font-semibold text-base">NeurostarÂ® TMS</span>
                                     <svg class="w-5 h-5 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all"
                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -588,7 +588,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                     </p>
                                     <a href="neurostar-tms.php"
                                         class="inline-flex items-center gap-3 px-8 py-4 bg-white text-primary rounded-full font-bold hover:gap-5 transition-all duration-300">
-                                        Explore Neurostar® TMS
+                                        Explore NeurostarÂ® TMS
                                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -651,7 +651,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                 </li>
 
                 <!-- Conditions (Ultra Wide) -->
-                <li class="group relative">
+                <li class="group ">
                     <button
                         class="px-4 py-2 rounded-full hover:bg-primary/5 hover:text-accent transition-all duration-300 flex items-center gap-1 group-hover:bg-primary/5 group-hover:text-accent relative z-50">
                         Conditions <svg class="w-3 h-3 transition-transform group-hover:rotate-180 opacity-50"
@@ -690,132 +690,67 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                             </div>
 
                             <!-- Grid -->
+                            <?php
+                            // Conditions mega-menu — the 9 headline conditions only.
+                            // The full list lives in conditions.php, reachable via "View All Conditions".
+                            $nav_condition_groups = [
+                                [
+                                    'label' => 'Mood Disorders',
+                                    'icon'  => 'M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
+                                    'items' => [
+                                        ['Depression', 'depression.php', 'Major Depressive Disorder'],
+                                        ['Treatment-Resistant Depression', 'treatment-resistant-depression.php', 'When antidepressants haven&rsquo;t worked'],
+                                        ['Bipolar Disorder', 'bipolar.php', 'Mood stabilization &amp; support'],
+                                    ],
+                                ],
+                                [
+                                    'label' => 'Anxiety &amp; Trauma',
+                                    'icon'  => 'M13 10V3L4 14h7v7l9-11h-7z',
+                                    'items' => [
+                                        ['Anxiety', 'anxiety.php', 'Generalized &amp; Social Anxiety'],
+                                        ['OCD', 'ocd.php', 'Obsessive-Compulsive Disorder'],
+                                        ['PTSD', 'ptsd.php', 'Post-Traumatic Stress recovery'],
+                                    ],
+                                ],
+                                [
+                                    'label' => 'Focus &amp; Wellness',
+                                    'icon'  => 'M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z',
+                                    'items' => [
+                                        ['ADHD / ADD', 'adhd.php', 'Focus &amp; cognitive enhancement'],
+                                        ['Adolescent Mental Health', 'adolescent-mental-health.php', 'Specialized teen &amp; family support'],
+                                        ['Sleep Disorders', 'sleep-disorders.php', 'Restoring restful sleep'],
+                                    ],
+                                ],
+                            ];
+                            ?>
                             <div class="flex-1 grid grid-cols-3 gap-8">
-                                <!-- Col 1: Mood -->
+                                <?php foreach ($nav_condition_groups as $g): ?>
                                 <div class="space-y-6">
                                     <div class="flex items-center gap-3 pb-4 border-b border-primary/5">
                                         <div
                                             class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent">
                                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
-                                                </path>
-                                            </svg>
-                                        </div>
-                                        <span class="font-bold tracking-widest uppercase text-xs text-primary/60">Mood
-                                            Disorders</span>
-                                    </div>
-                                    <div class="space-y-4">
-                                        <a href="depression.php" class="block group/item">
-                                            <div
-                                                class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                Depression</div>
-                                            <div
-                                                class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                TRD & Major Depressive Disorder</div>
-                                        </a>
-                                        <a href="bipolar.php" class="block group/item">
-                                            <div
-                                                class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                Bipolar Disorder</div>
-                                            <div
-                                                class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Mood stabilization & support</div>
-                                        </a>
-                                        <a href="sleep-disorders.php" class="block group/item">
-                                            <div
-                                                class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                Sleep Disorders</div>
-                                            <div
-                                                class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Restoring restful sleep</div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <!-- Col 2: Anxiety -->
-                                <div class="space-y-6">
-                                    <div class="flex items-center gap-3 pb-4 border-b border-primary/5">
-                                        <div
-                                            class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent">
-                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                                    d="<?php echo $g['icon']; ?>"></path>
                                             </svg>
                                         </div>
                                         <span
-                                            class="font-bold tracking-widest uppercase text-xs text-primary/60">Anxiety
-                                            & Trauma</span>
+                                            class="font-bold tracking-widest uppercase text-xs text-primary/60"><?php echo $g['label']; ?></span>
                                     </div>
                                     <div class="space-y-4">
-                                        <a href="anxiety.php" class="block group/item">
+                                        <?php foreach ($g['items'] as $it): ?>
+                                        <a href="<?php echo $it[1]; ?>" class="block group/item">
                                             <div
                                                 class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                Anxiety</div>
+                                                <?php echo $it[0]; ?></div>
                                             <div
                                                 class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Generalized & Social Anxiety</div>
+                                                <?php echo $it[2]; ?></div>
                                         </a>
-                                        <a href="ptsd.php" class="block group/item">
-                                            <div
-                                                class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                PTSD</div>
-                                            <div
-                                                class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Post-Traumatic Stress recovery</div>
-                                        </a>
-                                        <a href="ptsd.php" class="block group/item">
-                                            <div
-                                                class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                Trauma</div>
-                                            <div
-                                                class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Healing past wounds</div>
-                                        </a>
+                                        <?php endforeach; ?>
                                     </div>
                                 </div>
-
-                                <!-- Col 3: Focus -->
-                                <div class="space-y-6">
-                                    <div class="flex items-center gap-3 pb-4 border-b border-primary/5">
-                                        <div
-                                            class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent">
-                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
-                                                </path>
-                                            </svg>
-                                        </div>
-                                        <span class="font-bold tracking-widest uppercase text-xs text-primary/60">Focus
-                                            & Neuro</span>
-                                    </div>
-                                    <div class="space-y-4">
-                                        <a href="adhd.php" class="block group/item">
-                                            <div
-                                                class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                ADHD / ADD</div>
-                                            <div
-                                                class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Focus & cognitive enhancement</div>
-                                        </a>
-                                        <a href="ocd.php" class="block group/item">
-                                            <div
-                                                class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                OCD</div>
-                                            <div
-                                                class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Obsessive-Compulsive Disorder</div>
-                                        </a>
-                                        <a href="chronic-pain.php" class="block group/item">
-                                            <div
-                                                class="text-lg font-bold text-primary group-hover/item:text-accent transition-colors">
-                                                Chronic Pain</div>
-                                            <div
-                                                class="text-xs text-gray-400 group-hover/item:text-gray-600 transition-colors">
-                                                Mind-body support</div>
-                                        </a>
-                                    </div>
-                                </div>
+                                <?php endforeach; ?>
                             </div>
                         </div>
                     </div>

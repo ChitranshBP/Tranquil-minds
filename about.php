@@ -389,7 +389,7 @@ $hero_cta2_link = '#mission';
                 <?php
                 $team = [
                     ['name' => 'Tiana DoBrava', 'role' => 'TMS Technician & Office Personnel', 'initials' => 'TD', 'color' => 'from-violet-400 to-purple-600', 'specialties' => ['Neurostar® TMS', 'Office Administration']],
-                    ['name' => 'David DoBrava', 'role' => 'TMS Technician (as needed)', 'initials' => 'DD', 'color' => 'from-indigo-400 to-blue-600', 'specialties' => ['Neurostar® TMS']],
+                    ['name' => 'David DoBrava', 'role' => 'TMS Technician ', 'initials' => 'DD', 'color' => 'from-indigo-400 to-blue-600', 'specialties' => ['Neurostar® TMS']],
                 ];
                 foreach ($team as $member): ?>
                 <div class="bg-white rounded-[1.5rem] p-6 shadow-sm border border-primary/5 hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col">

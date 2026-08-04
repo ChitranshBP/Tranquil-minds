@@ -8,6 +8,7 @@ $hero_subtitle = $hero_subtitle ?? 'Advanced mental wellness & Neurostar® TMS t
 $hero_badge = $hero_badge ?? 'Accepting New Patients for 2026';
 $hero_cta1_text = $hero_cta1_text ?? 'Begin Your Journey';
 $hero_cta1_link = $hero_cta1_link ?? '#welcome';
+$hero_cta1_newtab = $hero_cta1_newtab ?? false;
 $hero_cta2_text = $hero_cta2_text ?? 'Explore Treatment';
 $hero_cta2_link = $hero_cta2_link ?? '#tms';
 ?>
@@ -48,7 +49,7 @@ $hero_cta2_link = $hero_cta2_link ?? '#tms';
 
                 <!-- CTA Buttons -->
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="<?php echo $hero_cta1_link; ?>"
+                    <a href="<?php echo $hero_cta1_link; ?>"<?php if ($hero_cta1_newtab): ?> target="_blank" rel="noopener"<?php endif; ?>
                         class="px-8 py-4 bg-accent text-white rounded-full font-bold text-lg shadow-[0_0_20px_rgba(197,94,42,0.5)] hover:bg-accent-light hover:shadow-[0_0_30px_rgba(197,94,42,0.7)] hover:-translate-y-1 transition-all text-center">
                         <?php echo $hero_cta1_text; ?>
                     </a>

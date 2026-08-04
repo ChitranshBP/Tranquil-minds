@@ -4,12 +4,14 @@ $page_description = "Take a free, confidential PHQ-9 depression self-assessment.
 $hero_title       = 'Depression<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Self-Assessment.</span>';
 $hero_subtitle    = 'Not sure how you’re really doing? The PHQ-9 is a quick, validated questionnaire that can help you understand your symptoms — and whether it may be time to reach out.';
 $hero_badge       = 'Free &amp; Confidential';
-$hero_cta1_text   = 'Take the Assessment';
-$hero_cta1_link   = '#assessment';
-$hero_cta2_text   = 'Talk to Us';
-$hero_cta2_link   = '#contact';
 
 $phq_url = 'https://phq9web.azurewebsites.net/PHQ9/Survey/89810';
+
+$hero_cta1_text   = 'Take the Assessment';
+$hero_cta1_link   = $phq_url;
+$hero_cta1_newtab = true;
+$hero_cta2_text   = 'Talk to Us';
+$hero_cta2_link   = '#contact';
 ?>
 <?php include 'header.php'; ?>
 <?php include 'hero-service.php'; ?>

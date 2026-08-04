@@ -156,7 +156,7 @@ $hero_cta2_link   = '#approach';
                     ['n' => '03', 't' => 'Collaborative', 'd' => 'You’re a partner in your care. Your preferences and concerns genuinely guide the plan.'],
                     ['n' => '04', 't' => 'Carefully Monitored', 'd' => 'Regular check-ins let us track your response and fine-tune the plan as you go.'],
                     ['n' => '05', 't' => 'Safety First', 'd' => 'We watch closely for interactions and side effects, adjusting to keep you safe and comfortable.'],
-                    ['n' => '06', 't' => 'Whole-Person Care', 'd' => 'Medication is one piece — we combine it with therapy and TMS whenever it helps you thrive.'],
+                    ['n' => '06', 't' => 'Whole-Person Care', 'd' => 'Medication is one piece - we combine it with therapy and TMS when appropriate to help you thrive.'],
                 ];
                 foreach ($principles as $p): ?>
                 <div class="relative bg-white/[0.04] border border-white/10 rounded-[1.5rem] p-8 hover:bg-white/[0.08] hover:border-accent/30 transition-all duration-300 group overflow-hidden">

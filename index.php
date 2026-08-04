@@ -1,7 +1,6 @@
 <?php
 $page_title = "Tranquil Minds Mental Health - Mental Wellness Clinic";
 $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellness offering Neurostar® TMS, medication management, and personalized care.";
-$show_footer_faq = true; // Show the footer FAQ section on the homepage only
 ?>
 <?php include 'header.php'; ?>
 
@@ -1262,4 +1261,5 @@ $show_footer_faq = true; // Show the footer FAQ section on the homepage only
         </div>
     </section>
 
+<?php include 'faq-section.php'; ?>
 <?php include 'footer.php'; ?>
