@@ -749,7 +749,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <!-- Image -->
                     <div
                         class="relative rounded-tl-[4rem] rounded-br-[4rem] overflow-hidden shadow-xl group-hover:shadow-2xl transition-all duration-700">
-                        <img src="assets/home/rox-image.png" alt="Roxanne DoBrava, APRN-CNP, PMHNP-BC"
+                        <img src="assets/about/tranquil-about.webp" alt="Roxanne DoBrava, APRN-CNP, PMHNP-BC"
                             class="w-full h-auto object-cover transform scale-100 group-hover:scale-105 transition-transform duration-700  max-h-[600px] grayscale-0">
                     </div>
                 </div>

@@ -10,6 +10,10 @@ $page_description = "Thank you for your interest in Neurostar® TMS therapy. A c
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $page_title; ?></title>
     <meta name="description" content="<?php echo $page_description; ?>">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo/Tranquil-logo.png">
+    <link rel="shortcut icon" type="image/png" href="assets/logo/Tranquil-logo.png">
+    <link rel="apple-touch-icon" href="assets/logo/Tranquil-logo.png">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17988087500"></script>
     <script>
