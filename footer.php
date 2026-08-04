@@ -1,4 +1,4 @@
-﻿
+
     <?php if (empty($hide_contact)): ?>
     <!-- Contact (Your Path Forward) -->
     <section id="contact" class="py-10 relative bg-[#F9FAF8] overflow-hidden">
@@ -40,7 +40,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 13l4 4L19 7"></path>
                             </svg>
-                             <span class="text-primary/80 text-lg">Explain how NeurostarÂ® TMS might help your specific
+                             <span class="text-primary/80 text-lg">Explain how Neurostar® TMS might help your specific
                                  condition</span>
                         </li>
                         <li class="flex items-start gap-4">
@@ -261,7 +261,7 @@
                                 <h4 class="text-[10px] font-bold text-accent uppercase tracking-widest mb-3 opacity-80">
                                     Clinical</h4>
                                  <a href="neurostar-tms.php"
-                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">NeurostarÂ®
+                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Neurostar®
                                      TMS</a>
                                 <a href="medication-management.php"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Medication Management</a>

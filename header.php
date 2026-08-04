@@ -1,7 +1,7 @@
-﻿<?php
+<?php
 // Set page-specific variables before including to allow dynamic title/metadata
 $page_title = $page_title ?? "Tranquil Minds Mental Health - Mental Wellness Clinic";
-$page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctuary for mental wellness offering NeurostarÂ® TMS, medication management, and personalized care.";
+$page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctuary for mental wellness offering Neurostar® TMS, medication management, and personalized care.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -542,7 +542,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
 
                                 <a href="neurostar-tms.php"
                                     class="group/item flex items-center justify-between p-4 rounded-3xl bg-primary/5 hover:bg-primary text-primary hover:text-white transition-all duration-300">
-                                    <span class="font-semibold text-base">NeurostarÂ® TMS</span>
+                                    <span class="font-semibold text-base">Neurostar® TMS</span>
                                     <svg class="w-5 h-5 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all"
                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -592,7 +592,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                                     </p>
                                     <a href="neurostar-tms.php"
                                         class="inline-flex items-center gap-3 px-8 py-4 bg-white text-primary rounded-full font-bold hover:gap-5 transition-all duration-300">
-                                        Explore NeurostarÂ® TMS
+                                        Explore Neurostar® TMS
                                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
