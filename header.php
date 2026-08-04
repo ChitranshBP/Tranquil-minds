@@ -661,7 +661,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                         </svg>
                     </button>
 
-                    <!-- Mega Menu (Right Aligned) -->
+                      <!-- Mega Menu (Right Aligned) -->
                     <div
                         class="absolute right-0 top-full mt-6 w-[95vw] max-w-5xl bg-white/95 backdrop-blur-[50px] rounded-[3rem] shadow-[0_50px_100px_-20px_rgba(42,54,30,0.15)] border border-white/40 p-10 opacity-0 invisible translate-y-6 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-500 ease-out origin-top-right z-40">
                         <div class="absolute -top-10 left-0 w-full h-10 bg-transparent"></div>
