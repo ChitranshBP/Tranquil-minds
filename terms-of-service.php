@@ -13,7 +13,7 @@ $page_description = "The terms of service governing the use of the Tranquil Mind
             <h1 class="text-4xl md:text-6xl text-white mb-3 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">Terms of Service</h1>
             <p class="text-white/60 text-sm">Last Updated: July 30, 2026</p>
         </div>
-    </section>
+      </section>
 
     <!-- ===== CONTENT ===== -->
     <section class="pb-20 bg-white">
