@@ -72,73 +72,81 @@ document.addEventListener("DOMContentLoaded", () => {
   // Mobile Menu Toggle (Updated IDs)
   const hamburger = document.getElementById("nav-hamburger");
   const mobileMenu = document.getElementById("mobile-menu-overlay");
-  const navMenu = document.getElementById("nav-menu"); // Desktop menu
 
   if (hamburger && mobileMenu) {
+    const animatedItems = mobileMenu.querySelectorAll(
+      ".mobile-link, .mobile-footer"
+    );
+
+    const openMenu = () => {
+      mobileMenu.classList.add("is-open");
+      hamburger.classList.add("toggle");
+      hamburger.setAttribute("aria-expanded", "true");
+      hamburger.setAttribute("aria-label", "Close menu");
+      document.body.style.overflow = "hidden"; // Lock scrolling
+
+      setTimeout(() => {
+        animatedItems.forEach((el) => {
+          el.classList.remove("opacity-0", "translate-y-8");
+          el.classList.add("opacity-100", "translate-y-0");
+        });
+      }, 300);
+    };
+
+    const closeMenu = () => {
+      mobileMenu.classList.remove("is-open");
+      mobileMenu.scrollTop = 0;
+      mobileMenu.querySelectorAll("details[open]").forEach((d) => {
+        d.open = false;
+      });
+      hamburger.classList.remove("toggle");
+      hamburger.setAttribute("aria-expanded", "false");
+      hamburger.setAttribute("aria-label", "Open menu");
+      document.body.style.overflow = ""; // Restore scrolling
+
+      animatedItems.forEach((el) => {
+        el.classList.remove("opacity-100", "translate-y-0");
+        el.classList.add("opacity-0", "translate-y-8");
+      });
+    };
+
+    window.closeMobileMenu = closeMenu;
+
     hamburger.addEventListener("click", () => {
-      // Toggle Menu visibility
-      const isOpen = mobileMenu.classList.contains("translate-x-0");
-
-      if (isOpen) {
-        // CLOSE
-        mobileMenu.classList.remove("translate-x-0");
-        mobileMenu.classList.add("translate-x-full");
-        hamburger.classList.remove("toggle");
-        document.body.style.overflow = ""; // Restore scrolling
-
-        // Reset animations
-        mobileMenu
-          .querySelectorAll(".mobile-link, .mobile-footer")
-          .forEach((el) => {
-            el.classList.remove("opacity-100", "translate-y-0");
-            el.classList.add("opacity-0", "translate-y-8");
-          });
+      if (mobileMenu.classList.contains("is-open")) {
+        closeMenu();
       } else {
-        // OPEN
-        mobileMenu.classList.remove("translate-x-full");
-        mobileMenu.classList.add("translate-x-0");
-        hamburger.classList.add("toggle");
-        document.body.style.overflow = "hidden"; // Lock scrolling
-
-        // Trigger animations with slight delay
-        setTimeout(() => {
-          mobileMenu
-            .querySelectorAll(".mobile-link, .mobile-footer")
-            .forEach((el) => {
-              el.classList.remove("opacity-0", "translate-y-8");
-              el.classList.add("opacity-100", "translate-y-0");
-            });
-        }, 300);
+        openMenu();
       }
     });
 
-    // Close Button Logic
-    const closeBtn = document.getElementById("mobile-menu-close");
-    if (closeBtn) {
-      closeBtn.addEventListener("click", () => {
-        mobileMenu.classList.remove("translate-x-0");
-        mobileMenu.classList.add("translate-x-full");
-        hamburger.classList.remove("toggle");
-        document.body.style.overflow = "";
+    // The hamburger is a div, so it needs keyboard activation of its own
+    hamburger.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        hamburger.click();
+      }
+    });
 
-        // Reset animations
-        mobileMenu
-          .querySelectorAll(".mobile-link, .mobile-footer")
-          .forEach((el) => {
-            el.classList.remove("opacity-100", "translate-y-0");
-            el.classList.add("opacity-0", "translate-y-8");
-          });
-      });
-    }
+    const closeBtn = document.getElementById("mobile-menu-close");
+    if (closeBtn) closeBtn.addEventListener("click", closeMenu);
 
     // Close on link click
     mobileMenu.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        mobileMenu.classList.remove("translate-x-0");
-        mobileMenu.classList.add("translate-x-full");
-        hamburger.classList.remove("toggle");
-        document.body.style.overflow = "";
-      });
+      link.addEventListener("click", closeMenu);
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && mobileMenu.classList.contains("is-open")) {
+        closeMenu();
+      }
+    });
+
+    // Never leave the menu open (and the page unscrollable) on a resize to desktop
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 1024 && mobileMenu.classList.contains("is-open")) {
+        closeMenu();
+      }
     });
   }
 
@@ -150,13 +158,8 @@ document.addEventListener("DOMContentLoaded", () => {
       if (target) {
         target.scrollIntoView({ behavior: "smooth" });
         // Close menu
-        const mobileMenu = document.getElementById("mobile-menu-overlay");
-        if (mobileMenu && mobileMenu.classList.contains("translate-x-0")) {
-          // Trigger the existing close logic, or just manually close it here to be safe
-          mobileMenu.classList.remove("translate-x-0");
-          mobileMenu.classList.add("translate-x-full");
-          if (hamburger) hamburger.classList.remove("toggle");
-          document.body.style.overflow = "";
+        if (typeof window.closeMobileMenu === "function") {
+          window.closeMobileMenu();
         }
       }
     });
@@ -236,4 +239,40 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
+});
+
+/* ===== Review cards: clamp long quotes, toggle with Read more ===== */
+document.addEventListener("DOMContentLoaded", () => {
+  const quotes = document.querySelectorAll(".review-text");
+  if (!quotes.length) return;
+
+  const syncButtons = () => {
+    quotes.forEach((quote) => {
+      const btn = quote.parentElement.querySelector(".review-more");
+      if (!btn) return;
+      const overflows = quote.scrollHeight > quote.clientHeight + 1;
+      btn.classList.toggle("is-visible", overflows || quote.classList.contains("is-expanded"));
+    });
+  };
+
+  quotes.forEach((quote) => {
+    const btn = quote.parentElement.querySelector(".review-more");
+    if (!btn) return;
+
+    btn.addEventListener("click", () => {
+      const expanded = quote.classList.toggle("is-expanded");
+      btn.textContent = expanded ? "Read less" : "Read more";
+      btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+      if (window.reviewsSwiper) window.reviewsSwiper.update();
+    });
+  });
+
+  syncButtons();
+  window.addEventListener("load", syncButtons);
+
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(syncButtons, 150);
+  });
 });

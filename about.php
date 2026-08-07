@@ -8,6 +8,11 @@ $hero_cta1_text = 'Meet Our Providers';
 $hero_cta1_link = '#team';
 $hero_cta2_text = 'Our Mission';
 $hero_cta2_link = '#mission';
+
+// Hidden for now — the figures and timeline dates are placeholders.
+// Flip either to true to bring the section back.
+$show_clinic_stats = false;
+$show_story        = false;
 ?>
 <?php include 'header.php'; ?>
 <?php include 'hero-service.php'; ?>
@@ -62,6 +67,7 @@ $hero_cta2_link = '#mission';
                     </div>
 
                     <!-- Compact stats strip -->
+                    <?php if ($show_clinic_stats): ?>
                     <div class="grid grid-cols-3 gap-4 pt-6 border-t border-primary/10">
                         <div class="text-center">
                             <div class="text-2xl font-bold text-primary mb-0.5" style="font-family: 'Bauhaus Soft', cursive;" data-counter="15" data-suffix="+">15+</div>
@@ -76,6 +82,7 @@ $hero_cta2_link = '#mission';
                             <div class="text-gray-400 text-xs uppercase tracking-widest">Satisfaction</div>
                         </div>
                     </div>
+                    <?php endif; ?>
                 </div>
 
                 <!-- RIGHT: Clinic image -->
@@ -259,6 +266,7 @@ $hero_cta2_link = '#mission';
     </section>
 
     <!-- ===== STORY TIMELINE ===== -->
+    <?php if ($show_story): ?>
     <section id="story" class="py-24 bg-white relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-primary/3 to-transparent pointer-events-none"></div>
 
@@ -310,6 +318,7 @@ $hero_cta2_link = '#mission';
             </div>
         </div>
     </section>
+    <?php endif; ?>
 
     <!-- ===== TEAM SECTION ===== -->
     <section id="team" class="py-24 bg-[#F5F3FF] relative overflow-hidden">
@@ -542,27 +551,41 @@ $hero_cta2_link = '#mission';
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-6 fade-in-section">
+            <div class="grid md:grid-cols-3 auto-rows-fr gap-6 fade-in-section">
                 <?php
                 $testimonials = [
                     [
-                        'quote' => 'After years of trying different medications with little relief, Neurostar TMS at Tranquil Minds gave me my life back. I feel like myself again for the first time in a decade.',
-                        'name' => 'Jennifer M.',
-                        'detail' => 'TMS Patient, 2 years',
+                        'quote' => 'I had an amazing experience with the team at Tranquil Minds Mental Health. While going through TMS treatment both Roxanne and Tiana were very invested in my experience and accommodating for my needs. The environment is extremely welcoming and you instantly feel at home. You also know you will be well taken care of as they both work so well along side one another. The treatment itself will make you walk away from it feeling mentally stronger to tackle your everyday life and be able to enjoy it while doing so. They truly want the best for their patients and are invested in them because even after treatment they will continue to check-in on you. If you&rsquo;re considering doing TMS or looking for ways to help your mental health I would highly recommend Tranquil Minds Mental Health.',
+                        'name' => 'Kaitlyn Charlson',
+                        'detail' => 'TMS Patient',
                         'stars' => 5,
                         'highlight' => false,
                     ],
                     [
-                        'quote' => 'Roxanne truly listens. She takes the time to understand you as a whole person, not just your symptoms. The entire staff is warm and professional.',
-                        'name' => 'Marcus T.',
-                        'detail' => 'Psychiatric Care Patient',
+                        'quote' => 'These ladies are the best in the business hands down! Fully trust Roxanne. She is so knowledgeable and has your best interests at heart. Super easy to get ahold of and communicate with! Highly recommend :)',
+                        'name' => 'Linnae Efraimson',
+                        'detail' => 'Verified Google Review',
                         'stars' => 5,
                         'highlight' => false,
                     ],
                     [
-                        'quote' => 'Roxanne\'s careful approach to my medication management was transformative. I went from barely functioning to thriving at work and with my family.',
-                        'name' => 'Rachel K.',
-                        'detail' => 'Medication Management Patient, 18 months',
+                        'quote' => 'I completed TMS treatment at Tranquil Minds Mental Health. Tiana and Roxenne went out of there way to help me. As a retired USAF veteran TMS has help me with PTSD, anxiety and depression. I would recommend TMS to everyone that it could help. Give Tranquil Minds Mental Health a call today.',
+                        'name' => 'David DoBrava',
+                        'detail' => 'TMS Patient, USAF Veteran',
+                        'stars' => 5,
+                        'highlight' => false,
+                    ],
+                    [
+                        'quote' => 'Roxanne knows her stuff and is very easy to talk to.',
+                        'name' => 'Linda Wipper Anderson',
+                        'detail' => 'Verified Google Review',
+                        'stars' => 5,
+                        'highlight' => false,
+                    ],
+                    [
+                        'quote' => 'I am so glad I found Tranquil Minds and I was able to complete TMS therapy with them. It is a life changer for sure, and Tiana and Roxanne are awesome:)',
+                        'name' => 'Lynnette Redinger',
+                        'detail' => 'TMS Patient',
                         'stars' => 5,
                         'highlight' => false,
                     ],
@@ -580,9 +603,12 @@ $hero_cta2_link = '#mission';
                     <!-- Quote mark -->
                     <div class="text-6xl leading-none font-serif <?php echo $t['highlight'] ? 'text-white/20' : 'text-primary/10'; ?> -mt-4 select-none">&ldquo;</div>
                     <!-- Text -->
-                    <p class="text-base leading-relaxed -mt-8 <?php echo $t['highlight'] ? 'text-white/80' : 'text-gray-600'; ?>">
-                        <?php echo $t['quote']; ?>
-                    </p>
+                    <div class="-mt-8 flex-grow">
+                        <p class="text-base leading-relaxed review-text <?php echo $t['highlight'] ? 'text-white/80' : 'text-gray-600'; ?>">
+                            <?php echo $t['quote']; ?>
+                        </p>
+                        <button type="button" class="review-more mt-3 <?php echo $t['highlight'] ? 'text-white' : 'text-accent'; ?>" aria-expanded="false">Read more</button>
+                    </div>
                     <!-- Author -->
                     <div class="flex items-center gap-3 mt-auto pt-4 border-t <?php echo $t['highlight'] ? 'border-white/10' : 'border-primary/10'; ?>">
                         <div class="w-9 h-9 rounded-full <?php echo $t['highlight'] ? 'bg-white/20' : 'bg-accent/20'; ?> flex items-center justify-center font-bold <?php echo $t['highlight'] ? 'text-white' : 'text-accent'; ?> text-sm flex-shrink-0">

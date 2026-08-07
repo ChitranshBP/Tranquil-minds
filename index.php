@@ -876,7 +876,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <!-- Review Card 1 -->
                     <div class="swiper-slide h-auto">
                         <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
-                            <div>
+                            <div class="mb-6">
                                 <div class="flex items-center justify-between mb-6">
                                     <div class="flex text-amber-500">
                                         <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
@@ -889,16 +889,17 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
-                                    "The care I received at Tranquil Minds was absolute life-changing. After years of struggling with treatment-resistant depression, their Neurostar® TMS therapy gave me my life back. The staff is incredibly supportive and compassionate."
+                                <p class="text-primary text-sm leading-relaxed font-medium review-text">
+                                    "I had an amazing experience with the team at Tranquil Minds Mental Health. While going through TMS treatment both Roxanne and Tiana were very invested in my experience and accommodating for my needs. The environment is extremely welcoming and you instantly feel at home. You also know you will be well taken care of as they both work so well along side one another. The treatment itself will make you walk away from it feeling mentally stronger to tackle your everyday life and be able to enjoy it while doing so. They truly want the best for their patients and are invested in them because even after treatment they will continue to check-in on you. If you&rsquo;re considering doing TMS or looking for ways to help your mental health I would highly recommend Tranquil Minds Mental Health."
                                 </p>
+                                <button type="button" class="review-more text-accent mt-3" aria-expanded="false">Read more</button>
                             </div>
                             <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
                                 <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
-                                    SM
+                                    KC
                                 </div>
                                 <div>
-                                    <h4 class="text-primary font-bold text-sm">Sarah Miller</h4>
+                                    <h4 class="text-primary font-bold text-sm">Kaitlyn Charlson</h4>
                                     <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
@@ -908,7 +909,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <!-- Review Card 2 -->
                     <div class="swiper-slide h-auto">
                         <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
-                            <div>
+                            <div class="mb-6">
                                 <div class="flex items-center justify-between mb-6">
                                     <div class="flex text-amber-500">
                                         <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
@@ -921,16 +922,17 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
-                                    "A highly professional and clean environment. Roxanne DoBrava and the entire team are incredibly thorough, taking the time to answer every question. The personalized care and attention is unlike any other clinic."
+                                <p class="text-primary text-sm leading-relaxed font-medium review-text">
+                                    "These ladies are the best in the business hands down! Fully trust Roxanne. She is so knowledgeable and has your best interests at heart. Super easy to get ahold of and communicate with! Highly recommend :)"
                                 </p>
+                                <button type="button" class="review-more text-accent mt-3" aria-expanded="false">Read more</button>
                             </div>
                             <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
                                 <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
-                                    JD
+                                    LE
                                 </div>
                                 <div>
-                                    <h4 class="text-primary font-bold text-sm">James Davis</h4>
+                                    <h4 class="text-primary font-bold text-sm">Linnae Efraimson</h4>
                                     <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
@@ -940,7 +942,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <!-- Review Card 3 -->
                     <div class="swiper-slide h-auto">
                         <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
-                            <div>
+                            <div class="mb-6">
                                 <div class="flex items-center justify-between mb-6">
                                     <div class="flex text-amber-500">
                                         <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
@@ -953,16 +955,17 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
-                                    "I was very skeptical about TMS at first, but after completing the program, my depression and anxiety symptoms have dramatically reduced. Very grateful for this treatment and the wonderful clinic team."
+                                <p class="text-primary text-sm leading-relaxed font-medium review-text">
+                                    "I completed TMS treatment at Tranquil Minds Mental Health. Tiana and Roxenne went out of there way to help me. As a retired USAF veteran TMS has help me with PTSD, anxiety and depression. I would recommend TMS to everyone that it could help. Give Tranquil Minds Mental Health a call today."
                                 </p>
+                                <button type="button" class="review-more text-accent mt-3" aria-expanded="false">Read more</button>
                             </div>
                             <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
                                 <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
-                                    ER
+                                    DD
                                 </div>
                                 <div>
-                                    <h4 class="text-primary font-bold text-sm">Emily Rodriguez</h4>
+                                    <h4 class="text-primary font-bold text-sm">David DoBrava</h4>
                                     <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
@@ -972,7 +975,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <!-- Review Card 4 -->
                     <div class="swiper-slide h-auto">
                         <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
-                            <div>
+                            <div class="mb-6">
                                 <div class="flex items-center justify-between mb-6">
                                     <div class="flex text-amber-500">
                                         <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
@@ -985,16 +988,17 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
-                                    "From scheduling my first consult to completing my sessions, the process was seamless. The staff handles insurance directly which was a huge relief, and the clinic is incredibly relaxing."
+                                <p class="text-primary text-sm leading-relaxed font-medium review-text">
+                                    "Roxanne knows her stuff and is very easy to talk to."
                                 </p>
+                                <button type="button" class="review-more text-accent mt-3" aria-expanded="false">Read more</button>
                             </div>
                             <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
                                 <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
-                                    MT
+                                    LW
                                 </div>
                                 <div>
-                                    <h4 class="text-primary font-bold text-sm">Michael Thompson</h4>
+                                    <h4 class="text-primary font-bold text-sm">Linda Wipper Anderson</h4>
                                     <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
@@ -1004,7 +1008,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     <!-- Review Card 5 -->
                     <div class="swiper-slide h-auto">
                         <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
-                            <div>
+                            <div class="mb-6">
                                 <div class="flex items-center justify-between mb-6">
                                     <div class="flex text-amber-500">
                                         <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
@@ -1017,53 +1021,23 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                                         <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
                                     </svg>
                                 </div>
-                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
-                                    "I felt truly heard for the first time in years. Roxanne DoBrava combines clinical expertise with deep compassion. The TMS sessions were simple, painless, and highly effective for me."
+                                <p class="text-primary text-sm leading-relaxed font-medium review-text">
+                                    "I am so glad I found Tranquil Minds and I was able to complete TMS therapy with them. It is a life changer for sure, and Tiana and Roxanne are awesome:)"
                                 </p>
+                                <button type="button" class="review-more text-accent mt-3" aria-expanded="false">Read more</button>
                             </div>
                             <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
                                 <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
-                                    JC
+                                    LR
                                 </div>
                                 <div>
-                                    <h4 class="text-primary font-bold text-sm">Jessica Carter</h4>
+                                    <h4 class="text-primary font-bold text-sm">Lynnette Redinger</h4>
                                     <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Review Card 6 -->
-                    <div class="swiper-slide h-auto">
-                        <div class="bg-white border border-accent/10 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-full group">
-                            <div>
-                                <div class="flex items-center justify-between mb-6">
-                                    <div class="flex text-amber-500">
-                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                                    </div>
-                                    <svg class="w-4 h-4 fill-current text-gray-300" viewBox="0 0 24 24">
-                                        <path d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/>
-                                    </svg>
-                                </div>
-                                <p class="text-primary text-sm leading-relaxed mb-6 font-medium">
-                                    "Highly recommended clinic. It is clean, modern, and very welcoming. The treatments are based on strong science and delivered by staff who genuinely care about your mental wellbeing."
-                                </p>
-                            </div>
-                            <div class="flex items-center gap-4 border-t border-gray-100 pt-4 mt-auto">
-                                <div class="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center font-bold text-accent">
-                                    DP
-                                </div>
-                                <div>
-                                    <h4 class="text-primary font-bold text-sm">David Patel</h4>
-                                    <p class="text-[10px] text-gray-500 font-medium">Verified Google Reviewer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Navigation & Pagination -->
@@ -1128,6 +1102,7 @@ $page_description = "Tranquil Minds Mental Health: A sanctuary for mental wellne
                     }
                 }
             });
+            window.reviewsSwiper = swiper;
         });
     </script>
 

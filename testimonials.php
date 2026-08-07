@@ -56,15 +56,14 @@ $hero_cta2_link   = 'https://www.google.com/search?q=Tranquil+Minds+Mental+Healt
                 </p>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 auto-rows-fr gap-6">
                 <?php
                 $reviews = [
-                    ['name' => 'Sarah Miller',      'initials' => 'SM', 'quote' => 'The care I received at Tranquil Minds was absolutely life-changing. After years of struggling with treatment-resistant depression, their Neurostar® TMS therapy gave me my life back. The staff is incredibly supportive and compassionate.'],
-                    ['name' => 'James Davis',       'initials' => 'JD', 'quote' => 'A highly professional and clean environment. Roxanne DoBrava and the entire team are incredibly thorough, taking the time to answer every question. The personalized care and attention is unlike any other clinic.'],
-                    ['name' => 'Emily Rodriguez',   'initials' => 'ER', 'quote' => 'I was very skeptical about TMS at first, but after completing the program, my depression and anxiety symptoms have dramatically reduced. Very grateful for this treatment and the wonderful clinic team.'],
-                    ['name' => 'Michael Thompson',  'initials' => 'MT', 'quote' => 'From scheduling my first consult to completing my sessions, the process was seamless. The staff handles insurance directly which was a huge relief, and the clinic is incredibly relaxing.'],
-                    ['name' => 'Jessica Carter',    'initials' => 'JC', 'quote' => 'I felt truly heard for the first time in years. Roxanne DoBrava combines clinical expertise with deep compassion. The TMS sessions were simple, painless, and highly effective for me.'],
-                    ['name' => 'David Patel',       'initials' => 'DP', 'quote' => 'Highly recommended clinic. It is clean, modern, and very welcoming. The treatments are based on strong science and delivered by staff who genuinely care about your mental wellbeing.'],
+                    ['name' => 'Kaitlyn Charlson',      'initials' => 'KC', 'quote' => 'I had an amazing experience with the team at Tranquil Minds Mental Health. While going through TMS treatment both Roxanne and Tiana were very invested in my experience and accommodating for my needs. The environment is extremely welcoming and you instantly feel at home. You also know you will be well taken care of as they both work so well along side one another. The treatment itself will make you walk away from it feeling mentally stronger to tackle your everyday life and be able to enjoy it while doing so. They truly want the best for their patients and are invested in them because even after treatment they will continue to check-in on you. If you&rsquo;re considering doing TMS or looking for ways to help your mental health I would highly recommend Tranquil Minds Mental Health.'],
+                    ['name' => 'Linnae Efraimson',     'initials' => 'LE', 'quote' => 'These ladies are the best in the business hands down! Fully trust Roxanne. She is so knowledgeable and has your best interests at heart. Super easy to get ahold of and communicate with! Highly recommend :)'],
+                    ['name' => 'David DoBrava',        'initials' => 'DD', 'quote' => 'I completed TMS treatment at Tranquil Minds Mental Health. Tiana and Roxenne went out of there way to help me. As a retired USAF veteran TMS has help me with PTSD, anxiety and depression. I would recommend TMS to everyone that it could help. Give Tranquil Minds Mental Health a call today.'],
+                    ['name' => 'Linda Wipper Anderson','initials' => 'LW', 'quote' => 'Roxanne knows her stuff and is very easy to talk to.'],
+                    ['name' => 'Lynnette Redinger',    'initials' => 'LR', 'quote' => 'I am so glad I found Tranquil Minds and I was able to complete TMS therapy with them. It is a life changer for sure, and Tiana and Roxanne are awesome:)'],
                 ];
                 foreach ($reviews as $rv): ?>
                 <div class="bg-[#FAFAFF] border border-primary/8 rounded-[1.5rem] p-8 flex flex-col hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
@@ -78,7 +77,10 @@ $hero_cta2_link   = 'https://www.google.com/search?q=Tranquil+Minds+Mental+Healt
                         <svg class="w-5 h-5" viewBox="0 0 24 24"><path fill="#4285F4" d="M12.24 10.285V13.4h6.887c-.279 1.56-1.602 4.58-6.887 4.58-4.59 0-8.332-3.799-8.332-8.486S7.65 1.009 12.24 1.009c2.61 0 4.35 1.127 5.35 2.083l2.45-2.355C18.47 1.832 15.62 0 12.24 0 5.58 0 0 5.372 0 12s5.58 12 12.24 12c6.96 0 11.57-4.887 11.57-11.787 0-.796-.08-1.402-.19-1.928H12.24z"/></svg>
                     </div>
                     <!-- Quote -->
-                    <p class="text-gray-600 text-base leading-relaxed mb-6 flex-grow">&ldquo;<?php echo $rv['quote']; ?>&rdquo;</p>
+                    <div class="flex-grow mb-6">
+                        <p class="text-gray-600 text-base leading-relaxed review-text">&ldquo;<?php echo $rv['quote']; ?>&rdquo;</p>
+                        <button type="button" class="review-more text-accent mt-3" aria-expanded="false">Read more</button>
+                    </div>
                     <!-- Author -->
                     <div class="flex items-center gap-3 pt-4 border-t border-primary/10 mt-auto">
                         <div class="w-10 h-10 rounded-full bg-accent/15 flex items-center justify-center font-bold text-accent text-sm flex-shrink-0"><?php echo $rv['initials']; ?></div>

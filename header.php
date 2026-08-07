@@ -836,7 +836,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
             </ul>
 
             <!-- Book Now Button -->
-            <a href="#contact" id="nav-cta"
+            <a href="contact.php" id="nav-cta"
                 class="px-6 py-2.5 bg-primary text-white rounded-full font-bold hover:bg-accent transition-all text-sm duration-300 shadow-md flex items-center gap-2 ml-2 hover:scale-105 active:scale-95">
                 <span>Consult</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -846,7 +846,8 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
             </a>
 
             <!-- Mobile Hamburger (Inside the pill) -->
-            <div id="nav-hamburger"
+            <div id="nav-hamburger" role="button" tabindex="0" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mobile-menu-overlay"
                 class="lg:hidden flex flex-col gap-1.5 cursor-pointer group px-4 py-2 relative z-[70]">
                 <span
                     class="line w-6 h-0.5 bg-primary transition-all duration-300 group-hover:w-4 ml-auto origin-right"></span>
@@ -859,16 +860,24 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
 
         <!-- Full Screen Mobile Menu Overlay -->
         <div id="mobile-menu-overlay"
-            class="fixed inset-0 w-full h-screen bg-[#1E0F2E] z-[60] flex flex-col justify-center px-8 transition-transform duration-700 translate-x-full lg:hidden overflow-hidden">
+            class="fixed inset-0 w-full bg-[#1E0F2E] z-[60] flex flex-col px-8 py-24 transition-transform duration-700 lg:hidden overflow-y-auto overscroll-contain">
 
-            <!-- Close Button -->
-            <button id="mobile-menu-close"
-                class="absolute top-6 right-6 p-2 text-white/50 hover:text-white transition-colors z-50">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                    </path>
-                </svg>
-            </button>
+            <!-- Menu Bar: brand + close. Fixed inside the overlay so it stays put while the menu scrolls. -->
+            <div class="fixed top-6 left-8 right-6 z-50 flex items-center justify-between gap-4">
+                <a href="index.php" class="flex items-center gap-2.5 group/brand">
+                    <img src="assets/logo/Tranquil-logo.png" alt="Tranquil Minds Mental Health"
+                        class="h-10 w-auto object-contain filter brightness-0 invert">
+                    <span class="font-heading text-white text-lg tracking-wide group-hover/brand:text-accent-light transition-colors">Tranquil
+                        Minds</span>
+                </a>
+                <button id="mobile-menu-close" aria-label="Close menu"
+                    class="p-2 text-white/50 hover:text-white transition-colors flex-shrink-0">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
 
             <!-- Abstract Background Decorations -->
             <div
@@ -878,30 +887,132 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                 class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-white rounded-full blur-[100px] opacity-5 -translate-x-1/2 translate-y-1/2">
             </div>
 
-            <!-- Links Container -->
-            <div class="flex flex-col gap-6 relative z-10">
-                <a href="index.php"
-                    class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
-                    style="transition-delay: 100ms;">Home</a>
-                <a href="about.php"
-                    class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
-                    style="transition-delay: 200ms;">About</a>
-                <a href="neurostar-tms.php"
-                    class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
-                    style="transition-delay: 300ms;">Services</a>
-                <a href="what-is-tms-therapy.php"
-                    class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
-                    style="transition-delay: 400ms;">TMS Therapy</a>
-                <a href="conditions.php"
-                    class="mobile-link text-5xl font-heading text-white/50 hover:text-white hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
-                    style="transition-delay: 450ms;">Conditions</a>
-                <a href="contact.php"
-                    class="mobile-link text-5xl font-heading text-accent hover:text-accent-light hover:translate-x-4 transition-all duration-300 block opacity-0 translate-y-8"
-                    style="transition-delay: 500ms;">Contact</a>
+            <!-- Scrollable content (auto margins centre it without clipping) -->
+            <div class="relative z-10 w-full my-auto">
+
+            <?php
+            // Mobile menu mirrors the desktop nav. Conditions reuses
+            // $nav_condition_groups from the desktop mega menu above so the two
+            // lists cannot drift apart.
+            $nav_mobile_sections = [
+                'About' => [
+                    ['About Us', 'about.php', 'Our story &amp; mission'],
+                    ['Our Team', 'about.php#team', 'Meet the experts'],
+                ],
+                'Services' => [
+                    ['Neurostar&reg; TMS', 'neurostar-tms.php', ''],
+                    ['Medication Management', 'medication-management.php', ''],
+                    ['Psychotherapy', 'psychotherapy.php', ''],
+                ],
+                'TMS Therapy' => [
+                    ['What Is TMS Therapy?', 'what-is-tms-therapy.php', 'The science &amp; how it works'],
+                    ['TMS for Adolescents', 'tms-adolescents.php', 'Ages 15+'],
+                    ['TMS for Adults', 'tms-adults.php', 'Depression, anxiety &amp; OCD'],
+                ],
+            ];
+            $nav_mobile_resources = [
+                ['Testimonials', 'testimonials.php'],
+                ['Our Blog', 'blog.php'],
+                ['Depression Self-Test', 'depression-assessment.php'],
+                ['Global FAQ', 'faq.php'],
+                ['Cognitive Testing', 'creyos.php'],
+                ['Insurance', 'insurance.php'],
+            ];
+            $nav_delay = 100;
+            $nav_next_delay = function () use (&$nav_delay) { $d = $nav_delay; $nav_delay += 60; return $d; };
+
+            $nav_top_class = 'mobile-link opacity-0 translate-y-8 transition-all duration-300 flex items-center justify-between gap-4 py-4 text-3xl font-heading text-white/60 hover:text-white cursor-pointer list-none select-none';
+            $nav_sub_class = 'block py-2 text-white/70 hover:text-white transition-colors';
+            $nav_chevron   = '<svg class="acc-chevron w-5 h-5 flex-shrink-0 opacity-40 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>';
+            ?>
+
+            <!-- Links Container (accordions mirror the desktop dropdowns) -->
+            <div class="flex flex-col divide-y divide-white/10 border-y border-white/10">
+
+                <!-- Home -->
+                <a href="index.php" class="<?php echo $nav_top_class; ?>"
+                    style="transition-delay: <?php echo $nav_next_delay(); ?>ms;">Home</a>
+
+                <?php foreach ($nav_mobile_sections as $label => $items): ?>
+                <details class="mobile-acc">
+                    <summary class="<?php echo $nav_top_class; ?>"
+                        style="transition-delay: <?php echo $nav_next_delay(); ?>ms;">
+                        <?php echo $label; ?>
+                        <?php echo $nav_chevron; ?>
+                    </summary>
+                    <div class="pb-5 pl-1 flex flex-col">
+                        <?php foreach ($items as $it): ?>
+                        <a href="<?php echo $it[1]; ?>" class="<?php echo $nav_sub_class; ?>">
+                            <span class="block text-base font-bold"><?php echo $it[0]; ?></span>
+                            <?php if ($it[2]): ?>
+                            <span class="block text-xs text-white/40"><?php echo $it[2]; ?></span>
+                            <?php endif; ?>
+                        </a>
+                        <?php endforeach; ?>
+                    </div>
+                </details>
+                <?php endforeach; ?>
+
+                <!-- Conditions -->
+                <details class="mobile-acc">
+                    <summary class="<?php echo $nav_top_class; ?>"
+                        style="transition-delay: <?php echo $nav_next_delay(); ?>ms;">
+                        Conditions
+                        <?php echo $nav_chevron; ?>
+                    </summary>
+                    <div class="pb-5 pl-1 flex flex-col gap-5">
+                        <?php foreach ($nav_condition_groups as $g): ?>
+                        <div>
+                            <div class="text-[11px] font-bold uppercase tracking-widest text-accent/70 mb-1.5">
+                                <?php echo $g['label']; ?>
+                            </div>
+                            <?php foreach ($g['items'] as $it): ?>
+                            <a href="<?php echo $it[1]; ?>" class="<?php echo $nav_sub_class; ?>">
+                                <span class="block text-base font-bold"><?php echo $it[0]; ?></span>
+                                <span class="block text-xs text-white/40"><?php echo $it[2]; ?></span>
+                            </a>
+                            <?php endforeach; ?>
+                        </div>
+                        <?php endforeach; ?>
+                        <a href="conditions.php"
+                            class="inline-flex items-center gap-2 text-accent font-bold text-sm hover:text-accent-light transition-colors">
+                            View All Conditions
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </details>
+
+                <!-- Resources -->
+                <details class="mobile-acc">
+                    <summary class="<?php echo $nav_top_class; ?>"
+                        style="transition-delay: <?php echo $nav_next_delay(); ?>ms;">
+                        Resources
+                        <?php echo $nav_chevron; ?>
+                    </summary>
+                    <div class="pb-5 pl-1 flex flex-col">
+                        <?php foreach ($nav_mobile_resources as $it): ?>
+                        <a href="<?php echo $it[1]; ?>" class="<?php echo $nav_sub_class; ?>">
+                            <span class="block text-base font-bold"><?php echo $it[0]; ?></span>
+                        </a>
+                        <?php endforeach; ?>
+                    </div>
+                </details>
             </div>
 
+            <!-- Consult CTA (mirrors the desktop pill button) -->
+            <a href="contact.php"
+                class="mobile-link opacity-0 translate-y-8 transition-all duration-300 mt-8 flex items-center justify-center gap-2 w-full py-4 bg-accent text-white rounded-full font-bold hover:bg-accent-light"
+                style="transition-delay: <?php echo $nav_next_delay(); ?>ms;">
+                Consult
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+            </a>
+
             <!-- Footer Info in Menu -->
-            <div class="mt-12 pt-8 border-t border-white/10 relative z-10 opacity-0 translate-y-8 mobile-footer"
+            <div class="mt-10 pt-8 border-t border-white/10 opacity-0 translate-y-8 mobile-footer"
                 style="transition-delay: 600ms;">
                 <p class="text-white/40 text-sm mb-3">
                     154 East Broadway Street Suite 2<br>
@@ -926,6 +1037,8 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                         <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><text x="12" y="18" text-anchor="middle" font-family="'Quicksand', sans-serif" font-weight="800" font-size="18">a</text></svg>
                     </a>
                 </div>
+            </div>
+
             </div>
         </div>
     </nav>

@@ -66,17 +66,17 @@
                 <!-- Right Column: Form -->
                 <div
                     class="fade-in-section bg-white p-8 md:p-10 rounded-2xl shadow-xl shadow-accent/5 border border-primary/5">
-                    <form class="space-y-6">
+                    <form class="space-y-6" accept-charset="UTF-8" action="https://app.formester.com/forms/BEeWY9HCw/submissions" method="POST">
                         <!-- Name Row -->
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div class="space-y-2">
                                 <label class="text-sm font-bold text-primary block tracking-wide">First Name *</label>
-                                <input type="text" placeholder="First Name"
+                                <input type="text" id="footer-first-name" name="first-name" required placeholder="First Name"
                                     class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent outline-none transition-all placeholder-gray-300 text-primary">
                             </div>
                             <div class="space-y-2">
                                 <label class="text-sm font-bold text-primary block tracking-wide">Last Name *</label>
-                                <input type="text" placeholder="Last Name"
+                                <input type="text" id="footer-last-name" name="last-name" required placeholder="Last Name"
                                     class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent outline-none transition-all placeholder-gray-300 text-primary">
                             </div>
                         </div>
@@ -85,12 +85,12 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div class="space-y-2">
                                 <label class="text-sm font-bold text-primary block tracking-wide">Email *</label>
-                                <input type="email" placeholder="Email"
+                                <input type="email" id="footer-email" name="email" required placeholder="Email"
                                     class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent outline-none transition-all placeholder-gray-300 text-primary">
                             </div>
                             <div class="space-y-2">
                                 <label class="text-sm font-bold text-primary block tracking-wide">Phone</label>
-                                <input type="tel" placeholder="Phone"
+                                <input type="tel" id="footer-phone" name="phone" placeholder="Phone"
                                     class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent outline-none transition-all placeholder-gray-300 text-primary">
                             </div>
                         </div>
@@ -121,14 +121,14 @@
                         <!-- Comments -->
                         <div class="space-y-2">
                             <label class="text-sm font-bold text-primary block tracking-wide">Comments</label>
-                            <textarea rows="4" placeholder="Comments"
+                            <textarea rows="4" id="footer-comments" name="comments" placeholder="Comments"
                                 class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent outline-none transition-all placeholder-gray-300 text-primary resize-y"></textarea>
                         </div>
 
                         <!-- Consent Checkbox -->
                         <div class="flex items-start gap-3">
                             <div class="flex items-center h-5 mt-1">
-                                <input id="consent" type="checkbox"
+                                <input id="consent" name="consent" type="checkbox" required
                                     class="w-4 h-4 text-accent border-2 border-gray-300 rounded focus:ring-accent focus:ring-offset-0 cursor-pointer">
                             </div>
                             <label for="consent"
@@ -143,7 +143,7 @@
                         </div>
 
                         <!-- Submit Button -->
-                        <button type="button"
+                        <button type="submit"
                             class="w-full py-4 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg shadow-primary/20 transform active:scale-[0.99] transition-all text-lg tracking-wide mt-2">
                            Schedule Your Free 15-Minute Consultation
                         </button>
@@ -272,18 +272,6 @@
                             </div>
                         </div>
 
-                        <div class="mt-8 pt-6 border-t border-white/5">
-                            <a href="#" class="flex justify-center items-center group/link">
-                                <span
-                                    class="text-sm font-bold text-white/80 group-hover/link:text-white transition-colors">Patient
-                                    Portal</span>
-                                <svg class="w-4 h-4 text-accent transform group-hover/link:translate-x-1 transition-transform"
-                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                </svg>
-                            </a>
-                        </div>
                     </div>
 
                     <!-- Widget 3: Action & Location (Col Span 3) -->
@@ -299,9 +287,11 @@
 
                             <h4 class="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-2">Tranquil Minds Mental Health
                             </h4>
-                            <p class="text-sm text-white/80 leading-relaxed">
+                            <a href="https://maps.google.com/?q=154+East+Broadway+Street+Suite+2,+Monticello,+MN+55362"
+                                target="_blank" rel="noopener noreferrer"
+                                class="text-sm text-white/80 leading-relaxed hover:text-white hover:underline transition-colors block">
                                 154 East Broadway Street Suite 2,<br /> Monticello, MN 55362
-                            </p>
+                            </a>
                             <div class="mt-4 flex flex-col gap-2">
                                 <a href="tel:+16124298280"
                                     class="text-accent font-bold text-lg hover:text-white transition-colors flex items-center gap-2">

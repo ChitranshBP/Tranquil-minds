@@ -770,47 +770,6 @@ footer {
     font-size: 2rem;
   }
 
-  .nav-links {
-    display: flex;
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 70%;
-    background: var(--color-bg-light);
-    flex-direction: column;
-    justify-content: center;
-    padding: 2rem;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
-    z-index: 1001;
-  }
-
-  .nav-links.mobile-open {
-    transform: translateX(0);
-  }
-
-  .nav-links li {
-    margin: 1.5rem 0;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  #nav-hamburger.toggle span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 6px);
-  }
-
-  #nav-hamburger.toggle span:nth-child(2) {
-    opacity: 0;
-  }
-
-  #nav-hamburger.toggle span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -6px);
-  }
-
   .content-split {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -825,4 +784,82 @@ footer {
     width: 200px;
     height: 200px;
   }
+}
+
+/* ===== Review Cards: uniform height + read more ===== */
+.review-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  overflow: hidden;
+}
+
+.review-text.is-expanded {
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  overflow: visible;
+}
+
+.review-more {
+  display: none;
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.review-more:hover {
+  opacity: 0.7;
+}
+
+.review-more.is-visible {
+  display: inline-flex;
+}
+
+/* ===== Mobile Menu ===== */
+/* Open/closed state lives here rather than on Tailwind's translate utilities:
+   the CDN build only generates classes it finds in the served HTML, so the
+   "open" class the script adds at runtime was not always available. */
+#mobile-menu-overlay {
+  transform: translateX(100%);
+}
+
+#mobile-menu-overlay.is-open {
+  transform: translateX(0);
+}
+
+/* Hamburger → X. The button is visible up to the lg breakpoint, so the
+   animation has to be too (it used to stop at 768px). */
+@media (max-width: 1023px) {
+  #nav-hamburger.toggle span {
+    width: 1.5rem;
+  }
+
+  #nav-hamburger.toggle span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+
+  #nav-hamburger.toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  #nav-hamburger.toggle span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+}
+
+/* Mobile menu accordions (mirror the desktop dropdowns) */
+#mobile-menu-overlay summary {
+  list-style: none;
+}
+
+#mobile-menu-overlay summary::-webkit-details-marker {
+  display: none;
+}
+
+#mobile-menu-overlay details[open] > summary .acc-chevron {
+  transform: rotate(180deg);
 }

@@ -117,9 +117,7 @@ $hide_contact     = true; // Careers page has its own application form — hide 
 
                 <!-- Right: form -->
                 <div class="fade-in-section bg-white p-8 md:p-10 rounded-[2rem] shadow-xl shadow-accent/5 border border-primary/5">
-                    <form name="careers" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" enctype="multipart/form-data" class="space-y-6">
-                        <input type="hidden" name="form-name" value="careers">
-                        <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
+                    <form name="careers" accept-charset="UTF-8" action="https://app.formester.com/forms/eidpLzAyh/submissions" method="POST" enctype="multipart/form-data" class="space-y-6">
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div class="space-y-2">
